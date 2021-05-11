@@ -6,7 +6,7 @@ SITENAME = "Correr's Blog"
 SITEURL = ''
 PATH = 'content'
 TIMEZONE = 'Asia/Shanghai'
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = 'Chinese (Simplified)'
 DEFAULT_PAGINATION = 8
 
 # Feed generation is usually not desired when developing
@@ -32,7 +32,7 @@ THEME = './themes/voce/'
 # 插件
 
 # 页面布置
-USER_LOGO_URL = "https://i.loli.net/2021/05/10/HKRbhiUw7tsk8NT.png"
+USER_LOGO_NAME = "user_logo.png"
 DEFAULT_DATE_FORMAT = "%Y-%m-%d"                 # short date format, optional but recommended
 
 # 文档路径
@@ -50,3 +50,23 @@ CATEGORIES_SAVE_AS = ''
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+"""
+JINJA_ENVIRONMENT = {'trim_blocks': True, 'lstrip_blocks': True}
+JINJA_FILTERS = {}
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
+PLUGINS = None
+PLUGIN_PATHS = []
+STATIC_PATHS = ['images']
+SUMMARY_MAX_LENGTH = 50
+SUMMARY_END_SUFFIX = '…'
+DRAFT_URL = 'drafts/{slug}.html'
+DRAFT_SAVE_AS = 'drafts/{slug}.html'
+"""
