@@ -2,3 +2,4 @@ __pycache__/
 .vscode/
 *.pyc
 output/
+/themes/voce/templates/article.html
