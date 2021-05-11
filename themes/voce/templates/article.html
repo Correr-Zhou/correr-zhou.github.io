@@ -37,7 +37,7 @@
       <br /><br />
       <div class="article_meta">
         {% if TAG_URL and article.tags %}
-        Tags:
+        <b>标签：</b>
           {% for tag in article.tags %}
           <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
           {% endfor %}
@@ -45,6 +45,16 @@
       </div>
     </div>
   </div>
+  <div id="vcomments"></div>
+  <script>
+      new Valine({
+          el: '#vcomments',
+          appId: 'xxxx',
+          appKey: 'xxxx',
+          avatar: robohash,
+          visitor: true
+      })
+  </script>
 </article><!-- #post-## -->
 {% endblock %}
 
