@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = 'Donghao Zhou'
-SITENAME = "Home - Correr's Blog"
+AUTHOR = 'Correr Zhou'
+SITENAME = "Correr's Blog"
 SITEURL = ''
 PATH = 'content'
 TIMEZONE = 'Asia/Shanghai'
@@ -33,7 +33,7 @@ THEME = './themes/voce/'
 
 # 页面布置
 USER_LOGO_URL = "https://i.loli.net/2021/05/10/HKRbhiUw7tsk8NT.png"
-DEFAULT_DATE_FORMAT = "%b %d, %Y"                 # short date format, optional but recommended
+DEFAULT_DATE_FORMAT = "%Y-%m-%d"                 # short date format, optional but recommended
 
 # 文档路径
 ARCHIVES_URL = "archives.html"
