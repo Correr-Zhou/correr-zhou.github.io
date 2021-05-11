@@ -3,12 +3,8 @@ Date: 2020-05-07 10:20
 Modified: 2010-12-05 19:30
 Category: articles
 Author: Donghao Zhou
-Tags: 深度学习, publishing
-Slug: my-super-post
+Tags: about
+Slug: about-me
 Summary: Short version for index and feeds
 
-This is my first blog.
-
-Hello, my blog!
-
-
+I am a person!
