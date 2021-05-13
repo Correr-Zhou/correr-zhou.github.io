@@ -285,6 +285,7 @@ textarea {
 .entry-content,
 .entry-summary {
   margin: 20px 0 0;
+  text-align: justify;
 }
 
 .main-content-area {
@@ -320,6 +321,7 @@ article.post:first-child .post-inner-content {
   text-align: center;
 }
 .entry-title {
+  line-height: normal;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
   margin-top: 10px;
@@ -379,7 +381,7 @@ article.grid iframe {
         overflow: hidden;
     }
     .blog.home article.post {
-        width: 44%; 
+        width: 44%;
         margin: 1em;
         padding-left: 1em;
         padding-right: 1em;
@@ -388,6 +390,9 @@ article.grid iframe {
         border-radius: 0.3em;
         border: 1px solid #DEDEDE;
 
+    }
+    .article-container > a:nth-child(odd) > article:nth-child(1) {
+      float: left;
     }
     .article-container > a:nth-child(even) > article:nth-child(1) {
       float: right;
@@ -415,7 +420,7 @@ article.grid iframe {
 /* =Custom Styles
 ----------------------------------------------- */
 #logo {
-  padding: 50px 0 45px 0;
+  padding: 102px 0 30px 0;
   text-align: center;
   border-bottom: 1px solid #dedede;
 }
@@ -457,6 +462,9 @@ input[type=submit]:hover,
   text-transform: uppercase;
 }
 .navbar.navbar-default {
+  position: fixed;
+  width:100%;
+  z-index: 1;
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 0;
@@ -871,6 +879,7 @@ time{
 
 .tagline{
   text-align: center;
+  margin-bottom: 1em;
   padding-bottom: 10px;
   border-bottom: 1px solid #dedede;
 }
