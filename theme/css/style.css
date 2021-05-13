@@ -308,7 +308,7 @@ textarea {
   margin-bottom: 30px;
 }
 .post-inner-content {
-  padding: 50px 0;
+  padding: 20px 0 50px 0;
 }
 .page .post-inner-content {
   border: 0;
@@ -866,7 +866,7 @@ time{
 
 .social{
   float: right;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .social a{
