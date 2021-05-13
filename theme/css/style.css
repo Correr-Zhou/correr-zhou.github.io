@@ -360,7 +360,7 @@ article.post .post-categories a, .post-inner-content .cat-item a{
 article.post {
   width: 100%;
   margin: 0;
-  padding-right: 10px;
+  padding-right: 0;
 }
 article.grid {
   padding: 0;
@@ -380,8 +380,13 @@ article.grid iframe {
     .article-container{
         overflow: hidden;
     }
+    .fall{
+      column-count: 2;
+      column-gap: 20px;
+      text-align: center;
+    }
     .blog.home article.post {
-        width: 44%;
+        width: 90%;
         margin: 1em;
         padding-left: 1em;
         padding-right: 1em;
@@ -391,12 +396,7 @@ article.grid iframe {
         border: 1px solid #DEDEDE;
 
     }
-    .article-container > a:nth-child(odd) > article:nth-child(1) {
-      float: left;
-    }
-    .article-container > a:nth-child(even) > article:nth-child(1) {
-      float: right;
-    }
+
     .blog.home article.post .post-inner-content{
         border: 0;
         padding: 0 0 30px;
@@ -422,12 +422,11 @@ article.grid iframe {
 #logo {
   padding: 102px 0 30px 0;
   text-align: center;
-  border-bottom: 1px solid #dedede;
 }
 .tagline {
   color: #1c202a;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 10px;
+  margin-top: 0;
   letter-spacing: 1px;
 }
 
@@ -875,13 +874,28 @@ time{
 
 #paginator{
   text-align: center;
+  margin-top: 20px;
 }
 
 .tagline{
   text-align: center;
   margin-bottom: 1em;
-  padding-bottom: 10px;
+  padding: 10px 0;
+  border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag-item{
+  padding: 0 0.4em;
+  margin: 5px;
+  border: 1px solid #dedede;
+  border-radius: 0.5em;
 }
 
 #fb-root {
@@ -899,4 +913,26 @@ p a{
 p img{
   display: block;
   margin: 0 auto;
+}
+
+.pag-btn-bar{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  align-items: center;
+}
+.left-pag-btn{
+  justify-self: start;
+  padding: 0 0.4em;
+  border: 1px solid #dedede;
+  border-radius: 1em;
+}
+.right-pag-btn{
+  justify-self: end;
+  padding: 0 0.4em;
+  border: 1px solid #dedede;
+  border-radius: 1em;
+}
+.indexs{
+  justify-self: center;
 }
