@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block metatitle %}Archive{% endblock %}
-{% block title %}{{ SITENAME }} - Archives{% endblock %}
+{% block title %}{{ SITENAME }} - ARCHIVES{% endblock %}
 
 {% block description %}A listing of all articles on this site{% endblock %}
 
@@ -9,7 +9,8 @@
   <div class="article_text">
     <dl>
       {% for year, year_articles in articles|groupby('date.year')|reverse %}
-        <h2>{{ year }}</h2>
+      </br>
+      <h1>{{ year }} 年</h1>
         {% for _, month_articles in year_articles|groupby('date.month')|reverse %}
           {# A little gross, but works (need a date object to get the month name). #}
           <h3>{{ month_articles[0].date.strftime('%B') }}</h3>

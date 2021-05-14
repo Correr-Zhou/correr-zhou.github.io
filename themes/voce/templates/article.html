@@ -27,14 +27,16 @@
   <div class="blog-item-wrap">
     <div class="post-inner-content">
       <header class="entry-header page-header">
-        <span class="cat-item"><time datetime="{{ article.date }}">{{ article.locale_date }}</time></span>
-        <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
+        <span class="cat-item">
+          <time datetime="{{ article.date }}">Posted: {{ article.locale_date }} &#124; {{ (article.stats.read_mins / 2)|int + 1 }} min to read</time>
+        </span>
+        <h1 class="entry-title" id="in-article-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
       </header><!-- .entry-header -->
       <div class="fb-like" data-href="{{ SITEURL }}/{{ article.url }}" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
       <div class="entry-content">
         {{ article.content }}
-      </div><!-- .entry-content -->
-      <br /><br />
+      </div>
+      <hr><!-- .entry-content -->
       <div class="article_meta">
         {% if TAG_URL and article.tags %}
         <b>标签：</b>
@@ -43,6 +45,16 @@
           {% endfor %}
         {% endif %}
       </div>
+      {% if article.related_posts %}
+        <br />
+        <b>相关阅读：</b>
+        <ul>
+        {% for related_post in article.related_posts %}
+            <li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+      <hr>
     </div>
   </div>
   <div id="vcomments"></div>

@@ -26,7 +26,11 @@
   <div class="blog-item-wrap">
     <div class="post-inner-content">
       <header class="entry-header page-header">
-        <span class="cat-item"><time datetime="{{ page.modified }}">Last Modified {{ page.locale_modified }}</time></span>
+        {% if page.slug == 'message-board' %}
+          <span class="cat-item"><time datetime="{{ page.modified }}">MESSAGE BOARD</time></span>
+        {% else %}
+          <span class="cat-item"><time datetime="{{ page.modified }}">Last Updated: {{ page.locale_modified }}</time></span>
+        {% endif %}
         <h1 class="entry-title-single-page"><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h1>
       </header><!-- .entry-header -->
       <div class="entry-content">
@@ -35,5 +39,18 @@
       <br /><br />
     </div>
   </div>
+  {% if page.slug == 'message-board' %}
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'TevswrLvkUsOzlyXHd0SMW5u-gzGzoHsz',
+              appKey: 'AilUFU7p5CSrD2NOKSY6xfwC',
+            placeholder: 'Leave a message to commemorate your visit!',
+            avatar: 'robohash',
+            visitor: true
+        })
+    </script>
+  {% endif %}
 </article><!-- #post-## -->
 {% endblock %}

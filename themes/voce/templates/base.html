@@ -7,9 +7,9 @@
   <meta name="author" content="{{ AUTHOR }}">
   <meta name="description" content="{% block description %}Articles by {{ AUTHOR }}{% endblock %}">
 
-  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
-  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="96x96">
 
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" type="text/css" media="all">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -93,6 +93,7 @@
   {% elif temp.startswith('youtube.com') %}{% set class = 'fa-youtube' -%}
   {% elif temp.startswith('bing.com') %}{% set class = 'fa-search' -%}
   {%- elif '.stackexchange.com' in temp %}{% set class = 'fa-stack-exchange' %}
+  {%- elif 'message-board.html' in temp %}{% set class = 'fa-comments' %}
   {%- elif 'atom' in temp %}{% set class = 'fa-rss' %}
   {% endif -%}
 
@@ -141,16 +142,13 @@
 
       <div class="container">
       <div id="logo">
-        <span class="site-name"><a class="navbar-brand" href="{{ SITEURL }}"><img width="600" src="/images/{{ USER_LOGO_NAME }}" class="attachment-full size-full" alt="logo">          </a>
+        <span class="site-name"><a class="navbar-brand" href="{{ SITEURL }}"><a href="/"><img width="600" src="/images/{{ USER_LOGO_NAME }}" class="attachment-full size-full" alt="logo"></a></a>
         </span><!-- end of .site-name -->
       </div><!-- end of #logo -->
         <div class="tagline">
-            {% if ARCHIVES_URL %}
-              <a href="{{ SITEURL }}/{{ ARCHIVES_URL }}" {{ 'class="active"' if  output_file == ARCHIVES_URL }}>{{ '文章归档 ('+ articles|count|string + ')' if  articles|count > all_articles|count  else '文章归档 (' + all_articles|count|string + ')'}}</a>
-            {% endif %}
             {% if TAGS_URL %}
               {% for tag, articles in tags|sort %}
-                &#124;<a href="{{ SITEURL }}/{{ tag.url }}" {{ 'class="active"' if  output_file == tag.url }}> {{ tag }} ({{ articles|count }})</a>
+                <a href="{{ SITEURL }}/{{ tag.url }}" {{ 'class="active"' if  output_file == tag.url }}><div class="tag-item">{{ tag }} ({{ articles|count }})</div></a>
               {% endfor %}
             {% endif %}
         </div>
@@ -185,7 +183,7 @@
       <div class="site-info container">
         <div class="row">
                     <div class="copyright col-md-12">
-                    <a href="{{ SITEURL }}/pages/privacy-policy.html">Privacy Policy</a><br />
+                    <a href="{{ SITEURL }}/pages/privacy-policy-and-disclaimer.html">Privacy Policy & Disclaimer</a><br />
                     Life Oriented Programming & Programming Oriented Life<br />
                     &copy; 2021 <a href="{{ SITEURL }}/pages/about-me.html">{{ AUTHOR }}</a> </div>
         </div>
