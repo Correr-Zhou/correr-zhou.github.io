@@ -428,7 +428,9 @@ article.grid iframe {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-
+  .entry-content table.highlighttable {
+    width: 100% !important;
+  }
 }
 
 
@@ -802,15 +804,17 @@ letter-spacing: 1px;
 }
 /*code*/
 .entry-content table.highlighttable {
+  border: 3px solid #dfe2e5;
+  width: 80%;
   table-layout: fixed;
   border-collapse: collapse;
-  margin: 1.2em 120px;
+  margin: 1.2em auto;
 }
 .entry-content div.highlight pre {
   padding-left: 10px;
   border: 1px solid #c7c7c7;
   border-left: 3px solid #0e94ec;
-  background: #f6f6f6;
+  background-color: transparent;
 }
 .entry-content table.highlighttable pre {
   border: none;
@@ -822,31 +826,38 @@ letter-spacing: 1px;
   border-radius: 0 10px 10px 0;
 }
 .entry-content table.highlighttable td.linenos {
+  width: 42px;
   overflow: hidden;
   text-align: right;
-  border-radius: 12px 0 0 12px;
+  border-radius: 0;
   border: 0;
   background: #f6f6f6;
   vertical-align: top;
 }
 .entry-content table.highlighttable td.linenos div.linenodiv pre {
   float: right;
+  color: #a0a0a0;
+  padding-left: 0;
+  padding-right: 6px;
 }
 .entry-content table.highlighttable td.code{
-  width: 100%;
   border-left: 2px solid #dfe2e5;
   border-right: 0;
   border-top: 0;
   border-bottom: 0;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background: #f6f6f6;
 }
 .entry-content table.highlighttable div.highlight pre{
+  word-break: break-word;
   text-align: left;
   border: 0;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
 }
+pre code{
+  white-space: unset;
+}
+
 .entry-content div.admonition {
   margin: 1em 0em 1em 0em;
   border-width: 1px 1px 1px 7px;
@@ -966,6 +977,11 @@ p img{
 }
 
 /* content */
+.toc{
+  margin-bottom: 1.2em;
+  padding-bottom: 1em;
+}
+
 .toctitle{
   font-weight: bold;
 }
@@ -976,10 +992,10 @@ p img{
   font-size: 1.5em;
 }
 
+/* table */
 table {
   margin: 1.2em auto;
 }
-
 thead tr th{
   font-weight: bold;
   margin: 0 auto;
@@ -988,9 +1004,11 @@ thead tr th{
   border: 1px solid #dfe2e5;
   padding: 0.5em;
 }
-
 tbody tr td{
   text-align: center;
   border: 1px solid #dfe2e5;
   padding: 0.2em 0.5em;
+}
+code::-webkit-scrollbar {
+  border-radius: 12px;
 }
