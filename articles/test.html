@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Correr Zhou">
-  <meta name="description" content="测试文档 | 标题1 标题2 标题3 标题4 This is my first blog. \(a\) is a sample. This is my first blog. $$ a = \frac{b}{c} $$ 第一项 第二项 aaaaa bbbbb Hello, my blog! if...">
+  <meta name="description" content="测试文档 | 标题1 标题2 标题3 标题4 This is my first blog. \(a\) is a sample. This is my first blog. $$ a = \frac{b}{c} $$ 第一项 第二项 aaaaa bbbbb bbbbbbbbbbb == 有效吗这个 ==...">
 
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
@@ -124,9 +124,9 @@
     <div class="post-inner-content">
       <header class="entry-header page-header">
         <span class="cat-item">
-          <time datetime="2021-02-01 10:20:00+08:00">Posted: 2021-02-01 &#124; 1 min to read</time>
+          <time datetime="2021-02-01 10:20:00+08:00">Posted: 2021-02-01 &#124; 9 min to read</time>
         </span>
-        <h1 class="entry-title"><a href="/articles/test.html">测试文档</a></h1>
+        <h1 class="entry-title" id="in-article-title"><a href="/articles/test.html">测试文档</a></h1>
       </header><!-- .entry-header -->
       <div class="fb-like" data-href="/articles/test.html" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
       <div class="entry-content">
@@ -146,7 +146,279 @@ $$</div>
 <li>aaaaa</li>
 <li>bbbbb</li>
 </ul>
-<p>Hello, my blog!</p>
+<p>bbbbbbbbbbb</p>
+<p>== 有效吗这个 ==</p>
+<ol>
+<li>第一个项目</li>
+<li>第二个项目</li>
+<li>第三个项目</li>
+</ol>
+<p>这个是<code>按键效果</code>来的</p>
+<p>这个是~~删除~~来的</p>
+<p>这是<em>斜体斜体斜体斜体斜体斜体</em>原来如此</p>
+<p>这是<strong>粗体粗体粗体粗体粗体粗体</strong>原来如此</p>
+<blockquote>
+<p>这是引用</p>
+<p>这是引用</p>
+<ul>
+<li>
+<p>这是列表</p>
+</li>
+<li>
+<p>列表222222</p>
+</li>
+<li>
+<p>列表333333</p>
+</li>
+</ul>
+<blockquote>
+<p>嵌套一下试试看</p>
+<p>嵌套一下试试看</p>
+</blockquote>
+</blockquote>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">((</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="mi">2</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">*</span> <span class="mi">3</span>
+</code></pre></div>
+</td></tr></table>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">train</span><span class="p">(</span><span class="n">epoch</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    训练模型</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">cla</span><span class="p">()</span>
+    <span class="n">epoch_loss</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">epoch_TPandFP</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># 预测为正样本的数量</span>
+    <span class="n">epoch_TPandFN</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># 实际为正样本的数量</span>
+    <span class="n">epoch_TP</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># 预测正确的数量</span>
+
+    <span class="n">model</span><span class="o">.</span><span class="n">train</span><span class="p">()</span>
+
+    <span class="c1"># 确定数值，方便输出信息</span>
+    <span class="k">if</span> <span class="n">config</span><span class="o">.</span><span class="n">is_load_model</span><span class="p">:</span>
+        <span class="n">epoch_num</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">model_load_epoch</span> <span class="o">+</span> <span class="n">epoch</span> <span class="o">+</span> <span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">epoch_num</span> <span class="o">=</span> <span class="n">epoch</span> <span class="o">+</span> <span class="mi">1</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;-&quot;</span> <span class="o">*</span> <span class="mi">129</span><span class="p">)</span>
+
+    <span class="c1">#############################################################</span>
+    <span class="k">for</span> <span class="n">batch</span><span class="p">,</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">data_set</span><span class="p">[</span><span class="s1">&#39;train&#39;</span><span class="p">]):</span>
+        <span class="c1"># 训练</span>
+        <span class="n">output</span><span class="p">,</span> <span class="n">loss</span> <span class="o">=</span> <span class="n">propagate</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="s2">&quot;train&quot;</span><span class="p">)</span>
+        <span class="n">epoch_loss</span> <span class="o">+=</span> <span class="n">loss</span> <span class="o">*</span> <span class="n">label</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+        <span class="c1"># 统计数据</span>
+        <span class="n">pred</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">gt</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span><span class="o">.</span><span class="n">float</span><span class="p">()</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span>  <span class="c1"># 得出预测标签</span>
+        <span class="n">epoch_TPandFP</span> <span class="o">+=</span> <span class="n">torch</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">pred</span><span class="p">,</span> <span class="n">dim</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="n">epoch_TPandFN</span> <span class="o">+=</span> <span class="n">torch</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">label</span><span class="p">,</span> <span class="n">dim</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="n">epoch_TP</span> <span class="o">+=</span> <span class="n">torch</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">eq</span><span class="p">(</span><span class="n">pred</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span><span class="o">.</span><span class="n">mul</span><span class="p">(</span><span class="n">pred</span><span class="p">),</span> <span class="n">dim</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+        <span class="c1"># 打印训练信息</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\r</span><span class="s2">*TRAIN*&quot;</span><span class="p">,</span>
+              <span class="s2">&quot;[EPOCH]: </span><span class="si">{:04d}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">epoch_num</span><span class="p">),</span>
+              <span class="s1">&#39;|&#39;</span> <span class="o">+</span> <span class="p">(</span><span class="s1">&#39;▋&#39;</span> <span class="o">*</span> <span class="nb">int</span><span class="p">(</span><span class="n">batch</span> <span class="o">/</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">data_set</span><span class="p">[</span><span class="s1">&#39;train&#39;</span><span class="p">])</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">60</span><span class="p">))</span><span class="o">.</span><span class="n">ljust</span><span class="p">(</span><span class="mi">60</span><span class="p">,</span> <span class="s1">&#39;-&#39;</span><span class="p">)</span> <span class="o">+</span>
+              <span class="s1">&#39;| </span><span class="si">{:&gt;6.1%}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">batch</span> <span class="o">/</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">data_set</span><span class="p">[</span><span class="s1">&#39;train&#39;</span><span class="p">])</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)),</span>
+              <span class="n">end</span><span class="o">=</span><span class="s1">&#39; &#39;</span>
+              <span class="p">)</span>
+    <span class="c1">#############################################################</span>
+
+    <span class="c1"># 学习率衰减</span>
+    <span class="k">if</span> <span class="n">config</span><span class="o">.</span><span class="n">is_lr_decay</span> <span class="ow">and</span> <span class="n">epoch_num</span> <span class="o">%</span> <span class="n">config</span><span class="o">.</span><span class="n">lr_decay_epoch_interval</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&gt; Learning rate is decayed.&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">param_group</span> <span class="ow">in</span> <span class="n">optimizer</span><span class="o">.</span><span class="n">param_groups</span><span class="p">:</span>
+            <span class="n">param_group</span><span class="p">[</span><span class="s1">&#39;lr&#39;</span><span class="p">]</span> <span class="o">*=</span> <span class="n">config</span><span class="o">.</span><span class="n">lr_decay_coeff</span>
+
+    <span class="c1"># 保存模型</span>
+    <span class="k">if</span> <span class="n">config</span><span class="o">.</span><span class="n">is_save_model</span> <span class="ow">and</span> <span class="p">(</span><span class="n">epoch</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="n">config</span><span class="o">.</span><span class="n">save_epoch_interval</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">model_save_dir</span><span class="p">,</span>
+                            <span class="n">config</span><span class="o">.</span><span class="n">model_save_name</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">epoch_num</span><span class="p">))</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">model_save_dir</span><span class="p">)</span>
+        <span class="k">finally</span><span class="p">:</span>
+            <span class="n">torch</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">state_dict</span><span class="p">(),</span> <span class="n">path</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&gt; CHECKPOINT saved to:&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;  &quot;</span> <span class="o">+</span> <span class="n">path</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;-&quot;</span> <span class="o">*</span> <span class="mi">50</span><span class="p">)</span>
+
+    <span class="c1"># 记录每个周期的训练信息</span>
+    <span class="n">single_loss</span> <span class="o">=</span> <span class="n">epoch_loss</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">data_set</span><span class="p">[</span><span class="s1">&#39;train&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">dataset</span><span class="p">)</span>
+    <span class="n">precision</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">div</span><span class="p">(</span><span class="n">epoch_TP</span><span class="p">,</span> <span class="n">epoch_TPandFP</span><span class="p">)</span>
+    <span class="n">precision</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">precision</span><span class="p">),</span> <span class="n">torch</span><span class="o">.</span><span class="n">full_like</span><span class="p">(</span><span class="n">precision</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="n">precision</span><span class="p">)</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+    <span class="n">recall</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">div</span><span class="p">(</span><span class="n">epoch_TP</span><span class="p">,</span> <span class="n">epoch_TPandFN</span><span class="p">)</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+    <span class="n">F1_score</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">div</span><span class="p">((</span><span class="mi">2</span> <span class="o">*</span> <span class="n">epoch_TP</span><span class="p">),</span> <span class="p">(</span><span class="n">epoch_TPandFP</span> <span class="o">+</span> <span class="n">epoch_TPandFN</span><span class="p">))</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+    <span class="n">avg_F1_score</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">div</span><span class="p">((</span><span class="mi">2</span> <span class="o">*</span> <span class="n">epoch_TP</span><span class="p">),</span> <span class="p">(</span><span class="n">epoch_TPandFP</span> <span class="o">+</span> <span class="n">epoch_TPandFN</span><span class="p">)))</span><span class="o">.</span><span class="n">item</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;[F1-SCORE]: </span><span class="si">%0.6f</span><span class="s2"> [LOSS]: </span><span class="si">%0.6f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">avg_F1_score</span><span class="p">,</span> <span class="n">single_loss</span><span class="p">))</span>
+    <span class="n">writer</span><span class="o">.</span><span class="n">add_scalar</span><span class="p">(</span><span class="s1">&#39;loss/train&#39;</span><span class="p">,</span> <span class="n">single_loss</span><span class="p">,</span> <span class="n">epoch_num</span><span class="p">)</span>
+    <span class="n">writer</span><span class="o">.</span><span class="n">add_scalars</span><span class="p">(</span><span class="s1">&#39;precision/train&#39;</span><span class="p">,</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">classes</span><span class="p">,</span> <span class="n">precision</span><span class="p">)),</span> <span class="n">epoch_num</span><span class="p">)</span>
+    <span class="n">writer</span><span class="o">.</span><span class="n">add_scalars</span><span class="p">(</span><span class="s1">&#39;recall/train&#39;</span><span class="p">,</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">classes</span><span class="p">,</span> <span class="n">recall</span><span class="p">)),</span> <span class="n">epoch_num</span><span class="p">)</span>
+    <span class="n">writer</span><span class="o">.</span><span class="n">add_scalar</span><span class="p">(</span><span class="s1">&#39;F1-score/train_avg&#39;</span><span class="p">,</span> <span class="n">avg_F1_score</span><span class="p">,</span> <span class="n">epoch_num</span><span class="p">)</span>
+    <span class="n">writer</span><span class="o">.</span><span class="n">add_scalars</span><span class="p">(</span><span class="s1">&#39;F1-score/train&#39;</span><span class="p">,</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">classes</span><span class="p">,</span> <span class="n">F1_score</span><span class="p">)),</span> <span class="n">epoch_num</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">single_loss</span><span class="p">,</span> <span class="n">F1_score</span>
+</code></pre></div>
+</td></tr></table>
+<p>穿插一点文字。旋转矩阵的下标 <span class="math">\(ab\)</span> 可以理解为把 <span class="math">\(B\)</span> 坐标系（上的点或向量）表示在 <span class="math">\(A\)</span> 坐标系上，或者理解为 <span class="math">\(B\)</span> 坐标系相对于 <span class="math">\(A\)</span> 坐标系的位形。</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">((</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="mi">2</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">*</span> <span class="mi">3</span>
+    <span class="n">this</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">looooooooooooooooooooooooooooooooooooooooojfafamfkamfkafmkooooooooooooooooooooooooooooooooooooooooooooooooooooooo0000000000000g</span> <span class="n">code</span><span class="o">.</span>
+</code></pre></div>
+</td></tr></table>
+<p>这是一个<a href="../../images/favicon.png">链接</a></p>
+<table>
+<thead>
+<tr>
+<th align="left">@First Header@</th>
+<th align="center">@Second@</th>
+<th align="right">@Second Header Second Header Second Header@</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Content Cell</td>
+<td align="center">Second Header</td>
+<td align="right">Content Cell</td>
+</tr>
+<tr>
+<td align="left">Content Cell</td>
+<td align="center">Content Cell</td>
+<td align="right">Content Cell</td>
+</tr>
+<tr>
+<td align="left">Content Cell</td>
+<td align="center">Content Cell</td>
+<td align="right">Content Cell</td>
+</tr>
+<tr>
+<td align="left">Content Cell</td>
+<td align="center">Content Cell</td>
+<td align="right">Content Cell</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">First Header</th>
+<th align="center">Second</th>
+<th align="right">Second</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Content Cell</td>
+<td align="center">Second Header</td>
+<td align="right">Content Cell</td>
+</tr>
+<tr>
+<td align="left">Content Cell</td>
+<td align="center">Content Cell</td>
+<td align="right">Content Cell</td>
+</tr>
+<tr>
+<td align="left">Content Cell</td>
+<td align="center">Content Cell</td>
+<td align="right">Content Cell</td>
+</tr>
+<tr>
+<td align="left">Content Cell</td>
+<td align="center">Content Cell</td>
+<td align="right">Content Cell</td>
+</tr>
+</tbody>
+</table>
+<p>这是<a href="https://www.google.com">谷歌的地址</a></p>
+<p>试试插入一张图片：</p>
+<p><img src="https://i.loli.net/2019/09/15/rIKbMBlyUoaCnAX.png" /></p>
+<p>穿插一点文字。旋转矩阵的下标 <span class="math">\(ab\)</span> 可以理解为把 <span class="math">\(B\)</span> 坐标系（上的点或向量）表示在 <span class="math">\(A\)</span> 坐标系上，或者理解为 <span class="math">\(B\)</span> 坐标系相对于 <span class="math">\(A\)</span> 坐标系的位形。</p>
+<p><img alt="" src="https://i.loli.net/2019/09/15/rIKbMBlyUoaCnAX.png"></p>
+<p>穿插一点文字。旋转矩阵的下标 <span class="math">\(ab\)</span> 可以理解为把 <span class="math">\(B\)</span> 坐标系（上的点或向量）表示在 <span class="math">\(A\)</span> 坐标系上，或者理解为 <span class="math">\(B\)</span> 坐标系相对于 <span class="math">\(A\)</span> 坐标系的位形。</p>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
