@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="chinese (simplified)">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Correr Zhou">
+  <meta name="description" content="机器人学的学与思 [1] ：旋转矩阵及其指数表达形式 | 本文目录 0 说在前面 1 刚体变换 2 旋转矩阵 2.1 旋转矩阵的定义 2.2 SO(3) 2.3 群的性质 2.4 合成法则（链式法则） 2.5 旋转矩阵的引理 3 旋转运动的参数化 3.1 反对称矩阵 3.2 指数表达 4 其他表示法...">
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="96x96">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" type="text/css" media="all">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/theme/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../theme/css/pygments.css" type="text/css" media="all">
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9P1QRK6VSR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9P1QRK6VSR');
+  </script>
+
+
+
+
+<meta name="keywords" content="数理基础, 机器人学, 机器人理论与算法">
+
+<meta property="og:title" content="机器人学的学与思 [1] ：旋转矩阵及其指数表达形式">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="https://">
+<meta property="og:description" content="机器人学是一门研究机器人设计、建造、运作、应用的科学。 其中，机器人学最经典的问题就是运动学、动力学和轨迹规划等，它们是研究机器人学的基础。本文从机器人学中刚体运动的定义入手，讲解了机器人学中最基础的旋转矩阵及其指数表达形式，以及利用欧拉角与四元数表示旋转的方法。">
+<meta property="og:url" content="https:///articles/robotics-1.html">
+
+
+  <title>Correr's Blog - 机器人学的学与思 [1] ：旋转矩阵及其指数表达形式</title>
+
+
+</head>
+
+<body class="home blog">
+  <div>
+    <header class="site-header">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="site-navigation-inner col-sm-12">
+              <div class="navbar-header">
+                <button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul id="menu-all-pages" class="nav navbar-nav">
+                <li class="menu-item"><a href="/" >Home
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/archives.html" >Archives
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/works.html" >Works
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/milestones.html" >milestones
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/about-me.html" >About me
+<i class="fa  fa-lg"></i></a></li>
+              </ul>
+              </div>
+              <div class="social">
+                <a href="/pages/message-board.html" title="Message Board" >
+<i class="fa fa-comments fa-lg"></i></a>
+                <a href="https://www.bing.com/search?q=site%3Acorrer-zhou.github.io" title="Search" >
+<i class="fa fa-search fa-lg"></i></a>
+                <a href="mailto:dh.zhou@siat.ac.cn" title="E-mail" >
+<i class="fa fa-envelope fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/%E5%86%AC%E8%B1%AA-%E5%91%A8-663173212/" title="Linkedin" >
+<i class="fa fa-linkedin fa-lg"></i></a>
+                <a href="https://github.com/Correr-Zhou" title="Github" >
+<i class="fa fa-github fa-lg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav><!-- .site-navigation -->
+
+      <div class="container">
+      <div id="logo">
+        <span class="site-name"><a class="navbar-brand" href=""><a href="/"><img width="600" src="/images/user_logo.png" class="attachment-full size-full" alt="logo"></a></a>
+        </span><!-- end of .site-name -->
+      </div><!-- end of #logo -->
+        <div class="tagline">
+                <a href="/tag/ji-qi-ren-li-lun-yu-suan-fa.html" ><div class="tag-item">机器人理论与算法 (3)</div></a>
+                <a href="/tag/ji-qi-ren-xue.html" ><div class="tag-item">机器人学 (3)</div></a>
+                <a href="/tag/shu-li-ji-chu.html" ><div class="tag-item">数理基础 (3)</div></a>
+        </div>
+    </div>
+
+  </header><!-- #masthead -->
+  </div>
+    <div id="content" class="site-content">
+      <div class="container main-content-area">
+        <div class="row">
+          <div class="main-content-inner col-sm-12 col-md-12">
+            <div id="primary" class="content-area">
+              <div id="main" class="site-main" role="main">
+                <div class="article-container">
+<article>
+  <div class="blog-item-wrap">
+    <div class="post-inner-content">
+      <header class="entry-header page-header">
+        <span class="cat-item">
+          <time datetime="2019-11-11 00:00:00+08:00">Posted: 2019-11-11 &#124; 10 min to read</time>
+        </span>
+        <h1 class="entry-title" id="in-article-title"><a href="/articles/robotics-1.html">机器人学的学与思 [1] ：旋转矩阵及其指数表达形式</a></h1>
+      </header><!-- .entry-header -->
+      <div class="fb-like" data-href="/articles/robotics-1.html" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+      <div class="entry-content">
+        <div class="toc"><span class="toctitle">本文目录</span><ul>
+<li><a href="#0">0 说在前面</a></li>
+<li><a href="#1">1 刚体变换</a></li>
+<li><a href="#2">2 旋转矩阵</a><ul>
+<li><a href="#21">2.1 旋转矩阵的定义</a></li>
+<li><a href="#22-so3">2.2 SO(3)</a></li>
+<li><a href="#23">2.3 群的性质</a></li>
+<li><a href="#24">2.4 合成法则（链式法则）</a></li>
+<li><a href="#25">2.5 旋转矩阵的引理</a></li>
+</ul>
+</li>
+<li><a href="#3">3 旋转运动的参数化</a><ul>
+<li><a href="#31">3.1 反对称矩阵</a></li>
+<li><a href="#32">3.2 指数表达</a></li>
+</ul>
+</li>
+<li><a href="#4">4 其他表示法</a><ul>
+<li><a href="#41">4.1 欧拉角</a></li>
+<li><a href="#42">4.2 四元数</a></li>
+</ul>
+</li>
+<li><a href="#_1">参考文献</a></li>
+</ul>
+</div>
+<h2 id="0">0 说在前面</h2>
+<p><strong>机器人学（Robotics）</strong> 是一门研究机器人设计、建造、运作、应用的科学。其中，机器人学最经典的问题就是运动学、动力学和轨迹规划等，它们是研究机器人学的基础。</p>
+<p>机器人系统的构成，如下图所示（以工业机械臂作为例子）：</p>
+<p><img alt="机器人系统的构成" src="https://img-blog.csdnimg.cn/20191111211908161.png">
+其中，对几个术语做出解释说明：</p>
+<ul>
+<li>Planning 指的是<strong>规划阶段</strong>，举机械臂运动的例子来说，输入为机器臂末端期望到达的位置。</li>
+<li>Controller 指的是机器人的<strong>控制器</strong>，比如PID控制器，它会接收来自编码器的反馈。</li>
+<li>Motor 和 Encoder 一般是连接在一起的，所以在框图上表示为两个连接的方框。</li>
+<li>link指的是<strong>执行器</strong>（这里指 Motor）连接的<strong>机械结构</strong>。</li>
+<li>系统的输出为机械臂末端实际到达的位置，我们要做的就是<strong>让 Output 和 Input 尽量接近</strong>。</li>
+</ul>
+<p>如何知道机器人末端执行器上某个点运动后在空间坐标系下的位置？如何让机器人的执行器快速、稳定地到达我们想让它到达的点？这些都是机器人学所研究的内容。
+阅读本文需要读者具有<font color="red"><b>高等数学与线性代数基础</b></font>，那么就让我们从刚体运动中开始走进机器人学吧！</p>
+<h2 id="1">1 刚体变换</h2>
+<p>在机器人学中，我们关心的并不是各质点的独立运动，而是一组质点的共同运动。<strong>刚体（rigid body）</strong>为一个完全不变形体，我们可以定义其是一个任意两质点距离保持不变的集合。设 <span class="math">\(p\)</span> 和 <span class="math">\(q\)</span> 是刚体上任意两点，则不论刚体如何运动， <span class="math">\(p\)</span> 和 <span class="math">\(q\)</span> 一定满足：
+</p>
+<div class="math">$$
+||p(t) - q(t) || = ||p(0) - p(0)|| = \text{a constant}
+$$</div>
+<p><strong>刚体运动（rigid motion）</strong> 即表示物体上任意两质点之间距离始终保持不变的连续运动，刚体运动可以由<strong>刚体变换（rigid body transformation）</strong>来描述。</p>
+<p>若变换 <span class="math">\(g: \mathbb{R}^3 \rightarrow \mathbb{R}^3\)</span> ，满足以下条件，则其称为刚体变换：</p>
+<ul>
+<li><strong>长度不变</strong>：对于任意点 <span class="math">\(p,q \in \mathbb{R}^3\)</span>，均有 <span class="math">\(||g(p) - g(q) || = ||p - q||\)</span></li>
+<li><strong>叉积不变</strong>：对于任意矢量 <span class="math">\(v,w \in \mathbb{R}^3\)</span> ，均有 <span class="math">\(g_*(v \times w) = g_*(v) \times g_*(w)\)</span></li>
+</ul>
+<p><span class="math">\(g()\)</span> 和 <span class="math">\(g_*()\)</span> 可以分别理解为刚体变换作用在点或矢量上。 下面利用数学语言描述最简单的刚体变换：旋转。</p>
+<h2 id="2">2 旋转矩阵</h2>
+<h3 id="21">2.1 旋转矩阵的定义</h3>
+<p>设<span class="math">\(A\)</span> 为惯性坐标系，<span class="math">\(B\)</span> 为与刚体固联的动坐标系，<span class="math">\(x_{ab},y_{ab},z_{ab} \in \mathbb{R^3}\)</span> 为<strong>坐标系 <span class="math">\(B\)</span> 中主坐标轴相对于坐标系 <span class="math">\(A\)</span> 的坐标</strong>。依次排列这三个坐标矢量，构成一个 <span class="math">\(3 \times 3\)</span> 的矩阵：
+</p>
+<div class="math">$$
+R_{ab} = [x_{ab}\ y_{ab} \ z_{ab}]
+$$</div>
+<p>
+按这种方式建立的矩阵称为<strong>旋转矩阵（rotation matrix）</strong>。</p>
+<p>旋转矩阵的下标 <span class="math">\(ab\)</span> 可以理解为把 <span class="math">\(B\)</span> 坐标系（上的点或向量）表示在 <span class="math">\(A\)</span> 坐标系上，或者理解为 <span class="math">\(B\)</span> 坐标系相对于 <span class="math">\(A\)</span> 坐标系的位形。</p>
+<p><img src="https://img-blog.csdnimg.cn/20191111211942164.png" alt="1572875947085" width="40%" /></p>
+<p>如图所示，<span class="math">\(q_b\)</span> 是刚体上 <span class="math">\(q\)</span> 点在 <span class="math">\(B\)</span> 坐标系下的表示，我们可以通过下式得到其在 <span class="math">\(A\)</span> 坐标系下的表示：
+</p>
+<div class="math">$$
+q_a = R_{ab}q_b
+$$</div>
+<p>
+可以形象地把旋转矩阵的作用理解为，<strong>将在 “ 动 ” 坐标系表示的点（或向量）表示在  “ 静 ”  坐标系下</strong>，得到不一样的坐标数值。</p>
+<h3 id="22-so3">2.2 SO(3)</h3>
+<p>由于旋转矩阵 <span class="math">\(R\)</span> 列向量相互正交，且基为 1 ，所以旋转矩阵满足 <span class="math">\(RR^T = R^TR = I,det \ R = 1\)</span>，将所有满足这两个性质的 <span class="math">\(3 \times 3\)</span> 矩阵的<strong>集合</strong>记作 <span class="math">\(SO(3)\)</span> ，符号 <span class="math">\(SO\)</span> 是 special orthogonal（特殊正交）的缩写，有：
+</p>
+<div class="math">$$
+SO(3) = \{R \in \mathbb{R^{3 \times 3}}:RR^T = I,det \ R = +1\}
+$$</div>
+<p>
+更一般地， <span class="math">\(\mathbb{R}^{n \times n}\)</span> 空间中的旋转矩阵可以定义为：
+</p>
+<div class="math">$$
+SO(n) = \{R \in \mathbb{R^{n \times n}}:RR^T = I,det \ R = +1\}
+$$</div>
+<h3 id="23">2.3 群的性质</h3>
+<p>对于元素可以用算子 <span class="math">\(\circ\)</span> 构成二元运算的集合 <span class="math">\(G\)</span> ，如果满足：</p>
+<ul>
+<li><strong>封闭性</strong>：若 <span class="math">\(g_1,g_2 \in G\)</span> ，则 <span class="math">\(g_1 \circ g_2 \in G\)</span> 。</li>
+<li><strong>单位性</strong>：对于任意的 <span class="math">\(g \in G\)</span> ，一定存在一个单位元素 <span class="math">\(e\)</span> ，使得 <span class="math">\(g \circ e = e\circ g = g\)</span> 。</li>
+<li><strong>可逆性</strong>：对于任意的 <span class="math">\(g \in G\)</span> ，一定存在唯一的逆 <span class="math">\(g^{-1} \in G\)</span>，使得 <span class="math">\(g \circ g^{-1} = g^{-1} \circ g = e\)</span> 。</li>
+<li><strong>结合性</strong>：若 <span class="math">\(g_1,g_2,g_3 \in G\)</span> ，则有 <span class="math">\((g_1 \circ g_2) \circ g_3 = g_1 \circ (g_2 \circ g_3)\)</span> 。</li>
+</ul>
+<p>则 <span class="math">\(G\)</span> 可称为<strong>群（group）</strong>。</p>
+<p><span class="math">\(SO(3) \subset \mathbb{R}^{3 \times 3}\)</span> 就是满足矩阵相乘运算的群，称为<strong>三维旋转群</strong>，证明如下：</p>
+<ul>
+<li>封闭性：设 <span class="math">\(R_1,R_2 \in SO(3)\)</span> ，则有：</li>
+</ul>
+<div class="math">$$
+R_1R_2(R_1R_2)^T = R_1R_2R_2^TR_1^T = R_1R_1^T = I
+$$</div>
+<div class="math">$$
+det(R_1R_2) = det(R_1)det(R_2) = +1
+$$</div>
+<ul>
+<li>单位性：单位矩阵 <span class="math">\(I\)</span> 是单位元素。</li>
+<li>可逆性：因为 <span class="math">\(RR^T = R^TR = I\)</span> ，且 <span class="math">\(R^T \in \mathbb{R}^{3 \times 3}\)</span> ，所以 <span class="math">\(R\)</span> 的逆是 <span class="math">\(R^T\)</span>。</li>
+<li>结合性：<span class="math">\(R_1(R_2 R_3) = (R_1R_2)R_3\)</span> 。</li>
+</ul>
+<h3 id="24">2.4 合成法则（链式法则）</h3>
+<p>如果坐标系 <span class="math">\(C\)</span> 相对于坐标系 <span class="math">\(B\)</span> 的位形为 <span class="math">\(R_{bc}\)</span> ，坐标系 <span class="math">\(B\)</span> 相对于坐标系 <span class="math">\(A\)</span> 的位形为 <span class="math">\(R_{ab}\)</span> ，那么，坐标系 <span class="math">\(C\)</span> 相对于坐标系 <span class="math">\(A\)</span> 的位形为:
+</p>
+<div class="math">$$
+R_{ac} = R_{ab}R_{bc}
+$$</div>
+<p>
+符合<strong>链式法则</strong>。可以理解为组合起来去掉中间桥接的字母下标。</p>
+<p>当旋转矩阵的组合作用与一点（或向量）上，比如右乘 <span class="math">\(R_{ab}R_{bc}\)</span> ，可以理解为<strong>先将在 <span class="math">\(c\)</span> 上表示的点（或向量）表示在 <span class="math">\(b\)</span> 上，再将其在 <span class="math">\(b\)</span> 上的表示表示到 <span class="math">\(a\)</span> 上</strong>。</p>
+<h3 id="25">2.5 旋转矩阵的引理</h3>
+<p>对于给定的 <span class="math">\(R \in SO(3)\)</span> 和 <span class="math">\(v,w \in \mathbb{R}^{3}\)</span> ，存在以下性质：
+</p>
+<div class="math">$$
+R(v \times w) = (Rv) \times (Rw)
+$$</div>
+<div class="math">$$
+R(w)^{\wedge}R^T = (Rw)^{\wedge}
+$$</div>
+<p>其中，<span class="math">\(\wedge\)</span> 运算符将在下面定义。</p>
+<h2 id="3">3 旋转运动的参数化</h2>
+<h3 id="31">3.1 反对称矩阵</h3>
+<p>设两矢量 <span class="math">\(a,b \in \mathbb{R}^3\)</span>  ，其值如下：
+</p>
+<div class="math">$$
+a =
+\begin{bmatrix}
+a_1 \\
+a_2 \\
+a_3 \\
+\end{bmatrix}
+$$</div>
+<div class="math">$$
+b =
+\begin{bmatrix}
+b_1 \\
+b_2 \\
+b_3 \\
+\end{bmatrix}
+$$</div>
+<p>则这两个向量的叉积为：
+</p>
+<div class="math">$$
+a \times b =
+\begin{bmatrix}
+a_2b_3 - a_3b_2 \\
+a_3b_1 - a_1b_3 \\
+a_1b_2 - a_2b_1 \\
+\end{bmatrix}
+$$</div>
+<p>
+可得叉积运算是一个线性算子。若定义：
+</p>
+<div class="math">$$
+(a)^\wedge =
+\begin{bmatrix}
+0 &amp; -a_3 &amp; a_2 \\
+a_3 &amp; 0 &amp; -a_1 \\
+-a_2 &amp; a_1 &amp; 0 \\
+\end{bmatrix}
+$$</div>
+<p>
+则：
+</p>
+<div class="math">$$
+a \times b = (a)^\wedge b
+$$</div>
+<p>
+用符号 <span class="math">\(\widehat{a}\)</span> 代替 <span class="math">\((a)^\wedge\)</span> ，由定义可知， <span class="math">\(\widehat{a}\)</span> 是<strong>反对称矩阵</strong>，即满足  <span class="math">\(\widehat{a}^T = - \widehat{a}\)</span> ，所有 <span class="math">\(3 \times 3\)</span> 反对称矩阵的矢量空间记作 <span class="math">\(so(3)\)</span> ，更一般地，<span class="math">\(n \times n\)</span> 反对称矩阵的矢量空间记作：
+</p>
+<div class="math">$$
+so(n) = \{S \in \mathbb{R}^{n \times n}:S^T = -S\}
+$$</div>
+<p>
+我们将 <span class="math">\(^\wedge\)</span> 读作 “戴帽” 操作， <span class="math">\(^\vee\)</span> 读作 “去帽” 操作，其可以实现 <span class="math">\(\mathbb{R}^3 \Leftrightarrow so(3)\)</span> 的<strong>双射变换</strong>（即 “<strong>一一对应</strong>” ）。</p>
+<h3 id="32">3.2 指数表达</h3>
+<p>如果在三维空间中的物体绕 <span class="math">\(w\)</span> 轴旋转 <span class="math">\(\theta\)</span> 角度，则其旋转矩阵可以通过以下式子计算：
+</p>
+<div class="math">$$
+R(w,\theta) = e^{\widehat{w}\theta} = I + \widehat{w}sin\theta+\widehat{w}^2(1-cos\theta)
+$$</div>
+<p>
+其中 <span class="math">\(w \in \mathbb{R}^3,\theta\in \mathbb{R}\)</span> ，且 <span class="math">\(\widehat{w} \in so(3)\)</span> 。<strong>特别要注意 <span class="math">\(w\)</span> 为单位矢量</strong>（如何得到这个式子将另作解释）。</p>
+<p>由上式可得：</p>
+<ul>
+<li>
+<p><span class="math">\((w,\theta) \Rightarrow SO(3)\)</span> 是一个映射，符合 “ <strong>多对一</strong> ” 和<strong>满射</strong>。因为一个旋转矩阵对应不止一组 <span class="math">\((w,\theta)\)</span> ，且每一个旋转矩阵都能找到对应。</p>
+</li>
+<li>
+<p>当 <span class="math">\(\theta = 0\)</span> 时，<span class="math">\(R = I\)</span> ，有<strong>奇异点</strong>产生，可以理解为 <span class="math">\(R = I\)</span> 时对应无穷多组 <span class="math">\((w,\theta)\)</span> 。</p>
+</li>
+</ul>
+<h2 id="4">4 其他表示法</h2>
+<h3 id="41">4.1 欧拉角</h3>
+<h4 id="411">4.1.1 绕坐标轴旋转的旋转矩阵</h4>
+<p>分别将绕 <span class="math">\(x,y,z\)</span> 轴旋转的旋转矩阵定义为基本旋转矩阵：
+</p>
+<div class="math">$$
+R_x(\phi) = e^{{\widehat{x}}\phi} =
+\begin{bmatrix}
+1 &amp;       0 &amp; 0        \\
+0 &amp; cos\phi &amp; -sin\phi \\
+0 &amp; sin\phi &amp;  cos\phi \\
+\end{bmatrix}
+$$</div>
+<div class="math">$$
+R_y(\beta) = e^{{\widehat{y}}\beta} =
+\begin{bmatrix}
+cos\beta &amp; 0 &amp; sin\beta \\
+0 &amp;1 &amp; 0 \\
+-sin\beta &amp; 0 &amp;  cos\beta \\
+\end{bmatrix}
+$$</div>
+<div class="math">$$
+R_z(\alpha) = e^{{\widehat{z}}\alpha} =
+\begin{bmatrix}
+cos\alpha &amp; -sin\alpha  &amp; 0 \\
+sin\alpha  &amp; cos\alpha  &amp; 0 \\
+0 &amp; 0 &amp;  1 \\
+\end{bmatrix}
+$$</div>
+<p>这些式子通过指数表达式不难求出。需要注意的是，如果无特殊说明，旋转的角度皆指<strong>逆时针旋转</strong>。</p>
+<h4 id="412">4.1.2 欧拉角定义</h4>
+<p>设坐标系 <span class="math">\(B\)</span> 最初与坐标系 <span class="math">\(A\)</span> 重合，首先将 <span class="math">\(B\)</span> 系绕其 <span class="math">\(z\)</span> 轴旋转 <span class="math">\(\alpha\)</span> 角，然后绕 <span class="math">\(B\)</span> 系的新 <span class="math">\(y\)</span> 轴旋转 <span class="math">\(\beta\)</span> 角，最后绕 <span class="math">\(B\)</span> 系的新 <span class="math">\(z\)</span> 轴旋转 <span class="math">\(\gamma\)</span> 角，得到的角度 <span class="math">\((\alpha,\beta,\gamma)\)</span> 称为关于 <span class="math">\(ZY\!Z\)</span> 的<strong>欧拉角</strong>，依旋转轴的不同，还有关于 <span class="math">\(ZY\!X,Y\!Z\!X\)</span> 的欧拉角等。注意旋转顺序为<strong>字母表示的从右到左</strong>。这样可以得到 <span class="math">\(B\)</span> 系相对于 <span class="math">\(A\)</span> 系的旋转矩阵：
+</p>
+<div class="math">$$
+R_{ab} = R_z(\alpha)R_y(\beta)R_z(\gamma)
+$$</div>
+<p>
+这个矩阵同样可以理解为点在不同坐标系下的依次表示，表示的顺序和旋转的顺序相反。</p>
+<p>对上式求逆，可以得到 <span class="math">\(A\)</span> 系相对于 <span class="math">\(B\)</span> 系的旋转矩阵：
+</p>
+<div class="math">$$
+R_{ba} = R_z(-\gamma)R_y(-\beta)R_z(-\alpha)
+$$</div>
+<p>
+需要注意的是，使用欧拉角表示旋转，也会出现奇异点。</p>
+<h3 id="42">4.2 四元数</h3>
+<p><strong>四元数（quafernions）</strong>是复数的一种推广，其可以利用四个数字来表示在三维空间上的旋转，而且利用这种表示方法<strong>没有奇异点产生</strong>。四元数的一般形式为：
+</p>
+<div class="math">$$
+Q = q_0 + q_1i + q_2j + q_3k \quad q_i \in \mathbb{R} ,i=0,1,2,3
+$$</div>
+<p>
+其中，<span class="math">\(q_0\)</span> 为 <span class="math">\(Q\)</span> 的标量部分，<span class="math">\(q = (q_1,q_2,q_3)\)</span> 为矢量部分。可以简洁地表示为 <span class="math">\(Q = (q_0, q)\)</span> 。</p>
+<p>其中，<span class="math">\(i,j,k\)</span> 是一种特殊的<strong>虚数</strong>， 对于 <span class="math">\(i,j,k\)</span> 本身的几何意义可以理解为一种旋转，其中<span class="math">\(i\)</span>旋转代表 X 轴与 Y 轴相交平面中 X 轴正向向 Y 轴正向的旋转，<span class="math">\(j\)</span> 旋转代表 Z 轴与 X 轴相交平面中 Z 轴正向向 X 轴正向的旋转，<span class="math">\(k\)</span> 旋转代表 Y 轴与 Z 轴相交平面中 Y 轴正向向 Z 轴正向的旋转。</p>
+<p>由于四元数不是本系列文章研究的重点，所以不再详细描述，感兴趣的同学可以参考文末的链接。</p>
+<h2 id="_1">参考文献</h2>
+<ul>
+<li>
+<p><a href="https://www.cds.caltech.edu/~murray/books/MLS/pdf/mls94-complete.pdf">《a mathematical introduction to robotic manipulation》</a></p>
+</li>
+<li>
+<p><a href="https://zh.wikipedia.org/wiki/四元数">四元数 - 维基百科</a></p>
+</li>
+</ul>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+      </div>
+      <hr><!-- .entry-content -->
+      <div class="article_meta">
+        <b>标签：</b>
+          <a href="/tag/shu-li-ji-chu.html">数理基础</a>,          <a href="/tag/ji-qi-ren-xue.html">机器人学</a>,          <a href="/tag/ji-qi-ren-li-lun-yu-suan-fa.html">机器人理论与算法</a>      </div>
+        <br />
+        <b>相关阅读：</b>
+        <ul>
+            <li><a href="/articles/robotics-3.html">机器人学的学与思 [3] ：旋转速度与刚体速度</a></li>
+            <li><a href="/articles/robotics-2.html">机器人学的学与思 [2] ：刚体运动的齐次坐标表示与利用旋量对其进行参数化</a></li>
+        </ul>
+      <hr>
+    </div>
+  </div>
+  <div id="vcomments"></div>
+  <script>
+      new Valine({
+          el: '#vcomments',
+          appId: 'TevswrLvkUsOzlyXHd0SMW5u-gzGzoHsz',
+          appKey: 'AilUFU7p5CSrD2NOKSY6xfwC',
+          placeholder: 'Type your friendly comment here!',
+          avatar: 'robohash',
+          visitor: true
+      })
+  </script>
+</article><!-- #post-## -->
+                </div>
+              </div><!-- #main -->
+          </div><!-- #primary -->
+        </div>
+      </div><!-- close .row -->
+    </div><!-- close .container -->
+  </div><!-- close .site-content -->
+
+
+
+
+  <div id="footer-area">
+    <footer id="colophon" class="site-footer" role="contentinfo">
+      <div class="site-info container">
+        <div class="row">
+                    <div class="copyright col-md-12">
+                    <a href="/pages/privacy-policy-and-disclaimer.html">Privacy Policy & Disclaimer</a><br />
+                    Life Oriented Programming & Programming Oriented Life<br />
+                    &copy; 2021 <a href="/pages/about-me.html">Correr Zhou</a> </div>
+        </div>
+      </div><!-- .site-info -->
+      <div class="scroll-to-top" style="display: none;"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+    </footer><!-- #colophon -->
+  </div>
+
+  <script type="text/javascript">
+    window.addEventListener('load', function(){
+    if (window.location.pathname != '/' && window.location.pathname != '/index.html'){
+      window.scroll(0, document.getElementById('main').offsetTop);
+    }})
+  </script>
+
+
+<script type="text/javascript" src="/theme/js/functions.min.js"></script>
+
+
+
+</body>
+</html>
