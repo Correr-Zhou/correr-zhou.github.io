@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="chinese (simplified)">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Correr Zhou">
+  <meta name="description" content="机器人学的学与思 [3] ：旋转速度与刚体速度 | 本文目录 1 旋转速度 2 刚体速度 2.1 定义 2.2 伴随变换 3 旋量运动的速度 参考文献 1 旋转速度 我们先考虑 \(\mathbb{R}^3\) 中纯旋转的情况。其中，运动轨迹的曲线为 \(R_{ab}(t) \in SO(3)\) 。设...">
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="96x96">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" type="text/css" media="all">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/theme/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../theme/css/pygments.css" type="text/css" media="all">
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9P1QRK6VSR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9P1QRK6VSR');
+  </script>
+
+
+
+
+<meta name="keywords" content="数理基础, 机器人学, 机器人理论与算法">
+
+<meta property="og:title" content="机器人学的学与思 [3] ：旋转速度与刚体速度">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="https://">
+<meta property="og:description" content="在机器人学中，刚体运动的速度也可以通过齐次坐标表示推导得出。本文是此系列文章的终篇，包含了刚体运动中旋转速度和刚体速度的推导，与刚体速度在旋量运动中的表达形式等内容。">
+<meta property="og:url" content="https:///articles/robotics-3.html">
+
+
+  <title>Correr's Blog - 机器人学的学与思 [3] ：旋转速度与刚体速度</title>
+
+
+</head>
+
+<body class="home blog">
+  <div>
+    <header class="site-header">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="site-navigation-inner col-sm-12">
+              <div class="navbar-header">
+                <button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul id="menu-all-pages" class="nav navbar-nav">
+                <li class="menu-item"><a href="/" >Home
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/archives.html" >Archives
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/works.html" >Works
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/milestones.html" >milestones
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/about-me.html" >About me
+<i class="fa  fa-lg"></i></a></li>
+              </ul>
+              </div>
+              <div class="social">
+                <a href="/pages/message-board.html" title="Message Board" >
+<i class="fa fa-comments fa-lg"></i></a>
+                <a href="https://www.bing.com/search?q=site%3Acorrer-zhou.github.io" title="Search" >
+<i class="fa fa-search fa-lg"></i></a>
+                <a href="mailto:dh.zhou@siat.ac.cn" title="E-mail" >
+<i class="fa fa-envelope fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/%E5%86%AC%E8%B1%AA-%E5%91%A8-663173212/" title="Linkedin" >
+<i class="fa fa-linkedin fa-lg"></i></a>
+                <a href="https://github.com/Correr-Zhou" title="Github" >
+<i class="fa fa-github fa-lg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav><!-- .site-navigation -->
+
+      <div class="container">
+      <div id="logo">
+        <span class="site-name"><a class="navbar-brand" href=""><a href="/"><img width="600" src="/images/user_logo.png" class="attachment-full size-full" alt="logo"></a></a>
+        </span><!-- end of .site-name -->
+      </div><!-- end of #logo -->
+        <div class="tagline">
+                <a href="/tag/ji-qi-ren-li-lun-yu-suan-fa.html" ><div class="tag-item">机器人理论与算法 (3)</div></a>
+                <a href="/tag/ji-qi-ren-xue.html" ><div class="tag-item">机器人学 (3)</div></a>
+                <a href="/tag/shu-li-ji-chu.html" ><div class="tag-item">数理基础 (3)</div></a>
+        </div>
+    </div>
+
+  </header><!-- #masthead -->
+  </div>
+    <div id="content" class="site-content">
+      <div class="container main-content-area">
+        <div class="row">
+          <div class="main-content-inner col-sm-12 col-md-12">
+            <div id="primary" class="content-area">
+              <div id="main" class="site-main" role="main">
+                <div class="article-container">
+<article>
+  <div class="blog-item-wrap">
+    <div class="post-inner-content">
+      <header class="entry-header page-header">
+        <span class="cat-item">
+          <time datetime="2019-12-28 00:00:00+08:00">Posted: 2019-12-28 &#124; 10 min to read</time>
+        </span>
+        <h1 class="entry-title" id="in-article-title"><a href="/articles/robotics-3.html">机器人学的学与思 [3] ：旋转速度与刚体速度</a></h1>
+      </header><!-- .entry-header -->
+      <div class="fb-like" data-href="/articles/robotics-3.html" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+      <div class="entry-content">
+        <div class="toc"><span class="toctitle">本文目录</span><ul>
+<li><a href="#1">1 旋转速度</a></li>
+<li><a href="#2">2 刚体速度</a><ul>
+<li><a href="#21">2.1 定义</a></li>
+<li><a href="#22">2.2 伴随变换</a></li>
+</ul>
+</li>
+<li><a href="#3">3 旋量运动的速度</a></li>
+<li><a href="#_1">参考文献</a></li>
+</ul>
+</div>
+<h2 id="1">1 旋转速度</h2>
+<p>我们先考虑 <span class="math">\(\mathbb{R}^3\)</span> 中纯旋转的情况。其中，运动轨迹的曲线为 <span class="math">\(R_{ab}(t) \in SO(3)\)</span> 。设 <span class="math">\(B\)</span> 系与 <span class="math">\(A\)</span> 系共原点并相对于 <span class="math">\(A\)</span> 系旋转，称 <span class="math">\(A\)</span> 系为<strong>空间（spatial）坐标系</strong>，<span class="math">\(B\)</span> 系为<strong>物体（body）坐标系</strong>。刚体上一点 <span class="math">\(q\)</span> 在物体坐标系中的表示为 <span class="math">\(q_b\)</span> ，<span class="math">\(q_b\)</span> 是固定不变的。其在空间坐标系中的运动轨迹为：
+</p>
+<div class="math">$$
+q_a(t) = R_{ab}(t)q_b
+$$</div>
+<p>
+旋转矩阵 <span class="math">\(R_{ab}\)</span> 随时间变化。对 <span class="math">\(q_a(t)\)</span> 求导，就会得到该点在空间坐标系下的速度为：
+</p>
+<div class="math">$$
+v_{q_{a}}(t) = {d \over dt}q_a(t)=\dot{R}_{ab}(t)q_b
+$$</div>
+<p>
+<span class="math">\(\dot{R}_{ab}(t)\)</span> 表示 <span class="math">\(R_{ab}(t)\)</span> 对 <span class="math">\(t\)</span> 的导数，以下符号的表述皆相同，某些式子会省略参数 <span class="math">\(t\)</span> 。</p>
+<p>可将上式改写为：
+</p>
+<div class="math">$$
+v_{q_{a}}(t)=\dot{R}_{ab}(t)R_{ab}^{-1}R_{ab}q_b = \dot{R}_{ab}(t)R_{ab}^{-1}q_a
+$$</div>
+<p>
+其中，<span class="math">\(\dot{R}_{ab}R_{ab}^{-1}\)</span> 为反对称矩阵，即 <span class="math">\(\dot{R}_{ab}(t)R_{ab} \in so(3)\)</span> ，可由对 <span class="math">\(RR^T=I\)</span> 两边求导证明。</p>
+<p>这说明三维矢量可以表示旋转速度，定义瞬时空间角速度 <span class="math">\(w_{ab}^s \in \mathbb{R}^3\)</span> 为：
+</p>
+<div class="math">$$
+\hat{w}_{ab}^s = \dot{R}_{ab}R_{ab}^{-1}
+$$</div>
+<p>
+有瞬时空间角速度，就有瞬时物体角速度，定义瞬时物体角速度 <span class="math">\(w_{ab}^b \in \mathbb{R}^3\)</span> 为：
+</p>
+<div class="math">$$
+\hat{w}_{ab}^b = R_{ab}^{-1}\dot{R}_{ab}
+$$</div>
+<p>
+其可由 <span class="math">\(v_{q_{a}}(t) = R_{ab}(t) v_{q_{b}}(t)\)</span> 推导得出。由表达式可得两个角速度的关系为：
+</p>
+<div class="math">$$
+\hat{w}_{ab}^s = R_{ab}\hat{w}_{ab}^bR_{ab}^{-1} \quad \text{or} \quad w_{ab}^s = R_{ab}w_{ab}^b
+$$</div>
+<p>
+则该点相对于空间坐标系和物体坐标系的速度可以分别表示为：
+</p>
+<div class="math">$$
+\begin{cases}
+v_{q_{a}}(t)=\hat{w}_{ab}^s(t)q_a(t) \\
+v_{q_{b}}(t)=\hat{w}_{ab}^b(t)q_b
+\end{cases}
+$$</div>
+<h2 id="2">2 刚体速度</h2>
+<h3 id="21">2.1 定义</h3>
+<p>现在考虑 <span class="math">\(\mathbb{R}^3\)</span> 中带有旋转和平移的刚体运动的情况，运动轨迹的曲线为 <span class="math">\(g_{ab}(t) \in SE(3)\)</span> 。类比之前的式子，可以写出：
+</p>
+<div class="math">$$
+v_{q_{a}}(t)=\dot{g}_{ab}(t)g_{ab}^{-1}g_{ab}q_b = \dot{g}_{ab}(t)g_{ab}^{-1}q_a
+$$</div>
+<p>
+我们可以定义：
+</p>
+<div class="math">$$
+\begin{cases}
+\hat{V}_{ab}^s = \dot{g}_{ab}g_{ab}^{-1} \\
+\hat{V}_{ab}^b = g_{ab}^{-1}\dot{g}_{ab}
+\end{cases}
+$$</div>
+<p>
+其也可由 <span class="math">\(v_{q_{a}}(t) = g_{ab}(t) v_{q_{b}}(t)\)</span> 推导得出。</p>
+<p>类比 <span class="math">\(\hat{w}_{ab}^s \in so(3)\)</span> ，<span class="math">\(\hat{V}_{ab}^s \in se(3)\)</span> ，即其与运动旋量形式类似， 可以通过 <span class="math">\(\dot{g}_{ab}g_{ab}^{-1}\)</span> 矩阵相乘证明。因此有：</p>
+<div class="math">$$
+\hat{V}_{ab}^s = \begin{bmatrix}\hat{w}_{ab}^s &amp; v_{ab}^s \\0 &amp; 0 \\\end{bmatrix}=
+\begin{bmatrix}
+\dot{R}_{ab}R_{ab}^T &amp; -\dot{R}_{ab}R_{ab}^Tp_{ab} + \dot{p}_{ab} \\
+0 &amp; 0 \\
+\end{bmatrix}
+\quad
+V_{ab}^s =
+\begin{bmatrix}
+v_{ab}^s \\
+w_{ab}^s \\
+\end{bmatrix}
+$$</div>
+<p>其具有与运动旋量 <span class="math">\(\xi\)</span> 相同的 <span class="math">\(\vee , \wedge\)</span> 操作。注意内部成分的上下标符号与其一致。<span class="math">\(\hat{w}_{ab}^s\)</span> 的表达式与上面提到的式子不谋而合。</p>
+<p>同样地有：
+</p>
+<div class="math">$$
+\begin{cases}
+v_{q_{a}}(t)=\hat{V}_{ab}^s(t)q_a(t) = w_{ab}^s(t) \times q_a(t) + v_{ab}^s(t)\\
+v_{q_{b}}(t)=\hat{V}_{ab}^b(t)q_b = w_{ab}^b(t) \times q_b + v_{ab}^b(t)
+\end{cases}
+$$</div>
+<h3 id="22">2.2 伴随变换</h3>
+<p>类比之前的式子，刚体运动的空间速度和物体速度之间的关系为：
+</p>
+<div class="math">$$
+\hat{V}_{ab}^s = g_{ab}\hat{V}_{ab}^bg_{ab}^{-1}
+$$</div>
+<p>
+那么有没有类比 <span class="math">\(V_{ab}^s,V_{ab}^b \in \mathbb{R}^6\)</span> 之间的关系呢？单纯类比写出式子我们会发现，<span class="math">\((4 \times 4)\)</span> 和 <span class="math">\((6 \times 1)\)</span> 的矩阵根本不能相乘。这就需要我们通过分析其矩阵内部成分之间的关系得出它们之间的关系。</p>
+<p>可得：
+</p>
+<div class="math">$$
+\begin{cases}
+\hat{w}_{ab}^s = \dot{R}_{ab}R_{ab}^T  \\
+v_{ab}^s = -\dot{R}_{ab}R_{ab}^Tp_{ab} + \dot{p}_{ab} = - \hat{w}_{ab}^sp_{ab} + \dot{p}_{ab} = p_{ab} \times w_{ab}^s + \dot{p}_{ab}\\
+\end{cases}
+$$</div>
+<p>
+因为：
+</p>
+<div class="math">$$
+w_{ab}^s = R_{ab}w_{ab}^b
+$$</div>
+<div class="math">$$
+\dot{p}_{ab} = v_{ab}^s = R_{ab}v_{ab}^b
+$$</div>
+<p>因为 <span class="math">\(p_{ab}\)</span> 是表示在空间坐标系下的，对其求导得到 <span class="math">\(v_{ab}^s\)</span> 。上述两式我们可以单独地进行理解。所以我们可以得到：</p>
+<div class="math">$$
+v_{ab}^s = p_{ab} \times (R_{ab}w_{ab}^b) + R_{ab}v_{ab}^b
+= \hat{p}_{ab} R_{ab}w_{ab}^b + R_{ab}v_{ab}^b
+$$</div>
+<p>联立上述两式，将它们表示为矩阵形式：</p>
+<div class="math">$$
+V_{ab}^s = \begin{bmatrix}
+ v_{ab}^s \\
+w_{ab}^s \\
+\end{bmatrix}=
+\begin{bmatrix}\hat{p}_{ab} R_{ab}w_{ab}^b + R_{ab}v_{ab}^b \\mathbb{R}_{ab}w_{ab}^b \\\end{bmatrix}=
+\begin{bmatrix}
+R_{ab} &amp; \hat{p}_{ab} R_{ab}\\
+0 &amp; R_{ab} \\
+\end{bmatrix}
+\begin{bmatrix}
+v_{ab}^b \\
+w_{ab}^b \\
+\end{bmatrix}
+$$</div>
+<p>定义将运动旋量坐标进行坐标系变换的 <span class="math">\(6 \times 6\)</span> 矩阵为：</p>
+<div class="math">$$
+Ad_g =
+\begin{bmatrix}
+R &amp; \hat{p}R \\
+0 &amp; R \\
+\end{bmatrix}
+$$</div>
+<p>称其为<strong>伴随变换</strong>，其与 <span class="math">\(g\)</span> 有关，且有 <span class="math">\(Ad_{g^{-1}} = Ad_g^{-1}\)</span> 。</p>
+<p>所以有：</p>
+<div class="math">$$
+V_{ab}^s = Ad_{g_{ab}}V_{ab}^b
+$$</div>
+<p>我们还可以得到：</p>
+<div class="math">$$
+\begin{cases}
+(\hat{V})^{\vee} = V \\
+(g\ \hat{V}g^{-1})^{\vee} = Ad_g V
+\end{cases}
+$$</div>
+<p>即运动旋量在 <span class="math">\(\mathbb{R}^{4 \times 4}\)</span> 中左乘一个 <span class="math">\(g\)</span> 再右乘一个 <span class="math">\(g^{-1}\)</span> 的作用跟在 <span class="math">\(\mathbb{R}^6\)</span> 中左乘一个 <span class="math">\(Ad_g\)</span> 的效果一致。当然，此处的 <span class="math">\(Ad_g\)</span> 是根据 <span class="math">\(g\)</span> 得出来的。</p>
+<p>那么，在不同坐标系下的空间速度是否也符合链式法则呢？答案是否定的。设有 <span class="math">\(A,B,C\)</span> 三个坐标系，各坐标系中的空间速度存在下列关系：</p>
+<div class="math">$$
+V_{ac}^s = V_{ab}^s + Ad_{g_{ab}}V_{bc}^s
+$$</div>
+<p>证明如下：</p>
+<div class="math">$$
+\hat{V}_{ac}^s = \dot{g}_{ac}g_{ac}^{-1} = \dot{(g_{ab}g_{bc})}(g_{ab}g_{bc})^{-1} \\
+= (\dot{g}_{ab}g_{bc}+{g}_{ab}\dot{g}_{bc})(g_{bc}^{-1}g_{ab}^{-1})\\
+= \dot{g}_{ab}g_{bc}g_{bc}^{-1}g_{ab}^{-1} + {g}_{ab}\dot{g}_{bc}g_{bc}^{-1}g_{ab}^{-1}\\
+= \dot{g}_{ab}g_{ab}^{-1} + {g}_{ab}\dot{g}_{bc}g_{bc}^{-1}g_{ab}^{-1} \\
+= \hat{V}_{ab}^s + g_{ab}\hat{V}_{bc}^sg_{ab}^{-1}
+$$</div>
+<div class="math">$$
+{V}_{ac}^s = (\hat{V}_{ac}^s)^{\vee} =
+(\hat{V}_{ab}^s)^{\vee} + (g_{ab}\hat{V}_{bc}^sg_{ab}^{-1})^{\vee}  =
+{V}_{ab}^s + Ad_{g_{ab}}{V}_{bc}^s
+$$</div>
+<p>空间速度和物体速度在多个坐标系之间的变换，也可以通过上述证明方法求解。假设 <span class="math">\(B\)</span> 系和 <span class="math">\(C\)</span> 系没有相对运动，可以得出 <span class="math">\(V_{bc}^s = 0\)</span> 。</p>
+<h2 id="3">3 旋量运动的速度</h2>
+<p>我们还可以从另一个角度考虑刚体运动的空间速度和物体速度。考虑旋量运动：</p>
+<div class="math">$$
+g_{ab}(\theta) = e^{\hat{\xi}\theta}g_{ab}(0)
+$$</div>
+<p>其中，<span class="math">\(\hat{\xi}\)</span> 为定常运动旋量。可以得到刚体运动的空间速度为：</p>
+<div class="math">$$
+\hat{V}_{ab}^s = \dot{g}_{ab}(\theta){g}_{ab}^{-1}(\theta)
+= \dot{(e^{\hat{\xi}\theta}g_{ab}(0))}(e^{\hat{\xi}\theta}g_{ab}(0))^{-1}\\
+= (\hat{\xi}\dot{\theta}e^{\hat{\xi}\theta}g_{ab}(0))(g_{ab}^{-1}(0)e^{\hat{-\xi}\theta})\\
+= \hat{\xi}\dot{\theta}e^{\hat{\xi}\theta}e^{\hat{-\xi}\theta} = \hat{\xi}\dot{\theta}
+$$</div>
+<p>同样地，可以得到刚体运动的物体速度：
+</p>
+<div class="math">$$
+\hat{V}_{ab}^b = {g}_{ab}^{-1}(\theta)\dot{g}_{ab}(\theta)
+= (e^{\hat{\xi}\theta}g_{ab}(0))^{-1}\dot{(e^{\hat{\xi}\theta}g_{ab}(0))}\\
+= (g_{ab}^{-1}(0)e^{\hat{-\xi}\theta})
+(\hat{\xi}\dot{\theta}e^{\hat{\xi}\theta}g_{ab}(0))\\
+= (g_{ab}(0)^{-1}\hat{\xi}g_{ab}(0))\dot{\theta} \\
+= (g_{ab}(0)^{-1}\hat{\xi}g_{ab}(0))^{\vee \wedge}\dot{\theta} \\
+= (Ad_{g_{ab}^{-1}(0)}{\xi})^{\wedge}\dot{\theta}
+$$</div>
+<h2 id="_1">参考文献</h2>
+<ul>
+<li><a href="https://www.cds.caltech.edu/~murray/books/MLS/pdf/mls94-complete.pdf">《a mathematical introduction to robotic manipulation》</a></li>
+</ul>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+      </div>
+      <hr><!-- .entry-content -->
+      <div class="article_meta">
+        <b>标签：</b>
+          <a href="/tag/shu-li-ji-chu.html">数理基础</a>,          <a href="/tag/ji-qi-ren-xue.html">机器人学</a>,          <a href="/tag/ji-qi-ren-li-lun-yu-suan-fa.html">机器人理论与算法</a>      </div>
+        <br />
+        <b>相关阅读：</b>
+        <ul>
+            <li><a href="/articles/robotics-2.html">机器人学的学与思 [2] ：刚体运动的齐次坐标表示与利用旋量对其进行参数化</a></li>
+            <li><a href="/articles/robotics-1.html">机器人学的学与思 [1] ：旋转矩阵及其指数表达形式</a></li>
+        </ul>
+      <hr>
+    </div>
+  </div>
+  <div id="vcomments"></div>
+  <script>
+      new Valine({
+          el: '#vcomments',
+          appId: 'TevswrLvkUsOzlyXHd0SMW5u-gzGzoHsz',
+          appKey: 'AilUFU7p5CSrD2NOKSY6xfwC',
+          placeholder: 'Type your friendly comment here!',
+          avatar: 'robohash',
+          visitor: true
+      })
+  </script>
+</article><!-- #post-## -->
+                </div>
+              </div><!-- #main -->
+          </div><!-- #primary -->
+        </div>
+      </div><!-- close .row -->
+    </div><!-- close .container -->
+  </div><!-- close .site-content -->
+
+
+
+
+  <div id="footer-area">
+    <footer id="colophon" class="site-footer" role="contentinfo">
+      <div class="site-info container">
+        <div class="row">
+                    <div class="copyright col-md-12">
+                    <a href="/pages/privacy-policy-and-disclaimer.html">Privacy Policy & Disclaimer</a><br />
+                    Life Oriented Programming & Programming Oriented Life<br />
+                    &copy; 2021 <a href="/pages/about-me.html">Correr Zhou</a> </div>
+        </div>
+      </div><!-- .site-info -->
+      <div class="scroll-to-top" style="display: none;"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+    </footer><!-- #colophon -->
+  </div>
+
+  <script type="text/javascript">
+    window.addEventListener('load', function(){
+    if (window.location.pathname != '/' && window.location.pathname != '/index.html'){
+      window.scroll(0, document.getElementById('main').offsetTop);
+    }})
+  </script>
+
+
+<script type="text/javascript" src="/theme/js/functions.min.js"></script>
+
+
+
+</body>
+</html>

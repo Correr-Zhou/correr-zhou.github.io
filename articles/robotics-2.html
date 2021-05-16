@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="chinese (simplified)">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Correr Zhou">
+  <meta name="description" content="机器人学的学与思 [2] ：刚体运动的齐次坐标表示与利用旋量对其进行参数化 | 本文目录 1 结合形式 2 齐次坐标表示法 3 刚体运动的参数化 3.1 旋量运动 3.2 运动旋量 3.3 指数表达 参考文献 1 结合形式...">
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="96x96">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" type="text/css" media="all">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/theme/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="../theme/css/pygments.css" type="text/css" media="all">
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9P1QRK6VSR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9P1QRK6VSR');
+  </script>
+
+
+
+
+<meta name="keywords" content="数理基础, 机器人学, 机器人理论与算法">
+
+<meta property="og:title" content="机器人学的学与思 [2] ：刚体运动的齐次坐标表示与利用旋量对其进行参数化">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="https://">
+<meta property="og:description" content="刚体运动可以描述为旋转运动和平移运动的结合，而旋转运动和平移运动可以统一利用齐次坐标来进行表示，这为机器人学的研究提供了一个非常好的工具。本文讲解了刚体运动的齐次坐标表示与如何利用旋量进行齐次坐标矩阵的参数化。">
+<meta property="og:url" content="https:///articles/robotics-2.html">
+
+
+  <title>Correr's Blog - 机器人学的学与思 [2] ：刚体运动的齐次坐标表示与利用旋量对其进行参数化</title>
+
+
+</head>
+
+<body class="home blog">
+  <div>
+    <header class="site-header">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="site-navigation-inner col-sm-12">
+              <div class="navbar-header">
+                <button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul id="menu-all-pages" class="nav navbar-nav">
+                <li class="menu-item"><a href="/" >Home
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/archives.html" >Archives
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/works.html" >Works
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/milestones.html" >milestones
+<i class="fa  fa-lg"></i></a></li>
+                <li class="menu-item"><a href="/pages/about-me.html" >About me
+<i class="fa  fa-lg"></i></a></li>
+              </ul>
+              </div>
+              <div class="social">
+                <a href="/pages/message-board.html" title="Message Board" >
+<i class="fa fa-comments fa-lg"></i></a>
+                <a href="https://www.bing.com/search?q=site%3Acorrer-zhou.github.io" title="Search" >
+<i class="fa fa-search fa-lg"></i></a>
+                <a href="mailto:dh.zhou@siat.ac.cn" title="E-mail" >
+<i class="fa fa-envelope fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/%E5%86%AC%E8%B1%AA-%E5%91%A8-663173212/" title="Linkedin" >
+<i class="fa fa-linkedin fa-lg"></i></a>
+                <a href="https://github.com/Correr-Zhou" title="Github" >
+<i class="fa fa-github fa-lg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav><!-- .site-navigation -->
+
+      <div class="container">
+      <div id="logo">
+        <span class="site-name"><a class="navbar-brand" href=""><a href="/"><img width="600" src="/images/user_logo.png" class="attachment-full size-full" alt="logo"></a></a>
+        </span><!-- end of .site-name -->
+      </div><!-- end of #logo -->
+        <div class="tagline">
+                <a href="/tag/ji-qi-ren-li-lun-yu-suan-fa.html" ><div class="tag-item">机器人理论与算法 (3)</div></a>
+                <a href="/tag/ji-qi-ren-xue.html" ><div class="tag-item">机器人学 (3)</div></a>
+                <a href="/tag/shu-li-ji-chu.html" ><div class="tag-item">数理基础 (3)</div></a>
+        </div>
+    </div>
+
+  </header><!-- #masthead -->
+  </div>
+    <div id="content" class="site-content">
+      <div class="container main-content-area">
+        <div class="row">
+          <div class="main-content-inner col-sm-12 col-md-12">
+            <div id="primary" class="content-area">
+              <div id="main" class="site-main" role="main">
+                <div class="article-container">
+<article>
+  <div class="blog-item-wrap">
+    <div class="post-inner-content">
+      <header class="entry-header page-header">
+        <span class="cat-item">
+          <time datetime="2019-12-08 00:00:00+08:00">Posted: 2019-12-08 &#124; 8 min to read</time>
+        </span>
+        <h1 class="entry-title" id="in-article-title"><a href="/articles/robotics-2.html">机器人学的学与思 [2] ：刚体运动的齐次坐标表示与利用旋量对其进行参数化</a></h1>
+      </header><!-- .entry-header -->
+      <div class="fb-like" data-href="/articles/robotics-2.html" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+      <div class="entry-content">
+        <div class="toc"><span class="toctitle">本文目录</span><ul>
+<li><a href="#1">1 结合形式</a></li>
+<li><a href="#2">2 齐次坐标表示法</a></li>
+<li><a href="#3">3 刚体运动的参数化</a><ul>
+<li><a href="#31">3.1 旋量运动</a></li>
+<li><a href="#32">3.2 运动旋量</a></li>
+<li><a href="#33">3.3 指数表达</a></li>
+</ul>
+</li>
+<li><a href="#_1">参考文献</a></li>
+</ul>
+</div>
+<h2 id="1">1 结合形式</h2>
+<p>由此系列<a href="/articles/robotics-1.html">上一篇文章</a>我们可以知道，刚体运动可以描述为旋转运动和平移运动的结合。设动坐标系 <span class="math">\(B\)</span> 相对惯性系 <span class="math">\(A\)</span> 的姿态为 <span class="math">\(R_{ab} \in SO(3)\)</span> ，<strong><span class="math">\(A\)</span> 系的原点至 <span class="math">\(B\)</span> 系的原点的位置矢量</strong>为 <span class="math">\(p_{ab} \in \mathbb{R}^3\)</span> ，则进行刚体运动的系统的位形由 <span class="math">\((p_{ab},R_{ab})\)</span> 确定，其位形空间为：
+</p>
+<div class="math">$$
+SE(3) = \{(p,R):p \in \mathbb{R}^3,R\in SO(3)\} = \mathbb{R}^3 \times SO(3)
+$$</div>
+<p>
+更一般地，推广到 <span class="math">\(n\)</span> 维空间中，有：
+</p>
+<div class="math">$$
+SE(n) = \mathbb{R}^n \times SO(n)
+$$</div>
+<p>
+“位形空间” 可以理解为进行所有此类运动构成的位形构成的集合，或者理解为所有此类运动构成的集合。</p>
+<p><img src="https://img-blog.csdnimg.cn/2019121817253559.png"   width="60%"></p>
+<p>如图所示，<span class="math">\(q_b\)</span> 是刚体上 <span class="math">\(q\)</span> 点在 <span class="math">\(B\)</span> 坐标系下的表示，我们可以通过下式得到其在 <span class="math">\(A\)</span> 坐标系下的表示：
+</p>
+<div class="math">$$
+q_a = R_{ab}q_a + p_{ab}
+$$</div>
+<p>
+可以形象地理解为，先将 <span class="math">\(q\)</span> 表示在与 <span class="math">\(A\)</span> 系相同角度的位姿空间下，然后再利用矢量的求和求出位置。</p>
+<h2 id="2">2 齐次坐标表示法</h2>
+<p>我们的下一步目标是寻找一种刚体运动的简洁表示方法。首先引入一些符号，定义 <span class="math">\(q\)</span> 点的<strong>齐次坐标</strong>为：</p>
+<div class="math">$$
+\overline{q} =
+\begin{bmatrix}
+q_1 \\
+q_2 \\
+q_3 \\
+1 \\
+\end{bmatrix}
+$$</div>
+<p>由点与点相减等于矢量的公式，可得矢量的<strong>齐次坐标</strong>为：
+</p>
+<div class="math">$$
+\overline{v} =
+\begin{bmatrix}
+v_1 \\
+v_2 \\
+v_3 \\
+0 \\
+\end{bmatrix}
+$$</div>
+<p>利用齐次坐标，我们现在可以将刚体变换的公式表示为矩阵形式：</p>
+<div class="math">$$
+\overline{q_a} =
+\begin{bmatrix}
+q_a \\
+1 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+R_{ab} &amp; p_{ab} \\
+0 &amp; 1 \\
+\end{bmatrix}
+\begin{bmatrix}
+q_b \\
+1 \\
+\end{bmatrix}
+= R_{ab}q_b+p_{ab} = g_{ab} \overline{q_b}
+$$</div>
+<p>其中，<span class="math">\(g_{ab}\)</span> 定义为：</p>
+<div class="math">$$
+g_{ab} =
+\begin{bmatrix}
+R_{ab} &amp; p_{ab} \\
+0 &amp; 1 \\
+\end{bmatrix}
+\in SE(3)
+$$</div>
+<p>可以视为其由 <span class="math">\((p_{ab},R_{ab})\)</span> 按以上方式组合成为一个矩阵的形式。</p>
+<p>刚体变换的组合也是符合链式法则的。设 <span class="math">\(g_{bc}\)</span> 是 <span class="math">\(c\)</span> 系相对于 <span class="math">\(b\)</span> 系的位形，  <span class="math">\(g_{ab}\)</span> 是 <span class="math">\(b\)</span> 系相对于 <span class="math">\(a\)</span> 系的位形， 有：</p>
+<div class="math">$$
+g_{ac} = g_{ab}g_{bc}
+$$</div>
+<p>同时也称证明 <span class="math">\(SE(3)\)</span> 是一个群。</p>
+<p>利用公式 <span class="math">\(g^{-1}g = I\)</span> ，不难求出 <span class="math">\(g\)</span> 的逆为：</p>
+<div class="math">$$
+g^{-1} =
+\begin{bmatrix}
+R^T &amp; -R^Tp \\
+0 &amp; 1 \\
+\end{bmatrix}
+$$</div>
+<p>在接下来的表述中，我们用 <span class="math">\(gq,gv\)</span> （即左乘的形式）分别表示 <span class="math">\(g\)</span> 作用在点和向量上。</p>
+<h2 id="3">3 刚体运动的参数化</h2>
+<h3 id="31">3.1 旋量运动</h3>
+<p>Chasles 定理指出，任意刚体运动均可通过绕一轴的转动加上平行于该轴的移动实现。所以我们可以通过研究<strong>旋量运动</strong>来研究刚体运动。定义旋量的<strong>节距（pitch）</strong>为：<span class="math">\(h = {d \over \theta}\)</span> ，即平移量和旋转量的比值。</p>
+<h3 id="32">3.2 运动旋量</h3>
+<p>引入如下 <span class="math">\(4 \times 4\)</span> 矩阵：</p>
+<div class="math">$$
+\hat{\xi} = \begin{bmatrix}\hat{w} &amp; v \\0 &amp; 0 \\\end{bmatrix}
+$$</div>
+<p><span class="math">\(\hat{\xi} \in \mathbb{R}^{4 \times 4}\)</span> 称为<strong>运动旋量</strong>。其中，<span class="math">\(\hat{w}\)</span> 表示旋量运动的旋转轴，<span class="math">\(v\)</span> 在不同情况下有不同的内涵。</p>
+<p>类似于 <span class="math">\(\hat{w} \in so(3)\)</span> ，<span class="math">\(\hat{\xi} \in se(3)\)</span> ，<span class="math">\(se(3)\)</span> 有如下定义：</p>
+<div class="math">$$
+se(3) = \{(v,\hat{w}):v \in \mathbb{R}^3,\hat{w} \in so(3)\}
+$$</div>
+<p>定义针对 <span class="math">\(\xi\)</span> 的 <span class="math">\(\vee\)</span> 运算符：</p>
+<div class="math">$$\xi = (\hat{\xi})^{\vee} = \begin{bmatrix}\hat{w} &amp; v \\0 &amp; 0 \\\end{bmatrix}^{\vee}=
+\begin{bmatrix}
+v \\
+w \\
+\end{bmatrix}
+$$</div>
+<p><span class="math">\(\xi \in \mathbb{R}^6\)</span> 称为<strong>运动旋量坐标</strong>。</p>
+<p>同样的，定义针对 <span class="math">\(\xi\)</span> 的 <span class="math">\(\wedge\)</span> 运算符：</p>
+<div class="math">$$
+\xi^{\wedge} = \hat{\xi} = \begin{bmatrix}v \\w \\\end{bmatrix}^{\wedge}=
+\begin{bmatrix}
+\hat{w} &amp; v \\
+0 &amp; 0 \\
+\end{bmatrix}
+$$</div>
+<p>当节距 <span class="math">\(h\)</span> 取不同值时，<span class="math">\(\hat{\xi}\)</span> 的取值和内涵也相应不同：</p>
+<ul>
+<li>当 <span class="math">\(h = 0\)</span> 时，表示点只做旋转运动，此时 <span class="math">\(v = - w \times q\)</span> ，即：</li>
+</ul>
+<div class="math">$$
+\hat{\xi} =
+\begin{bmatrix}
+\hat{w} &amp; -w \times q \\
+0 &amp; 0 \\
+\end{bmatrix}
+$$</div>
+<ul>
+<li>当 <span class="math">\(h = \infty\)</span> 时，表示点只做平移运动，此时 <span class="math">\(v\)</span> 表示平移的距离，即：</li>
+</ul>
+<div class="math">$$
+\hat{\xi} = \begin{bmatrix}0 &amp; v \\0 &amp; 0 \\\end{bmatrix}
+$$</div>
+<ul>
+<li>当 <span class="math">\(h \neq 0\)</span> 且取有限数值时，表示点既做旋转运动又做平移运动，此时 <span class="math">\(v = - w \times q + hw\)</span> ，即：</li>
+</ul>
+<div class="math">$$
+\hat{\xi} = \begin{bmatrix}\hat{w} &amp; -w \times q + hw \\0 &amp; 0 \\\end{bmatrix}
+$$</div>
+<p>
+此处先不解释为什么三种情况下的运动旋量表达式不同，待以后有时间再更新文章进行详细地推导。</p>
+<h3 id="33">3.3 指数表达</h3>
+<p>类似于 <span class="math">\(e^{\hat{w}\theta} \in SO(3)\)</span> ， <span class="math">\(e^{\hat{\xi}\theta} \in SE(3)\)</span> ，且可以通过以下式子根据是否做旋转运动分别求解：
+</p>
+<div class="math">$$
+e^{\hat{\xi}\theta} =
+\begin{cases}
+\begin{bmatrix}
+I &amp; v\theta \\
+0 &amp; 1 \\
+\end{bmatrix}
+&amp; w=0\\
+\begin{bmatrix}
+e^{\hat{w}\theta} &amp; (I - e^{\hat{w}\theta})(w \times v) + ww^Tv\theta\\
+0 &amp; 1 \\
+\end{bmatrix}
+&amp; w \neq 0\\
+\end{cases}
+$$</div>
+<p>
+注意上述 <span class="math">\(w = 0\)</span> 对应不存在转动（即纯移动）的情况；<span class="math">\(w \neq 0\)</span> 对应存在转动的情况。接下来刚体变换（或者说刚体运动的位姿）可由下式求出：
+</p>
+<div class="math">$$
+g_{ab}(\theta) = e^{\hat{\xi}\theta}g_{ab}(0)
+$$</div>
+<p>
+因为 <span class="math">\(e^{\hat{w}\theta}\)</span> 表征的是<strong>相对运动</strong>，刚体变换的求解相比旋转变换多了一个平移，所以需要乘上一个初始位姿 <span class="math">\(g_{ab}(0)\)</span> 。</p>
+<p>在解决具体问题时，我们可以参考以下步骤进行求解：</p>
+<ol>
+<li>寻找旋转轴 <span class="math">\(w \in \mathbb{R}^3\)</span> ，挑选计算最简便的矢量，其不与起始点有关，且必须为<strong>单位矢量</strong>。</li>
+<li>寻找真旋转轴上的一点，挑选计算最简便的点。</li>
+<li>
+<p>确定当 <span class="math">\(\theta = 0\)</span> 时初始位姿。</p>
+</li>
+<li>
+<p>依据方程求解，必要时可以使用<strong>链式法则</strong>。</p>
+</li>
+</ol>
+<h2 id="_1">参考文献</h2>
+<ul>
+<li><a href="https://www.cds.caltech.edu/~murray/books/MLS/pdf/mls94-complete.pdf">《a mathematical introduction to robotic manipulation》</a></li>
+</ul>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+      </div>
+      <hr><!-- .entry-content -->
+      <div class="article_meta">
+        <b>标签：</b>
+          <a href="/tag/shu-li-ji-chu.html">数理基础</a>,          <a href="/tag/ji-qi-ren-xue.html">机器人学</a>,          <a href="/tag/ji-qi-ren-li-lun-yu-suan-fa.html">机器人理论与算法</a>      </div>
+        <br />
+        <b>相关阅读：</b>
+        <ul>
+            <li><a href="/articles/robotics-3.html">机器人学的学与思 [3] ：旋转速度与刚体速度</a></li>
+            <li><a href="/articles/robotics-1.html">机器人学的学与思 [1] ：旋转矩阵及其指数表达形式</a></li>
+        </ul>
+      <hr>
+    </div>
+  </div>
+  <div id="vcomments"></div>
+  <script>
+      new Valine({
+          el: '#vcomments',
+          appId: 'TevswrLvkUsOzlyXHd0SMW5u-gzGzoHsz',
+          appKey: 'AilUFU7p5CSrD2NOKSY6xfwC',
+          placeholder: 'Type your friendly comment here!',
+          avatar: 'robohash',
+          visitor: true
+      })
+  </script>
+</article><!-- #post-## -->
+                </div>
+              </div><!-- #main -->
+          </div><!-- #primary -->
+        </div>
+      </div><!-- close .row -->
+    </div><!-- close .container -->
+  </div><!-- close .site-content -->
+
+
+
+
+  <div id="footer-area">
+    <footer id="colophon" class="site-footer" role="contentinfo">
+      <div class="site-info container">
+        <div class="row">
+                    <div class="copyright col-md-12">
+                    <a href="/pages/privacy-policy-and-disclaimer.html">Privacy Policy & Disclaimer</a><br />
+                    Life Oriented Programming & Programming Oriented Life<br />
+                    &copy; 2021 <a href="/pages/about-me.html">Correr Zhou</a> </div>
+        </div>
+      </div><!-- .site-info -->
+      <div class="scroll-to-top" style="display: none;"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+    </footer><!-- #colophon -->
+  </div>
+
+  <script type="text/javascript">
+    window.addEventListener('load', function(){
+    if (window.location.pathname != '/' && window.location.pathname != '/index.html'){
+      window.scroll(0, document.getElementById('main').offsetTop);
+    }})
+  </script>
+
+
+<script type="text/javascript" src="/theme/js/functions.min.js"></script>
+
+
+
+</body>
+</html>
