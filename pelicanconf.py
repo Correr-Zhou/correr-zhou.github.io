@@ -54,7 +54,7 @@ CATEGORIES_SAVE_AS = ''
 
 # 其他配置
 DELETE_OUTPUT_DIRECTORY = True
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', '.nojekyll']
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['render_math', 'post_stats', 'related_posts']
 RELATED_POSTS_MAX = 5
