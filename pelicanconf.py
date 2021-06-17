@@ -20,7 +20,6 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Home', '/'),
          ('Archives', '/archives.html'),
          ('Works', '/pages/works.html'),
-         ('milestones', '/pages/milestones.html'),
          ('About me', '/pages/about-me.html'),)
 SOCIAL = (('Message Board', '/pages/message-board.html'),
           ('Search', 'https://www.bing.com/search?q=site%3Acorrer-zhou.github.io'),
