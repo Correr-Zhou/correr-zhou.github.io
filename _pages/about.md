@@ -17,16 +17,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a second-year M.Sc. student at [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/) <img src='images/logo_UCAS.png' style='width: 1.1em;'> ([learn more about UCAS](https://en.wikipedia.org/wiki/University_of_the_Chinese_Academy_of_Sciences)), and doing my research at [Shenzhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/) <img src='images/logo_SIAT.webp' style='width: 1.1em;'>, [Chinese Academy of Sciences (CAS)](https://english.cas.cn/).
+I am currently a third-year M.Sc. student at [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/) <img src='images/logo_UCAS.png' style='width: 1.1em;'> ([learn more about UCAS](https://en.wikipedia.org/wiki/University_of_the_Chinese_Academy_of_Sciences)), and doing my research at [Shenzhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/) <img src='images/logo_SIAT.webp' style='width: 1.1em;'>, [Chinese Academy of Sciences (CAS)](https://english.cas.cn/).
 
-My research interest mainly includes machine learning and computer vision. Recently, I focus on Data-Efficient AI (learning with limited and imperfect data) and its applications for various fields, aiming to promote the efficiency and flexibility of AI algorithms in real world.
+My research interest mainly includes machine learning and computer vision. Recently, I focus on Data-Efficient AI, Generative AI, and AI for Biomedicine and thier applications for various fields, aiming to promote the efficiency and flexibility of AI algorithms in real world.
 
 > 📢📢📢 <font color=red>I am looking for a Ph.D. position (2024 Fall).</font> If you would like to discuss potential opportunities or learn more about my qualifications, please feel free to [contact me](mailto:dh.zhou@siat.ac.cn). 😊
 
 
 # 🔥 News
 - *2023.04*: I join [Tencent YouTu Lab](https://open.youtu.qq.com/) as a research intern! 🔬
-- *2023.03*: Our paper is selected as a CVPR Highlight (Top 2.5% of 9155 submissions)! 🎉
+- *2023.03*: Our paper is selected as a CVPR Highlight (Top 2.6% of 9155 submissions)! 🎉
 - *2023.02*: One first-author paper is accepted by CVPR 2023! 🎉
 - *2022.07*: I join [Zhejiang Lab](https://en.zhejianglab.com/) as a research intern! 🔬
 - *2022.07*: One first-author paper is accepted by ECCV 2022! 🎉
@@ -100,7 +100,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 <!-- - *2023.04 - now* &ensp; Research Intern, [Tencent YouTu Lab](https://open.youtu.qq.com/), Shenzhen, China
 - *2022.07 - 2023.01* &ensp; Research Intern, [Zhejiang Lab](https://en.zhejianglab.com/), Hangzhou, China
 - *2021.03 - 2021.08* &ensp; Research Assistant, [SIAT](https://english.siat.ac.cn/), Shenzhen, China
-- *2019.08 - 2020.01* &ensp; Entrepreneurial Intern, [XbotPark](http://www.xbotpark.com/?lang=en), Dongguan, China -->
+-->
 <div class='exp-box'> <div class='exp-box-image'><div><img src='images/logo_YouTu.png' alt="sym" width="100%"></div></div>
 <div class='exp-box-text' markdown="1">
 
