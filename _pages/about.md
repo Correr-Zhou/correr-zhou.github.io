@@ -19,7 +19,7 @@ redirect_from:
 
 I am currently a third-year M.Sc. student at [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/) <img src='images/logo_UCAS.png' style='width: 1.1em;'> ([learn more about UCAS](https://en.wikipedia.org/wiki/University_of_the_Chinese_Academy_of_Sciences)), and doing my research at [Shenzhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/) <img src='images/logo_SIAT.webp' style='width: 1.1em;'>, [Chinese Academy of Sciences (CAS)](https://english.cas.cn/).
 
-My research interest mainly includes machine learning and computer vision. Recently, I focus on Data-Efficient AI, Generative AI, and AI for Biomedicine and thier applications for various fields, aiming to promote the efficiency and flexibility of AI algorithms in real world.
+My research interest mainly includes machine learning and computer vision. Recently, I focus on Data-Efficient AI, Generative AI, and AI for Biomedicine, aiming to promote the efficiency and flexibility of AI algorithms in real world.
 
 > 📢📢📢 <font color=red>I am looking for a Ph.D. position (2024 Fall).</font> If you would like to discuss potential opportunities or learn more about my qualifications, please feel free to [contact me](mailto:dh.zhou@siat.ac.cn). 😊
 
