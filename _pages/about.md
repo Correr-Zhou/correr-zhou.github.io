@@ -108,7 +108,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 **Research Intern** @ FuXi Research Center
 
-*2023.04 - now*
+*2023.04 - 2023.09*
 
 </div>
 </div>
