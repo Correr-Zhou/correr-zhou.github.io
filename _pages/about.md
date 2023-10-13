@@ -25,6 +25,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 
 # 🔥 News
+- *2023.10*: I am recommended to be awarded a China postgraduate national scholarship!
 - *2023.04*: I join [Tencent YouTu Lab](https://open.youtu.qq.com/) as a research intern! 🔬
 - *2023.03*: Our paper is selected as a CVPR Highlight (Top 2.6% of 9155 submissions)! 🎉
 - *2023.02*: One first-author paper is accepted by CVPR 2023! 🎉
@@ -33,7 +34,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 - *2021.07*: I get my bachelor’s degree as an outstanding graduate! 👨‍🎓
 - *2021.03*: I join [SIAT, CAS](https://english.siat.ac.cn/) as a research assistant and will spend my last undergraduate time here! 🔬
 - *2020.10*: I acquire a qualification of postgraduate recommendation, and decide to pursue my master’s degree in UCAS! 👨‍🎓
-- *2020.09*: I am awarded a china national scholarship! 🏆
+- *2020.09*: I am awarded a China undergraduate national scholarship! 🏆
 - *2019.05*: We win the second prize of [CN-ROBOCON](https://en.wikipedia.org/wiki/ABU_Robocon) after one-year's preparation. Thanks all my teammates! 🥈
 
 
@@ -142,11 +143,12 @@ My research interest mainly includes machine learning and computer vision. Recen
 </div>
 
 # 🏅 Selected Awards
+- *2023.10 &ensp; China Postgraduate National Scholarship (Top 1.7%)
 - *2021 - 2023* &ensp; UCAS Postgraduate Fellowship (Full Tuition Waiver & 8,000 CNY p.a.)
 - *2021.06* &ensp; Outstanding Graduate (Top 2.5%)
 - *2021.06* &ensp; Excellent Graduation Thesis & Graduation Thesis Innovation Prize
 - *2021.04* &ensp; Top 10 Student Innovation Figure (Bonus: 10,000 CNY)
-- *2020.09* &ensp; China National Scholarship (Top 0.3%)
+- *2020.09* &ensp; China Undergraduate National Scholarship (Top 0.3%)
 - *2018 - 2020* &ensp; First-Class Excellent Student Scholarships (Three Times)
 - *2019.05* &ensp; [Asia-Pacific Robot Contest (ROBOCON)](https://en.wikipedia.org/wiki/ABU_Robocon), China Regional Competition, Second Prize (Leading a team of 30+ undergradutes)
 - *2018.09* &ensp; Guangdong University Electronic Design Competition, Second Prize
