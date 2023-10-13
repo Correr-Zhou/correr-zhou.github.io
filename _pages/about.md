@@ -143,7 +143,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 </div>
 
 # 🏅 Selected Awards
-- *2023.10 &ensp; China Postgraduate National Scholarship (Top 1.7%)
+- *2023.10* &ensp; China Postgraduate National Scholarship (Top 1.7%)
 - *2021 - 2023* &ensp; UCAS Postgraduate Fellowship (Full Tuition Waiver & 8,000 CNY p.a.)
 - *2021.06* &ensp; Outstanding Graduate (Top 2.5%)
 - *2021.06* &ensp; Excellent Graduation Thesis & Graduation Thesis Innovation Prize
