@@ -25,7 +25,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 
 # 🔥 News
-- *2023.10*: I am recommended to be awarded a China postgraduate national scholarship!
+- *2023.10*: I am recommended to be awarded a China postgraduate national scholarship! 🏆
 - *2023.04*: I join [Tencent YouTu Lab](https://open.youtu.qq.com/) as a research intern! 🔬
 - *2023.03*: Our paper is selected as a CVPR Highlight (Top 2.6% of 9155 submissions)! 🎉
 - *2023.02*: One first-author paper is accepted by CVPR 2023! 🎉
