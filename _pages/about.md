@@ -82,7 +82,7 @@ My research interest mainly includes machine learning and computer vision. Recen
   Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
 
   IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) \| [[Paper]](https://arxiv.org/pdf/2303.12736.pdf)
-  
+
 - [Distribution-Aware Calibration for Object Detection with Noisy Bounding Boxes](https://arxiv.org/abs/2308.12017)
 
   **Donghao Zhou**, Jialin Li, Jinpeng Li, Jiancheng Huang, Qiang Nie, Yong Liu, Bin-Bin Gao, Qiong Wang, Pheng-Ann Heng, Guangyong Chen
@@ -93,7 +93,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
   Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribution)
 
-  IEEE Transactions on Information Forensics and Security (TIFS) 2023 (Major Revision)
+  IEEE Transactions on Information Forensics and Security (TIFS) 2023 (Major Revision) \| [[Paper]](https://arxiv.org/pdf/2309.17399.pdf)
 
 <!-- - [Deep Learning in Cell Image Analysis](https://downloads.spj.sciencemag.org/icomputing/2022/9861263.pdf), Junde Xu, **Donghao Zhou (Co-first Author)**, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun Liao, Guangyong Chen, Pheng-Ann Heng, Intelligent Computing, 2022 -->
 
