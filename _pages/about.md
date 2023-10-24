@@ -25,7 +25,8 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 
 # 🔥 News
-- *2023.10*: I am recommended to be awarded a China postgraduate national scholarship! 🏆
+- *2023.10*: One paper is accepted by WACV 2024! 🎉
+- *2023.10*: I am awarded a China postgraduate national scholarship! 🏆
 - *2023.04*: I join [Tencent YouTu Lab](https://open.youtu.qq.com/) as a research intern! 🔬
 - *2023.03*: Our paper is selected as a CVPR Highlight (Top 2.6% of 9155 submissions)! 🎉
 - *2023.02*: One first-author paper is accepted by CVPR 2023! 🎉
@@ -76,6 +77,12 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 ## 🔎 Other
 
+- [DPPMask: Masked Image Modeling with Determinantal Point Processes](https://arxiv.org/abs/2303.12736)
+
+  Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
+
+  IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) \| [[Paper]](https://arxiv.org/pdf/2303.12736.pdf)
+  
 - [Distribution-Aware Calibration for Object Detection with Noisy Bounding Boxes](https://arxiv.org/abs/2308.12017)
 
   **Donghao Zhou**, Jialin Li, Jinpeng Li, Jiancheng Huang, Qiang Nie, Yong Liu, Bin-Bin Gao, Qiong Wang, Pheng-Ann Heng, Guangyong Chen
@@ -87,12 +94,6 @@ My research interest mainly includes machine learning and computer vision. Recen
   Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribution)
 
   IEEE Transactions on Information Forensics and Security (TIFS) 2023 (Major Revision)
-
-- [DPPMask: Masked Image Modeling with Determinantal Point Processes](https://arxiv.org/abs/2303.12736)
-
-  Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
-
-  arXiv Preprint 2023 (Under Review) \| [[Paper]](https://arxiv.org/pdf/2303.12736.pdf)
 
 <!-- - [Deep Learning in Cell Image Analysis](https://downloads.spj.sciencemag.org/icomputing/2022/9861263.pdf), Junde Xu, **Donghao Zhou (Co-first Author)**, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun Liao, Guangyong Chen, Pheng-Ann Heng, Intelligent Computing, 2022 -->
 
