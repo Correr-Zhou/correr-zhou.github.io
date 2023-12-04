@@ -13,10 +13,12 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.5em;
 
 /* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
-// $sans-serif                 : Georgia, serif, sans-serif;
-// change font
+// $serif                      : Georgia, Times, serif;
+// $sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
+
+$serif                      : Book Antiqua, serif;
+$sans-serif                 : Book Antiqua, serif;
+
 // $serif                      : Georgia, serif;
 // $sans-serif                 : Georgia, serif;
 
