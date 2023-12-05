@@ -17,9 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a third-year M.Sc. student at [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/) <img src='images/logo_UCAS.png' style='width: 1.1em;'> ([learn more about UCAS](https://en.wikipedia.org/wiki/University_of_the_Chinese_Academy_of_Sciences)), and doing my research at [Shenzhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/) <img src='images/logo_SIAT.webp' style='width: 1.1em;'>, [Chinese Academy of Sciences (CAS)](https://english.cas.cn/).
+I am currently a third-year research-oriented M.Sc. student at [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/) <img src='images/logo_UCAS.png' style='width: 1.1em;'> ([learn more about UCAS](https://en.wikipedia.org/wiki/University_of_the_Chinese_Academy_of_Sciences)), and doing my research at [Shenzhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/) <img src='images/logo_SIAT.webp' style='width: 1.1em;'>, [Chinese Academy of Sciences (CAS)](https://english.cas.cn/).
 
-My research interest mainly includes machine learning and computer vision. Recently, I focus on Data-Efficient AI, Generative AI, and AI for Biomedicine, aiming to promote the efficiency and flexibility of AI algorithms in real world.
+I have spent wonderful time at [Tencent YouTu Lab](https://open.youtu.qq.com/), [Zhejiang Lab](https://en.zhejianglab.com/), and [SIAT, CAS](https://english.siat.ac.cn/) as a research intern/assistant. Also, it is a great honor for me to be awarded a China Postgraduate National Scholarship and a China Undergraduate National Scholarship.
+
+My research interest mainly includes machine learning and computer vision. Recently, I focus on exploring interesting subproblems in Data-Efficient AI, Generative AI, and AI for Science, aiming to promote the efficiency and flexibility of AI algorithms in real world.
 
 > 📢📢📢 <font color=red>I am looking for a Ph.D. position (2024 Fall).</font> If you would like to discuss potential opportunities or learn more about my qualifications, please feel free to [contact me](mailto:dh.zhou@siat.ac.cn). 😊
 
@@ -34,9 +36,9 @@ My research interest mainly includes machine learning and computer vision. Recen
 - *2022.07*: One first-author paper is accepted by ECCV 2022! 🎉
 - *2021.07*: I get my bachelor’s degree as an outstanding graduate! 👨‍🎓
 - *2021.03*: I join [SIAT, CAS](https://english.siat.ac.cn/) as a research assistant and will spend my last undergraduate time here! 🔬
-- *2020.10*: I acquire a qualification of postgraduate recommendation, and decide to pursue my master’s degree in UCAS! 👨‍🎓
+<!-- - *2020.10*: I acquire a qualification of postgraduate recommendation, and decide to pursue my master’s degree in UCAS! 👨‍🎓 -->
 - *2020.09*: I am awarded a China undergraduate national scholarship! 🏆
-- *2019.05*: We win the second prize of [CN-ROBOCON](https://en.wikipedia.org/wiki/ABU_Robocon) after one-year's preparation. Thanks all my teammates! 🥈
+<!-- - *2019.05*: We win the second prize of [CN-ROBOCON](https://en.wikipedia.org/wiki/ABU_Robocon) after one-year's preparation. Thanks all my teammates! 🥈 -->
 
 
 # 📝 Publications
@@ -152,7 +154,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 - *2020.09* &ensp; China Undergraduate National Scholarship (Top 0.3%)
 - *2018 - 2020* &ensp; First-Class Excellent Student Scholarships (Three Times)
 - *2019.05* &ensp; [Asia-Pacific Robot Contest (ROBOCON)](https://en.wikipedia.org/wiki/ABU_Robocon), China Regional Competition, Second Prize (Leading a team of 30+ undergradutes)
-- *2018.09* &ensp; Guangdong University Electronic Design Competition, Second Prize
+<!-- - *2018.09* &ensp; Guangdong University Electronic Design Competition, Second Prize -->
 
 # 💬 Invited Talks
 - *2023.06* &ensp; Subcellular Structure Prediction: Revealing Fluorescent Images with Deep Learning, Topic Talk, held by [TechBeat](https://www.techbeat.net/) \| [[News]](https://mp.weixin.qq.com/s/uxUsJiS1m0VwnEeBb3A6cg) [[Video]](https://www.techbeat.net/talk-info?id=783)
