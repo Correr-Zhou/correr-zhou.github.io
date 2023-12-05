@@ -24,7 +24,7 @@ I have spent wonderful time at [Tencent YouTu Lab](https://open.youtu.qq.com/), 
 My research interest mainly includes machine learning and computer vision. Recently, I focus on exploring interesting subproblems in Data-Efficient AI, Generative AI, and AI for Science, aiming to promote the efficiency and flexibility of AI algorithms in real world.
 
 <!-- > 📢📢📢 <font color=red>I am looking for a Ph.D. position (2024 Fall).</font> If you would like to discuss potential opportunities or learn more about my qualifications, please feel free to [contact me](mailto:dh.zhou@siat.ac.cn). 😊 -->
-> 📢📢📢 <font color=red> If you would like to discuss potential opportunities for collaboration, please feel free to </font> [contact me](mailto:dh.zhou@siat.ac.cn). 😊
+> 📢📢📢 <font color=red>If you would like to discuss potential opportunities for collaboration, please feel free to [contact me](mailto:dh.zhou@siat.ac.cn).</font> 😊
 
 # 🔥 News
 - *2023.10*: One paper is accepted by WACV 2024! 🎉
@@ -157,7 +157,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 <!-- - *2018.09* &ensp; Guangdong University Electronic Design Competition, Second Prize -->
 
 
-# 📅 Services
+# 📅uu Services
 
 ## 📖 Review
 - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
