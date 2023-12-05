@@ -157,9 +157,9 @@ My research interest mainly includes machine learning and computer vision. Recen
 <!-- - *2018.09* &ensp; Guangdong University Electronic Design Competition, Second Prize -->
 
 
-# 📅uu Services
+# 📅 Services
 
-## 📖 Review
+## 📖 Reviewers
 - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
 - International Conference on Computer Vision (ICCV), 2023
 
