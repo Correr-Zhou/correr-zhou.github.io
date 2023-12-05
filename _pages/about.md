@@ -19,7 +19,7 @@ redirect_from:
 
 I am currently a third-year research-oriented M.Sc. student at [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/) <img src='images/logo_UCAS.png' style='width: 1.1em;'> ([learn more about UCAS](https://en.wikipedia.org/wiki/University_of_the_Chinese_Academy_of_Sciences)), and doing my research at [Shenzhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/) <img src='images/logo_SIAT.webp' style='width: 1.1em;'>, [Chinese Academy of Sciences (CAS)](https://english.cas.cn/).
 
-I have spent wonderful time at [Tencent YouTu Lab](https://open.youtu.qq.com/), [Zhejiang Lab](https://en.zhejianglab.com/), and [SIAT, CAS](https://english.siat.ac.cn/) as a research intern/assistant. Also, it is a great honor for me to be awarded a China Postgraduate National Scholarship and a China Undergraduate National Scholarship.
+I have spent wonderful time at [Tencent YouTu Lab](https://open.youtu.qq.com/), [Zhejiang Lab](https://en.zhejianglab.com/), and [SIAT, CAS](https://english.siat.ac.cn/) as a research intern/assistant. Also, I have been awarded a China Postgraduate National Scholarship and a China Undergraduate National Scholarship during my academic career.
 
 My research interest mainly includes machine learning and computer vision. Recently, I focus on exploring interesting subproblems in Data-Efficient AI, Generative AI, and AI for Science, aiming to promote the efficiency and flexibility of AI algorithms in real world.
 
