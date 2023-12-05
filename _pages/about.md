@@ -156,7 +156,14 @@ My research interest mainly includes machine learning and computer vision. Recen
 - *2019.05* &ensp; [Asia-Pacific Robot Contest (ROBOCON)](https://en.wikipedia.org/wiki/ABU_Robocon), China Regional Competition, Second Prize (Leading a team of 30+ undergradutes)
 <!-- - *2018.09* &ensp; Guangdong University Electronic Design Competition, Second Prize -->
 
-# 💬 Invited Talks
+
+# 📅 Services
+
+## 📖 Review
+- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
+- International Conference on Computer Vision (ICCV), 2023
+
+## 💬 Invited Talks
 - *2023.06* &ensp; Subcellular Structure Prediction: Revealing Fluorescent Images with Deep Learning, Topic Talk, held by [TechBeat](https://www.techbeat.net/) \| [[News]](https://mp.weixin.qq.com/s/uxUsJiS1m0VwnEeBb3A6cg) [[Video]](https://www.techbeat.net/talk-info?id=783)
 - *2023.03* &ensp; Subcellular Structure Prediction from Multiple Partially Labeled Datasets, Internal Youth Forum, held by [Zhejiang Lab](https://en.zhejianglab.com/) \| [[Poster]](images\talk_zjlab_repmode.png)
 - *2022.12* &ensp; Single Positive Multi-Label Learning, Youth Ph.D. Talk, held by [ITIC](https://www.itic-sci.com/) and [AI TIME](http://www.aitime.cn/) \| [[News]](https://mp.weixin.qq.com/s/l0gM0sUOR5H0DSP81_GKCQ)
