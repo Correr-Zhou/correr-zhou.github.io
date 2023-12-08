@@ -83,6 +83,23 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 ---
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">iComputing 2022</div><img src='images/cellimage.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Deep Learning in Cell Image Analysis**](https://spj.science.org/doi/full/10.34133/2022/9861263)
+
+Junde Xu*, Donghao Zhou*, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun Liao, Guangyong Chen, Pheng Ann Heng (\* indicates equal contribution)
+
+***Intelligent Computing (iComputing) 2024***
+
+[[Paper]](https://spj.science.org/doi/epdf/10.34133/2022/9861263)
+
+
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/ddpmask.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
