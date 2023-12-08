@@ -50,7 +50,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 **Donghao Zhou**, Chunbin Gu, Junde Xu, Furui Liu, Qiong Wang, Guangyong Chen, Pheng-Ann Heng
 
-**IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024**
+***IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024***
 
 <!-- **<font color=red>CVPR 2023 (Highlight)</font>** \|  -->
 [[Project]](https://correr-zhou.github.io/RepMode/) [[Paper]](https://arxiv.org/pdf/2212.10066.pdf) [[Code]](https://github.com/Correr-Zhou/RepMode) [[Poster]](resources/repmode_poster.pdf) [[Talk]](https://www.techbeat.net/talk-info?id=783)
@@ -84,7 +84,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 [DPPMask: Masked Image Modeling with Determinantal Point Processes](https://arxiv.org/abs/2303.12736)
 
-*Junde Xu, Zikai Lin,* ***Donghao Zhou****, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng*
+Junde Xu, Zikai Lin, **Donghao Zhou***, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
 
 **IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024**
 
