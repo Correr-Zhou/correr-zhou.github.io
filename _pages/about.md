@@ -44,23 +44,6 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/ddpmask.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**DPPMask: Masked Image Modeling with Determinantal Point Processes**](https://arxiv.org/abs/2303.12736)
-
-Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
-
-***IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024***
-
-[[Paper]](https://arxiv.org/pdf/2303.12736.pdf)
-
-
-</div>
-</div>
-
----
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023 (Highlight)</div><img src='images/repmode.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -93,6 +76,23 @@ Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Gua
 
 [[Paper]](https://arxiv.org/pdf/2203.16219.pdf) [[Code]](https://github.com/Correr-Zhou/SPML-AckTheUnknown) [[Poster]](resources/acktheunknown_poster.pdf) [[Slides]](resources/acktheunknown_10min_slides.pdf)
 <!-- ![](https://img.shields.io/github/stars/Correr-Zhou/SPML-AckTheUnknown?style=social) -->
+
+
+</div>
+</div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/ddpmask.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**DPPMask: Masked Image Modeling with Determinantal Point Processes**](https://arxiv.org/abs/2303.12736)
+
+Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
+
+***IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024***
+
+[[Paper]](https://arxiv.org/pdf/2303.12736.pdf)
 
 
 </div>
