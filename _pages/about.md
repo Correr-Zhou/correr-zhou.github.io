@@ -51,7 +51,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 **Donghao Zhou**, Chunbin Gu, Junde Xu, Furui Liu, Qiong Wang, Guangyong Chen, Pheng-Ann Heng
 
-***IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024***
+***IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023***
 
 <!-- *We propose a network that dynamically organizes its parameters with task-aware priors to tackle subcellular structure prediction.* -->
 
@@ -88,7 +88,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 [**DPPMask: Masked Image Modeling with Determinantal Point Processes**](https://arxiv.org/abs/2303.12736)
 
-Junde Xu, Zikai Lin, **Donghao Zhou***, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
+Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
 
 ***IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024***
 
