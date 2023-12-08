@@ -83,7 +83,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/acktheunknown.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/ddpmask.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**DPPMask: Masked Image Modeling with Determinantal Point Processes**](https://arxiv.org/abs/2303.12736)
