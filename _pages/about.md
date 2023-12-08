@@ -58,7 +58,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 <!-- **<font color=red>CVPR 2023 (Highlight)</font>** \|  -->
 [[Project]](https://correr-zhou.github.io/RepMode/) [[Paper]](https://arxiv.org/pdf/2212.10066.pdf) [[Code]](https://github.com/Correr-Zhou/RepMode) [[Poster]](resources/repmode_poster.pdf) [[Talk]](https://www.techbeat.net/talk-info?id=783)
 
-*<font color=red>Selected as a Highlight presentation paper (Top 2.6% of 9155 submissions)</font>*
+***<font color=red>Selected as a Highlight presentation paper (Top 2.6% of 9155 submissions)</font>***
 
 </div>
 </div>
@@ -72,7 +72,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 **Donghao Zhou**, Pengfei Chen, Qiong Wang, Guangyong Chen, Pheng-Ann Heng
 
-**European Conference on Computer Vision (ECCV) 2022**
+***European Conference on Computer Vision (ECCV) 2022***
 
 [[Paper]](https://arxiv.org/pdf/2203.16219.pdf) [[Code]](https://github.com/Correr-Zhou/SPML-AckTheUnknown) [[Poster]](resources/acktheunknown_poster.pdf) [[Slides]](resources/acktheunknown_10min_slides.pdf)
 <!-- ![](https://img.shields.io/github/stars/Correr-Zhou/SPML-AckTheUnknown?style=social) -->
@@ -90,7 +90,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 Junde Xu, Zikai Lin, **Donghao Zhou***, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
 
-**IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024**
+***IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024***
 
 [[Paper]](https://arxiv.org/pdf/2303.12736.pdf)
 
@@ -107,7 +107,7 @@ Junde Xu, Zikai Lin, **Donghao Zhou***, Yaodong Yang, Xiangyun Liao, Bian Wu, Gu
 
 **Donghao Zhou**, Jialin Li, Jinpeng Li, Jiancheng Huang, Qiang Nie, Yong Liu, Bin-Bin Gao, Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 
-**arXiv Preprint 2023 (Under Review)**
+***arXiv Preprint 2023 (Under Review)***
 
 [[Paper]](https://arxiv.org/pdf/2308.12017.pdf)
 
@@ -124,7 +124,7 @@ Junde Xu, Zikai Lin, **Donghao Zhou***, Yaodong Yang, Xiangyun Liao, Bian Wu, Gu
 
 Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribution)
 
-**IEEE Transactions on Information Forensics and Security (TIFS) 2023 (Under Review)**
+***IEEE Transactions on Information Forensics and Security (TIFS) 2023 (Under Review)***
 
 [[Paper]](https://arxiv.org/pdf/2309.17399.pdf)
 
@@ -141,7 +141,7 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 <div class='exp-box'> <div class='exp-box-image'><div><img src='images/logo_YouTu.png' alt="sym" width="100%"></div></div>
 <div class='exp-box-text' markdown="1">
 
-[Tencent YouTu Lab](https://open.youtu.qq.com/), Shenzhen, China
+[**Tencent YouTu Lab**](https://open.youtu.qq.com/), Shenzhen, China
 
 **Research Intern** @ FuXi Research Center
 
@@ -155,7 +155,7 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 <div class='exp-box'><div class='exp-box-image'><div><img src='images/logo_ZJLab.png' alt="sym" width="100%"></div></div>
 <div class='exp-box-text' markdown="1">
 
-[Zhejiang Lab](https://en.zhejianglab.com/), Hangzhou, China
+[**Zhejiang Lab**](https://en.zhejianglab.com/), Hangzhou, China
 
 **Research Intern** @ Research Institute of Intelligent Computing
 
@@ -169,7 +169,7 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 <div class='exp-box'><div class='exp-box-image'><div><img src='images/logo_SIAT_CAS.png' alt="sym" width="100%"></div></div>
 <div class='exp-box-text' markdown="1">
 
-[SIAT, CAS](https://english.siat.ac.cn/), Shenzhen, China
+[**SIAT, CAS**](https://english.siat.ac.cn/), Shenzhen, China
 
 **Research Assistant** @ CV2R-Lab
 
