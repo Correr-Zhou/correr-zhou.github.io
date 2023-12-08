@@ -28,17 +28,17 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 
 # 🔥 News
-- *2023.10*: One paper is accepted by WACV 2024! 🎉
-- *2023.10*: I am awarded a China Postgraduate National Scholarship! 🏆
-- *2023.04*: I join [Tencent YouTu Lab](https://open.youtu.qq.com/) as a research intern! 🔬
-- *2023.03*: Our paper is selected as a CVPR Highlight (Top 2.6% of 9155 submissions)! 🎉
-- *2023.02*: One first-author paper is accepted by CVPR 2023! 🎉
-- *2022.07*: I join [Zhejiang Lab](https://en.zhejianglab.com/) as a research intern! 🔬
-- *2022.07*: One first-author paper is accepted by ECCV 2022! 🎉
-- *2021.07*: I get my bachelor’s degree as an outstanding graduate! 👨‍🎓
-- *2021.03*: I join [SIAT, CAS](https://english.siat.ac.cn/) as a research assistant and will spend my last undergraduate time here! 🔬
+- *2023.10* &ensp; One paper is accepted by WACV 2024! 🎉
+- *2023.10* &ensp; I am awarded a China Postgraduate National Scholarship! 🏆
+- *2023.04* &ensp; I join [Tencent YouTu Lab](https://open.youtu.qq.com/) as a research intern! 🔬
+- *2023.03* &ensp; Our paper is selected as a CVPR Highlight (Top 2.6% of 9155 submissions)! 🎉
+- *2023.02* &ensp; One first-author paper is accepted by CVPR 2023! 🎉
+- *2022.07* &ensp; I join [Zhejiang Lab](https://en.zhejianglab.com/) as a research intern! 🔬
+- *2022.07* &ensp; One first-author paper is accepted by ECCV 2022! 🎉
+- *2021.07* &ensp; I get my bachelor’s degree as an outstanding graduate! 👨‍🎓
+- *2021.03* &ensp; I join [SIAT, CAS](https://english.siat.ac.cn/) as a research assistant and will spend my last undergraduate time here! 🔬
 <!-- - *2020.10*: I acquire a qualification of postgraduate recommendation, and decide to pursue my master’s degree in UCAS! 👨‍🎓 -->
-- *2020.09*: I am awarded a China Undergraduate National Scholarship! 🏆
+- *2020.09* &ensp; I am awarded a China Undergraduate National Scholarship! 🏆
 <!-- - *2019.05*: We win the second prize of [CN-ROBOCON](https://en.wikipedia.org/wiki/ABU_Robocon) after one-year's preparation. Thanks all my teammates! 🥈 -->
 
 
@@ -194,8 +194,8 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 # 📅 Academic Services
 
 ## 📖 Reviewers
-- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
-- International Conference on Computer Vision (ICCV), 2023
+- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024
+- International Conference on Computer Vision (ICCV) 2023
 
 ## 💬 Invited Talks
 - *2023.06* &ensp; Subcellular Structure Prediction: Revealing Fluorescent Images with Deep Learning, Topic Talk, held by [TechBeat](https://www.techbeat.net/) \| [[News]](https://mp.weixin.qq.com/s/uxUsJiS1m0VwnEeBb3A6cg) [[Video]](https://www.techbeat.net/talk-info?id=783)
