@@ -44,6 +44,23 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 # 📝 Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/ddpmask.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**DPPMask: Masked Image Modeling with Determinantal Point Processes**](https://arxiv.org/abs/2303.12736)
+
+Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
+
+***IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024***
+
+[[Paper]](https://arxiv.org/pdf/2303.12736.pdf)
+
+
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023 (Highlight)</div><img src='images/repmode.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -88,28 +105,11 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 [**Deep Learning in Cell Image Analysis**](https://spj.science.org/doi/full/10.34133/2022/9861263)
 
-Junde Xu*, Donghao Zhou*, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun Liao, Guangyong Chen, Pheng Ann Heng (\* indicates equal contribution)
+Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun Liao, Guangyong Chen, Pheng Ann Heng (\* indicates equal contribution)
 
-***Intelligent Computing (iComputing) 2024***
+***Intelligent Computing (iComputing) 2022***
 
 [[Paper]](https://spj.science.org/doi/epdf/10.34133/2022/9861263)
-
-
-</div>
-</div>
-
----
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/ddpmask.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**DPPMask: Masked Image Modeling with Determinantal Point Processes**](https://arxiv.org/abs/2303.12736)
-
-Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
-
-***IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024***
-
-[[Paper]](https://arxiv.org/pdf/2303.12736.pdf)
 
 
 </div>
