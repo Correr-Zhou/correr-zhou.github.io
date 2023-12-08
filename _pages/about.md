@@ -43,8 +43,8 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 # 📝 Publications
 
-<div class='paper-box-top'><div class='paper-box-top-image'><div><div class="badge">CVPR 2023 (Highlight)</div><img src='images/repmode.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-top-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023 (Highlight)</div><img src='images/repmode.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 [RepMode: Learning to Re-parameterize Diverse Experts for Subcellular Structure Prediction](https://openaccess.thecvf.com/content/CVPR2023/html/Zhou_RepMode_Learning_to_Re-Parameterize_Diverse_Experts_for_Subcellular_Structure_Prediction_CVPR_2023_paper.html)
 
@@ -77,23 +77,74 @@ My research interest mainly includes machine learning and computer vision. Recen
 </div>
 </div>
 
-- [DPPMask: Masked Image Modeling with Determinantal Point Processes](https://arxiv.org/abs/2303.12736)
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/acktheunknown.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DPPMask: Masked Image Modeling with Determinantal Point Processes](https://arxiv.org/abs/2303.12736)
+
+*Junde Xu, Zikai Lin,* ***Donghao Zhou****, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng*
+
+**IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024**
+
+[[Paper]](https://arxiv.org/pdf/2303.12736.pdf)
+
+
+</div>
+</div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/acktheunknown.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Distribution-Aware Calibration for Object Detection with Noisy Bounding Boxes](https://arxiv.org/abs/2308.12017)
+
+**Donghao Zhou**, Jialin Li, Jinpeng Li, Jiancheng Huang, Qiang Nie, Yong Liu, Bin-Bin Gao, Qiong Wang, Pheng-Ann Heng, Guangyong Chen
+
+**arXiv Preprint 2023 (Under Review)**
+
+[[Paper]](https://arxiv.org/pdf/2308.12017.pdf)
+
+
+</div>
+</div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/acktheunknown.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[IFAST: Weakly Supervised Interpretable Face Anti-spoofing from Single-shot Binocular NIR Images](https://correr-zhou.github.io/)
+
+Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribution)
+
+**IEEE Transactions on Information Forensics and Security (TIFS) 2023 (Under Review)**
+
+[[Paper]](https://arxiv.org/pdf/2309.17399.pdf)
+
+
+</div>
+</div>
+
+<!-- - [DPPMask: Masked Image Modeling with Determinantal Point Processes](https://arxiv.org/abs/2303.12736)
 
   Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
 
-  IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) \| [[Paper]](https://arxiv.org/pdf/2303.12736.pdf)
+  IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) \| [[Paper]](https://arxiv.org/pdf/2303.12736.pdf) -->
 
-- [Distribution-Aware Calibration for Object Detection with Noisy Bounding Boxes](https://arxiv.org/abs/2308.12017)
+<!-- - [Distribution-Aware Calibration for Object Detection with Noisy Bounding Boxes](https://arxiv.org/abs/2308.12017)
 
   **Donghao Zhou**, Jialin Li, Jinpeng Li, Jiancheng Huang, Qiang Nie, Yong Liu, Bin-Bin Gao, Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 
-  arXiv Preprint 2023 (Under Review) \| [[Paper]](https://arxiv.org/pdf/2308.12017.pdf)
+  arXiv Preprint 2023 (Under Review) \| [[Paper]](https://arxiv.org/pdf/2308.12017.pdf) -->
 
-- [IFAST: Weakly Supervised Interpretable Face Anti-spoofing from Single-shot Binocular NIR Images](https://correr-zhou.github.io/)
+<!-- - [IFAST: Weakly Supervised Interpretable Face Anti-spoofing from Single-shot Binocular NIR Images](https://correr-zhou.github.io/)
 
   Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribution)
 
-  IEEE Transactions on Information Forensics and Security (TIFS) 2023 (Major Revision) \| [[Paper]](https://arxiv.org/pdf/2309.17399.pdf)
+  IEEE Transactions on Information Forensics and Security (TIFS) 2023 (Major Revision) \| [[Paper]](https://arxiv.org/pdf/2309.17399.pdf) -->
 
 <!-- - [Deep Learning in Cell Image Analysis](https://downloads.spj.sciencemag.org/icomputing/2022/9861263.pdf), Junde Xu, **Donghao Zhou (Co-first Author)**, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun Liao, Guangyong Chen, Pheng-Ann Heng, Intelligent Computing, 2022 -->
 
