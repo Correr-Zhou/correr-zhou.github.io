@@ -42,7 +42,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 
 # 📝 Publications
-## 📌 Pinned
+
 <div class='paper-box-top'><div class='paper-box-top-image'><div><div class="badge">CVPR 2023 (Highlight)</div><img src='images/repmode.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-top-text' markdown="1">
 
@@ -50,7 +50,10 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 **Donghao Zhou**, Chunbin Gu, Junde Xu, Furui Liu, Qiong Wang, Guangyong Chen, Pheng-Ann Heng
 
-**<font color=red>CVPR 2023 (Highlight)</font>** \| [[Project]](https://correr-zhou.github.io/RepMode/) [[Paper]](https://arxiv.org/pdf/2212.10066.pdf) [[Code]](https://github.com/Correr-Zhou/RepMode) [[Poster]](resources/repmode_poster.pdf) [[Talk]](https://www.techbeat.net/talk-info?id=783)
+**IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024**
+
+<!-- **<font color=red>CVPR 2023 (Highlight)</font>** \|  -->
+[[Project]](https://correr-zhou.github.io/RepMode/) [[Paper]](https://arxiv.org/pdf/2212.10066.pdf) [[Code]](https://github.com/Correr-Zhou/RepMode) [[Poster]](resources/repmode_poster.pdf) [[Talk]](https://www.techbeat.net/talk-info?id=783)
 
 
 </div>
@@ -65,14 +68,14 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 **Donghao Zhou**, Pengfei Chen, Qiong Wang, Guangyong Chen, Pheng-Ann Heng
 
-**<font color=red>ECCV 2022</font>** \| [[Paper]](https://arxiv.org/pdf/2203.16219.pdf) [[Code]](https://github.com/Correr-Zhou/SPML-AckTheUnknown) [[Poster]](resources/acktheunknown_poster.pdf) [[Slides]](resources/acktheunknown_10min_slides.pdf)
+**European Conference on Computer Vision (ECCV) 2022**
+
+[[Paper]](https://arxiv.org/pdf/2203.16219.pdf) [[Code]](https://github.com/Correr-Zhou/SPML-AckTheUnknown) [[Poster]](resources/acktheunknown_poster.pdf) [[Slides]](resources/acktheunknown_10min_slides.pdf)
 <!-- ![](https://img.shields.io/github/stars/Correr-Zhou/SPML-AckTheUnknown?style=social) -->
 
 
 </div>
 </div>
-
-## 🔎 Other
 
 - [DPPMask: Masked Image Modeling with Determinantal Point Processes](https://arxiv.org/abs/2303.12736)
 
