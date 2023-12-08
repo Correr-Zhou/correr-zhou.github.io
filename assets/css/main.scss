@@ -71,14 +71,14 @@
         .paper-box-image{
             justify-content: left;
             min-width: 200px;
-            max-width: 40%;
+            max-width: 20%;
             order: 1;
         }
 
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
-            max-width: 60%;
+            max-width: 80%;
             order: 2;
         }
 
@@ -118,61 +118,14 @@
         .paper-box-top-image{
             justify-content: left;
             min-width: 200px;
-            max-width: 30%;
+            max-width: 25%;
             order: 1;
         }
 
         .paper-box-top-text{
             justify-content: left;
             padding-left: 2em;
-            max-width: 70%;
-            order: 2;
-        }
-
-    }
-
-
-}
-
-.paper-box2 {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* border-bottom: 1px #efefef solid; */
-    padding: 2em 0 2em 0;
-
-
-    .paper-box2-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
-    }
-
-    .paper-box2-text{
-        max-width: 100%;
-        order: 1;
-    }
-
-    @include breakpoint($medium) {
-        .paper-box2-image{
-            justify-content: left;
-            min-width: 100px;
-            max-width: 20%;
-            order: 1;
-        }
-
-        .paper-box2-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 80%;
+            max-width: 75%;
             order: 2;
         }
 
