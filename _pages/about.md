@@ -107,7 +107,7 @@ Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Gua
 
 Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun Liao, Guangyong Chen, Pheng Ann Heng (\* indicates equal contribution)
 
-***Intelligent Computing (iComputing) 2022***
+***Science Partner Journal - Intelligent Computing (iComputing) 2022***
 
 [[Paper]](https://spj.science.org/doi/epdf/10.34133/2022/9861263)
 
