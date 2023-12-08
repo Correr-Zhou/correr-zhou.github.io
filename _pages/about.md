@@ -53,11 +53,12 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 ***IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024***
 
-*We propose a network that dynamically organizes its parameters with task-aware priors to tackle subcellular structure prediction.*
+<!-- *We propose a network that dynamically organizes its parameters with task-aware priors to tackle subcellular structure prediction.* -->
 
 <!-- **<font color=red>CVPR 2023 (Highlight)</font>** \|  -->
 [[Project]](https://correr-zhou.github.io/RepMode/) [[Paper]](https://arxiv.org/pdf/2212.10066.pdf) [[Code]](https://github.com/Correr-Zhou/RepMode) [[Poster]](resources/repmode_poster.pdf) [[Talk]](https://www.techbeat.net/talk-info?id=783)
 
+*<font color=red>Selected as a Highlight presentation paper (Top 2.6% of 9155 submissions)</font>*
 
 </div>
 </div>
