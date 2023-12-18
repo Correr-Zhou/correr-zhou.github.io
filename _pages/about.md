@@ -105,7 +105,7 @@ Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Gua
 
 [**Deep Learning in Cell Image Analysis**](https://spj.science.org/doi/full/10.34133/2022/9861263)
 
-Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun Liao, Guangyong Chen, Pheng Ann Heng (\* indicates equal contribution)
+Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun Liao, Guangyong Chen, Pheng-Ann Heng (\* indicates equal contribution)
 
 ***Science Partner Journal - Intelligent Computing (iComputing) 2022***
 
