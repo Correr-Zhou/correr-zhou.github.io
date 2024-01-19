@@ -211,6 +211,7 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 # 📅 Academic Services
 
 ## 📖 Reviewers
+- European Conference on Computer Vision (ECCV) 2024
 - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024
 - International Conference on Computer Vision (ICCV) 2023
 
