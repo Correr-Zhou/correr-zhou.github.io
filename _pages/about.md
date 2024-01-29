@@ -197,7 +197,7 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 
 
 # 🏅 Selected Awards
-- *2024.01* &ensp; Director's Innovation Award: Outstanding Postgraduate Award
+- *2024.01* &ensp; President's Innovation Award: Outstanding Postgraduate Award
 - *2023.10* &ensp; China Postgraduate National Scholarship (Top 1.7%)
 - *2021 - 2023* &ensp; UCAS Postgraduate Fellowship (Full Tuition Waiver & 8,000 CNY p.a.)
 - *2021.06* &ensp; Outstanding Graduate (Top 2.5%)
