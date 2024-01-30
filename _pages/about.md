@@ -120,7 +120,7 @@ Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun L
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/disco.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Distribution-Aware Calibration for Object Detection with Noisy Bounding Boxes**](https://arxiv.org/abs/2308.12017)
+[**DISCO: Distribution-Aware Calibration for Object Detection with Noisy Bounding Boxes**](https://arxiv.org/abs/2308.12017)
 
 **Donghao Zhou**, Jialin Li, Jinpeng Li, Jiancheng Huang, Qiang Nie, Yong Liu, Bin-Bin Gao, Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 
