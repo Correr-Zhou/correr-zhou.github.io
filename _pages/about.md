@@ -28,6 +28,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 
 # 🔥 News
+- *2024.02* &ensp; I am awarded a SIAT President’s Special Scholarship! 🏆
 - *2023.10* &ensp; One paper is accepted by WACV 2024! 🎉
 - *2023.10* &ensp; I am awarded a China Postgraduate National Scholarship! 🏆
 - *2023.04* &ensp; I join [Tencent YouTu Lab](https://open.youtu.qq.com/) as a research intern! 🔬
