@@ -7,9 +7,7 @@
 
 # Site Settings
 title                    : "Donghao Zhou"
-description              : "Incoming Ph.D. student <br/> @ CUHK CSE <br/>
-                            M.Sc. student <br/> @ UCAS & SIAT, CAS <br/>
-                            "
+description              : ""
 repository               : "Correr-Zhou/correr-zhou.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -25,7 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Donghao Zhou <br/> 周冬豪"
   avatar           : "images/profile.jpg"
-  bio              : ""
+  bio              : "Incoming Ph.D. student <br/> @ CUHK CSE <br/>
+                      M.Sc. student <br/> @ UCAS & SIAT, CAS <br/>
+                      "
   location         : "Shenzhen, China"
   employer         :
   pubmed           :
