@@ -142,7 +142,9 @@ Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun L
 
 Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribution)
 
-***IEEE Transactions on Information Forensics and Security (TIFS) 2023 (Under Review)***
+***arXiv Preprint 2023 (Under Review)***
+
+<!-- ***IEEE Transactions on Information Forensics and Security (TIFS) 2023 (Under Review)*** -->
 
 [[Paper]](https://arxiv.org/pdf/2309.17399.pdf)
 
