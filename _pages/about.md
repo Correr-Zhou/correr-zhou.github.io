@@ -99,7 +99,7 @@ Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Gua
 </div>
 </div>
 
----
+<!-- ---
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">iComputing 2022</div><img src='images/cellimage.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -114,7 +114,7 @@ Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun L
 
 
 </div>
-</div>
+</div> -->
 
 ---
 
