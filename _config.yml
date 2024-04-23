@@ -23,7 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Donghao Zhou <br/> 周冬豪"
   avatar           : "images/profile.jpg"
-  bio              : "M.Sc. student <br/> @ UCAS & SIAT, CAS <br/>
+  bio              : "Incoming Ph.D. student <br/> @ CUHK CSE <br/>
+                      M.Sc. student <br/> @ UCAS & SIAT, CAS <br/>
                       "
   location         : "Shenzhen, China"
   employer         :
