@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<!-- I am an incoming Ph.D. student at [Department of Computer Science and Engineering (CSE)](https://www.cse.cuhk.edu.hk/), [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html) <img src='images/logo_CUHK.png' style='width: 1.3em;'>, supervised by [Prof. Pheng-Ann Heng](https://www.cse.cuhk.edu.hk/~pheng/1.html).  -->
+I am an incoming Ph.D. student at [Department of Computer Science and Engineering (CSE)](https://www.cse.cuhk.edu.hk/), [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html) <img src='images/logo_CUHK.png' style='width: 1.3em;'>, supervised by [Prof. Pheng-Ann Heng](https://www.cse.cuhk.edu.hk/~pheng/1.html).
 I am currently a research-oriented M.Sc. student at [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/) <img src='images/logo_UCAS.png' style='width: 1.1em;'>, doing my research at [Shenzhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/) <img src='images/logo_SIAT.webp' style='width: 1.1em;'>, [Chinese Academy of Sciences (CAS)](https://english.cas.cn/).
 
 I have spent wonderful time at [Tencent YouTu Lab](https://open.youtu.qq.com/), [Zhejiang Lab](https://en.zhejianglab.com/), and [SIAT, CAS](https://english.siat.ac.cn/) as a research intern/assistant. Also, it is my great honor to be awarded a China Postgraduate National Scholarship and a China Undergraduate National Scholarship during my academic career.
