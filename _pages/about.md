@@ -201,10 +201,12 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 
 
 # 🏅 Selected Awards
+- *2024.05* &ensp; Outstanding Graduate of Beijing
+- *2024.05* &ensp; Outstanding Graduate of UCAS
 - *2024.02* &ensp; SIAT President's Special Scholarship
 - *2024.01* &ensp; IAIT Dean's Innovation Award: Outstanding Postgraduate Award
 - *2023.10* &ensp; China Postgraduate National Scholarship (Top 1.7%)
-- *2021 - 2023* &ensp; UCAS Postgraduate Fellowship (Full Tuition Waiver & 8,000 CNY p.a.)
+- *2021 - 2023* &ensp; UCAS Postgraduate Studentship (Full Tuition Waiver & 8,000 CNY p.a.)
 - *2021.06* &ensp; Outstanding Graduate (Top 2.5%)
 - *2021.06* &ensp; Excellent Graduation Thesis & Graduation Thesis Innovation Prize
 - *2021.04* &ensp; Top 10 Student Innovation Figure (Bonus: 10,000 CNY)
@@ -217,6 +219,7 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 # 📅 Academic Services
 
 ## 📖 Reviewers
+- British Machine Vision Conference (BMVC) 2024
 - Asian Conference on Computer Vision (ACCV) 2024
 - European Conference on Computer Vision (ECCV) 2024
 - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024
