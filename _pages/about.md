@@ -29,7 +29,9 @@ My research interest mainly includes machine learning and computer vision. Recen
 
 
 # 🔥 News
-- *2024.02* &ensp; I am awarded a SIAT President’s Special Scholarship! 🏆
+
+- *2024.05* &ensp; I am selected as an outstanding graduate of Beijing! 👨‍🎓
+<!-- - *2024.02* &ensp; I am awarded a SIAT President’s Special Scholarship! 🏆 -->
 - *2023.10* &ensp; One paper is accepted by WACV 2024! 🎉
 - *2023.10* &ensp; I am awarded a China Postgraduate National Scholarship! 🏆
 - *2023.04* &ensp; I join [Tencent YouTu Lab](https://open.youtu.qq.com/) as a research intern! 🔬
@@ -37,7 +39,7 @@ My research interest mainly includes machine learning and computer vision. Recen
 - *2023.02* &ensp; One first-author paper is accepted by CVPR 2023! 🎉
 - *2022.07* &ensp; I join [Zhejiang Lab](https://en.zhejianglab.com/) as a research intern! 🔬
 - *2022.07* &ensp; One first-author paper is accepted by ECCV 2022! 🎉
-- *2021.07* &ensp; I get my bachelor’s degree as an outstanding graduate! 👨‍🎓
+<!-- - *2021.07* &ensp; I get my bachelor’s degree as an outstanding graduate! 👨‍🎓 -->
 - *2021.03* &ensp; I join [SIAT, CAS](https://english.siat.ac.cn/) as a research assistant and will spend my last undergraduate time here! 🔬
 <!-- - *2020.10*: I acquire a qualification of postgraduate recommendation, and decide to pursue my master’s degree in UCAS! 👨‍🎓 -->
 - *2020.09* &ensp; I am awarded a China Undergraduate National Scholarship! 🏆
