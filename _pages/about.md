@@ -221,6 +221,7 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 # 📅 Academic Services
 
 ## 📖 Reviewers
+- Annual Conference on Neural Information Processing Systems (NeurIPS) 2024
 - British Machine Vision Conference (BMVC) 2024
 - Asian Conference on Computer Vision (ACCV) 2024
 - European Conference on Computer Vision (ECCV) 2024
