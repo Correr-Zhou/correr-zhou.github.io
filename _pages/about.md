@@ -128,7 +128,7 @@ Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun L
 
 **Donghao Zhou**, Jialin Li, Jinpeng Li, Jiancheng Huang, Qiang Nie, Yong Liu, Bin-Bin Gao, Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 
-***arXiv Preprint 2023 (Under Review)***
+***arXiv Preprint (Under Review)***
 
 [[Paper]](https://arxiv.org/pdf/2308.12017.pdf)
 
@@ -141,15 +141,51 @@ Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun L
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/ifast.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**IFAST: Weakly Supervised Interpretable Face Anti-spoofing from Single-shot Binocular NIR Images**](https://correr-zhou.github.io/)
+[**IFAST: Weakly Supervised Interpretable Face Anti-spoofing from Single-shot Binocular NIR Images**](https://arxiv.org/abs/2309.17399)
 
 Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribution)
 
-***arXiv Preprint 2023 (Under Review)***
+***arXiv Preprint (Under Review)***
 
 <!-- ***IEEE Transactions on Information Forensics and Security (TIFS) 2023 (Under Review)*** -->
 
 [[Project]](https://ifast-bni.github.io/) [[Paper]](https://arxiv.org/pdf/2309.17399.pdf) [[Dataset]](https://pan.baidu.com/s/13U9fpagjADo0P5K55QdZGg)
+
+
+</div>
+</div>
+
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/tripletmix.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**TripletMix: Triplet Data Augmentation for 3D Understanding**](https://arxiv.org/abs/2405.18523)
+
+Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, Anfeng Liu, Pheng-Ann Heng
+
+***arXiv Preprint (Under Review)***
+
+[[Project]](https://jiazewang.com/projects/TripletMix) [[Paper]](https://arxiv.org/pdf/2405.18523)
+
+
+</div>
+</div>
+
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/signvtcl.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**SignVTCL: Multi-Modal Continuous Sign Language Recognition Enhanced by Visual-Textual Contrastive Learning**](https://arxiv.org/abs/2405.18523)
+
+Hao Chen, Jiaze Wang, Ziyu Guo, Jinpeng Li, **Donghao Zhou**, Bian Wu, Chenyong Guan, Guangyong Chen, Pheng-Ann Heng
+
+***arXiv Preprint (Under Review)***
+
+[[Project]](https://socialgoodai.github.io/) [[Paper]](https://arxiv.org/pdf/2405.18523)
 
 
 </div>
