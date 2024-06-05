@@ -30,6 +30,7 @@ My research interest mainly includes deep learning and computer vision. Recently
 
 # 🔥 News
 
+- *2024.06* &ensp; One paper is accepted by TIFS 2024 (a CCF-A journal)! 🎉
 - *2024.05* &ensp; I am selected as an outstanding graduate of Beijing! 👨‍🎓
 <!-- - *2024.02* &ensp; I am awarded a SIAT President’s Special Scholarship! 🏆 -->
 - *2023.10* &ensp; One paper is accepted by WACV 2024! 🎉
@@ -87,6 +88,24 @@ My research interest mainly includes deep learning and computer vision. Recently
 
 ---
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS 2024</div><img src='images/ifast.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**IFAST: Weakly Supervised Interpretable Face Anti-spoofing from Single-shot Binocular NIR Images**](https://arxiv.org/abs/2309.17399)
+
+Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribution)
+
+***IEEE Transactions on Information Forensics and Security (TIFS) 2024 (<font color=red>CCF-A</font>, Conditionally Accepted)***
+
+[[Project]](https://ifast-bni.github.io/) [[Paper]](https://arxiv.org/pdf/2309.17399.pdf) [[Dataset]](https://pan.baidu.com/s/13U9fpagjADo0P5K55QdZGg)
+
+
+</div>
+</div>
+
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/ddpmask.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -131,25 +150,6 @@ Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun L
 ***arXiv Preprint (Under Review)***
 
 [[Paper]](https://arxiv.org/pdf/2308.12017.pdf)
-
-
-</div>
-</div>
-
----
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/ifast.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**IFAST: Weakly Supervised Interpretable Face Anti-spoofing from Single-shot Binocular NIR Images**](https://arxiv.org/abs/2309.17399)
-
-Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribution)
-
-***arXiv Preprint (Under Review)***
-
-<!-- ***IEEE Transactions on Information Forensics and Security (TIFS) 2023 (Under Review)*** -->
-
-[[Project]](https://ifast-bni.github.io/) [[Paper]](https://arxiv.org/pdf/2309.17399.pdf) [[Dataset]](https://pan.baidu.com/s/13U9fpagjADo0P5K55QdZGg)
 
 
 </div>
