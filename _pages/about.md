@@ -257,6 +257,7 @@ Hao Chen, Jiaze Wang, Ziyu Guo, Jinpeng Li, **Donghao Zhou**, Bian Wu, Chenyong 
 # 📅 Academic Services
 
 ## 📖 Reviewers
+- Scientific Reports
 - Annual Conference on Neural Information Processing Systems (NeurIPS) 2024
 - British Machine Vision Conference (BMVC) 2024
 - Asian Conference on Computer Vision (ACCV) 2024
