@@ -128,13 +128,13 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">BMVC 2024</div><img src='images/signvtcl.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**SignVTCL: Multi-Modal Continuous Sign Language Recognition Enhanced by Visual-Textual Contrastive Learning**](https://arxiv.org/abs/2405.18523)
+[**SignVTCL: Multi-Modal Continuous Sign Language Recognition Enhanced by Visual-Textual Contrastive Learning**](https://arxiv.org/abs/2401.11847)
 
 Hao Chen, Jiaze Wang, Ziyu Guo, Jinpeng Li, **Donghao Zhou**, Bian Wu, Chenyong Guan, Guangyong Chen, Pheng-Ann Heng
 
 ***British Machine Vision Conference (BMVC) 2024***
 
-[[Project]](https://socialgoodai.github.io/) [[Paper]](https://arxiv.org/pdf/2405.18523)
+[[Project]](https://socialgoodai.github.io/) [[Paper]](https://arxiv.org/pdf/2401.11847)
 
 
 </div>
