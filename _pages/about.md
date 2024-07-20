@@ -106,6 +106,41 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 
 ---
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/disco.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**DISCO: Distribution-Aware Calibration for Object Detection with Noisy Bounding Boxes**](https://arxiv.org/abs/2308.12017)
+
+**Donghao Zhou**, Jialin Li, Jinpeng Li, Jiancheng Huang, Qiang Nie, Yong Liu, Bin-Bin Gao, Qiong Wang, Pheng-Ann Heng, Guangyong Chen
+
+***British Machine Vision Conference (BMVC) 2024***
+
+[[Paper]](https://arxiv.org/pdf/2308.12017.pdf)
+
+
+</div>
+</div>
+
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/signvtcl.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**SignVTCL: Multi-Modal Continuous Sign Language Recognition Enhanced by Visual-Textual Contrastive Learning**](https://arxiv.org/abs/2405.18523)
+
+Hao Chen, Jiaze Wang, Ziyu Guo, Jinpeng Li, **Donghao Zhou**, Bian Wu, Chenyong Guan, Guangyong Chen, Pheng-Ann Heng
+
+***British Machine Vision Conference (BMVC) 2024***
+
+[[Project]](https://socialgoodai.github.io/) [[Paper]](https://arxiv.org/pdf/2405.18523)
+
+
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/ddpmask.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -138,23 +173,6 @@ Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun L
 </div>
 </div> -->
 
----
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/disco.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**DISCO: Distribution-Aware Calibration for Object Detection with Noisy Bounding Boxes**](https://arxiv.org/abs/2308.12017)
-
-**Donghao Zhou**, Jialin Li, Jinpeng Li, Jiancheng Huang, Qiang Nie, Yong Liu, Bin-Bin Gao, Qiong Wang, Pheng-Ann Heng, Guangyong Chen
-
-***arXiv Preprint (Under Review)***
-
-[[Paper]](https://arxiv.org/pdf/2308.12017.pdf)
-
-
-</div>
-</div>
-
 
 ---
 
@@ -173,23 +191,6 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 </div>
 </div>
 
-
----
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/signvtcl.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**SignVTCL: Multi-Modal Continuous Sign Language Recognition Enhanced by Visual-Textual Contrastive Learning**](https://arxiv.org/abs/2405.18523)
-
-Hao Chen, Jiaze Wang, Ziyu Guo, Jinpeng Li, **Donghao Zhou**, Bian Wu, Chenyong Guan, Guangyong Chen, Pheng-Ann Heng
-
-***arXiv Preprint (Under Review)***
-
-[[Project]](https://socialgoodai.github.io/) [[Paper]](https://arxiv.org/pdf/2405.18523)
-
-
-</div>
-</div>
 
 
 # 👨‍💻 Experience
