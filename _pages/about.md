@@ -106,7 +106,7 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/disco.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BMVC 2024</div><img src='images/disco.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**DISCO: Distribution-Aware Calibration for Object Detection with Noisy Bounding Boxes**](https://arxiv.org/abs/2308.12017)
@@ -124,7 +124,7 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/signvtcl.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BMVC 2024</div><img src='images/signvtcl.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**SignVTCL: Multi-Modal Continuous Sign Language Recognition Enhanced by Visual-Textual Contrastive Learning**](https://arxiv.org/abs/2405.18523)
@@ -138,6 +138,7 @@ Hao Chen, Jiaze Wang, Ziyu Guo, Jinpeng Li, **Donghao Zhou**, Bian Wu, Chenyong 
 
 </div>
 </div>
+
 
 ---
 
