@@ -247,9 +247,9 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 - *2024.02* &ensp; SIAT President's Special Scholarship
 - *2024.01* &ensp; IAIT Dean's Innovation Award: Outstanding Postgraduate Award
 - *2023.10* &ensp; China Postgraduate National Scholarship (Top 1.7%)
-- *2021 - 2023* &ensp; UCAS Postgraduate Studentship (Full Tuition Waiver & 8,000 CNY p.a.)
+<!-- - *2021 - 2023* &ensp; UCAS Postgraduate Studentship (Full Tuition Waiver & 8,000 CNY p.a.) -->
 - *2021.06* &ensp; Outstanding Graduate (Top 2.5%)
-- *2021.06* &ensp; Excellent Graduation Thesis & Graduation Thesis Innovation Prize
+<!-- - *2021.06* &ensp; Excellent Graduation Thesis & Graduation Thesis Innovation Prize -->
 - *2021.04* &ensp; Top 10 Student Innovation Figure (Bonus: 10,000 CNY)
 - *2020.09* &ensp; China Undergraduate National Scholarship (Top 0.3%)
 - *2018 - 2020* &ensp; First-Class Excellent Student Scholarships (Three Times)
