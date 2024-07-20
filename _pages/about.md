@@ -42,7 +42,7 @@ My research interest mainly includes deep learning and computer vision. Recently
 - *2022.07* &ensp; I join [Zhejiang Lab](https://en.zhejianglab.com/) as a research intern! 🔬
 - *2022.07* &ensp; One first-author paper is accepted by ECCV 2022! 🎉
 <!-- - *2021.07* &ensp; I get my bachelor’s degree as an outstanding graduate! 👨‍🎓 -->
-- *2021.03* &ensp; I join [SIAT, CAS](https://english.siat.ac.cn/) as a research assistant and will spend my last undergraduate time here! 🔬
+- *2021.03* &ensp; I join [SIAT, CAS](https://english.siat.ac.cn/) as a research assistant! 🔬
 <!-- - *2020.10*: I acquire a qualification of postgraduate recommendation, and decide to pursue my master’s degree in UCAS! 👨‍🎓 -->
 - *2020.09* &ensp; I am awarded a China Undergraduate National Scholarship! 🏆
 <!-- - *2019.05*: We win the second prize of [CN-ROBOCON](https://en.wikipedia.org/wiki/ABU_Robocon) after one-year's preparation. Thanks all my teammates! 🥈 -->
