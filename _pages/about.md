@@ -22,7 +22,7 @@ Currently, I am a research-oriented M.Sc. student at [University of Chinese Acad
 
 I have spent wonderful time at [Tencent YouTu Lab](https://open.youtu.qq.com/), [Zhejiang Lab](https://en.zhejianglab.com/), and [SIAT, CAS](https://english.siat.ac.cn/) as a research intern/assistant. Also, it is my great honor to be awarded a China Postgraduate National Scholarship and a China Undergraduate National Scholarship during my academic career.
 
-My research interest mainly includes deep learning and computer vision. Recently, I focus on exploring interesting problems in Generative AI, Multi-Modality, and Learning from Imperfect Data, aiming to promote the efficiency and flexibility of AI model and algorithms in the real world.
+My research interest mainly includes deep learning and computer vision. Recently, I focus on exploring Generative AI, Multi-Modality, and Learning from Imperfect Data, aiming to promote the efficiency and flexibility of AI model and algorithms in the real world.
 
 <!-- > 📢📢📢 <font color=red>I am looking for a Ph.D. position (2024 Fall).</font> If you would like to discuss potential opportunities or learn more about my qualifications, please feel free to [contact me](mailto:dh.zhou@siat.ac.cn). 😊 -->
 > 📢📢📢 If you would like to discuss potential opportunities for collaboration, please feel free to [contact me](mailto:dh.zhou@siat.ac.cn). 😊
