@@ -23,14 +23,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Donghao Zhou <br/> 周冬豪"
   avatar           : "images/profile.jpg"
-  bio              : "Incoming Ph.D. student <br/> @ CUHK CSE <br/>
-                      M.Sc. student <br/> @ UCAS & SIAT, CAS <br/>
+  bio              : "Ph.D. student <br/> @ CUHK CSE <br/>
                       "
-  location         : "Shenzhen, China"
+  location         : "Shatin, Hong Kong"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=Td_KJgIAAAAJ"
-  email            : "dh.zhou@siat.ac.cn"
+  email            : "dhzhou@link.cuhk.edu.hk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
