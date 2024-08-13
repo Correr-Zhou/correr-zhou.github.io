@@ -258,8 +258,9 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 
 # 📅 Academic Services
 
-## 📖 Reviewers
+## 📖 Reviewers/PC Members
 - Scientific Reports
+- Annual AAAI Conference on Artificial Intelligence (AAAI) 2025
 - Annual Conference on Neural Information Processing Systems (NeurIPS) 2024
 - British Machine Vision Conference (BMVC) 2024
 - Asian Conference on Computer Vision (ACCV) 2024
