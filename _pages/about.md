@@ -260,6 +260,7 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 
 ## 📖 Reviewers/PC Members
 - Scientific Reports
+- IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025
 - Annual AAAI Conference on Artificial Intelligence (AAAI) 2025
 - Annual Conference on Neural Information Processing Systems (NeurIPS) 2024
 - British Machine Vision Conference (BMVC) 2024
