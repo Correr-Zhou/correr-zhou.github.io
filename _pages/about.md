@@ -95,7 +95,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribution)
 
-***IEEE Transactions on Information Forensics and Security (TIFS) 2024 (<font color=red>CCF-A</font>, Conditionally Accepted)***
+***IEEE Transactions on Information Forensics and Security (TIFS) 2024 (<font color=red>CCF-A</font>)***
 
 [[Project]](https://ifast-bni.github.io/) [[Paper]](https://arxiv.org/pdf/2309.17399.pdf) [[Dataset]](https://pan.baidu.com/s/13U9fpagjADo0P5K55QdZGg)
 
@@ -177,10 +177,10 @@ Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun L
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/tripletmix.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/mm_mixing.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**TripletMix: Triplet Data Augmentation for 3D Understanding**](https://arxiv.org/abs/2405.18523)
+[**MM-Mixing: Multi-Modal Mixing Alignment for 3D Understanding**](https://arxiv.org/abs/2405.18523)
 
 Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, Anfeng Liu, Pheng-Ann Heng
 
