@@ -47,13 +47,13 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 <!-- - *2019.05*: We win the second prize of [CN-ROBOCON](https://en.wikipedia.org/wiki/ABU_Robocon) after one-year's preparation. Thanks all my teammates! 🥈 -->
 
 
-# 📝 Publications
+# 📝 Selected Publications
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv Preprint</div><img src='images/magictailor.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-🔥🔥🔥 [**MagicTailor: Component-Controllable Personalization in Text-to-Image Diffusion Models**](https://arxiv.org/abs/2410.13370)
+🔥 [**MagicTailor: Component-Controllable Personalization in Text-to-Image Diffusion Models**](https://arxiv.org/abs/2410.13370) 🔥
 
 **Donghao Zhou**, Jiancheng Huang, Jinbin Bai, Jiaze Wang, Hao Chen, Guangyong Chen, Xiaowei Hu, Pheng-Ann Heng
 
