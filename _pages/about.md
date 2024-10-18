@@ -55,7 +55,9 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 🔥 [**MagicTailor: Component-Controllable Personalization in Text-to-Image Diffusion Models**](https://arxiv.org/abs/2410.13370) 🔥
 
-**Donghao Zhou**, Jiancheng Huang, Jinbin Bai, Jiaze Wang, Hao Chen, Guangyong Chen, Xiaowei Hu, Pheng-Ann Heng
+**Donghao Zhou**, Jiancheng Huang, Jinbin Bai, Jiaze Wang, Hao Chen, Guangyong Chen, 
+
+Xiaowei Hu, Pheng-Ann Heng
 
 ***arXiv Preprint (Under Review)***
 
@@ -70,7 +72,9 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 [**IFAST: Weakly Supervised Interpretable Face Anti-spoofing from Single-shot Binocular NIR Images**](https://ieeexplore.ieee.org/abstract/document/10685520/)
 
-Jiancheng Huang\*, **Donghao Zhou\***, Jianzhuang Liu, Linxiao Shi, Shifeng Chen (\* indicates equal contribution)
+Jiancheng Huang\*, **Donghao Zhou\***, Jianzhuang Liu, Linxiao Shi, Shifeng Chen 
+
+(\* indicates equal contribution)
 
 ***IEEE Transactions on Information Forensics and Security (TIFS) 2024 (<font color=red>CCF-A Journal</font>)***
 
@@ -87,7 +91,9 @@ Jiancheng Huang\*, **Donghao Zhou\***, Jianzhuang Liu, Linxiao Shi, Shifeng Chen
 
 [**DISCO: Distribution-Aware Calibration for Object Detection with Noisy Bounding Boxes**](https://arxiv.org/abs/2308.12017)
 
-**Donghao Zhou**, Jialin Li, Jinpeng Li, Jiancheng Huang, Qiang Nie, Yong Liu, Bin-Bin Gao, Qiong Wang, Pheng-Ann Heng, Guangyong Chen
+**Donghao Zhou**, Jialin Li, Jinpeng Li, Jiancheng Huang, Qiang Nie, Yong Liu, Bin-Bin Gao, 
+
+Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 
 ***British Machine Vision Conference (BMVC) 2024***
 
