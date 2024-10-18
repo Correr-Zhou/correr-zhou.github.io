@@ -49,6 +49,22 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 📝 Publications
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv Preprint</div><img src='images/repmode.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**MagicTailor: Component-Controllable Personalization in Text-to-Image Diffusion Models**](https://arxiv.org/abs/2410.13370)
+
+**Donghao Zhou**, Jiancheng Huang, Jinbin Bai, Jiaze Wang, Hao Chen, Guangyong Chen, Xiaowei Hu, Pheng-Ann Heng
+
+***arXiv Preprint (Under Review)***
+
+[[Page]](https://correr-zhou.github.io/MagicTailor/) [[Paper]](https://arxiv.org/pdf/2410.13370) [[Code]](https://github.com/correr-zhou/MagicTailor)
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023 (Highlight)</div><img src='images/repmode.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -61,7 +77,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 <!-- *We propose a network that dynamically organizes its parameters with task-aware priors to tackle subcellular structure prediction.* -->
 
 <!-- **<font color=red>CVPR 2023 (Highlight)</font>** \|  -->
-[[Project]](https://correr-zhou.github.io/RepMode/) [[Paper]](https://arxiv.org/pdf/2212.10066.pdf) [[Code]](https://github.com/Correr-Zhou/RepMode) [[Poster]](resources/repmode_poster.pdf) [[Talk]](https://www.techbeat.net/talk-info?id=783)
+[[Page]](https://correr-zhou.github.io/RepMode/) [[Paper]](https://arxiv.org/pdf/2212.10066.pdf) [[Code]](https://github.com/Correr-Zhou/RepMode) [[Poster]](resources/repmode_poster.pdf) [[Talk]](https://www.techbeat.net/talk-info?id=783)
 
 ***<font color=red>Selected as a Highlight presentation paper (Top 2.6% of 9155 submissions)</font>***
 
@@ -122,7 +138,7 @@ Jiancheng Huang\*, **Donghao Zhou\***, Shifeng Chen (\* indicates equal contribu
 </div>
 
 
----
+<!-- ---
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">BMVC 2024</div><img src='images/signvtcl.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -157,23 +173,6 @@ Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Gua
 </div>
 </div>
 
-<!-- ---
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">iComputing 2022</div><img src='images/cellimage.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**Deep Learning in Cell Image Analysis**](https://spj.science.org/doi/full/10.34133/2022/9861263)
-
-Junde Xu\*, **Donghao Zhou\***, Danruo Deng, Jingpeng Li, Cheng Chen, Xiangyun Liao, Guangyong Chen, Pheng-Ann Heng (\* indicates equal contribution)
-
-***Science Partner Journal - Intelligent Computing (iComputing) 2022***
-
-[[Paper]](https://spj.science.org/doi/epdf/10.34133/2022/9861263)
-
-
-</div>
-</div> -->
-
 
 ---
 
@@ -190,7 +189,7 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 
 
 </div>
-</div>
+</div> -->
 
 
 
@@ -259,16 +258,9 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 # 📅 Academic Services
 
 ## 📖 Reviewers/PC Members
-- Scientific Reports
-- International Conference on Artificial Intelligence and Statistics (AISTATS) 2025
-- IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025
-- Annual AAAI Conference on Artificial Intelligence (AAAI) 2025
-- Annual Conference on Neural Information Processing Systems (NeurIPS) 2024
-- British Machine Vision Conference (BMVC) 2024
-- Asian Conference on Computer Vision (ACCV) 2024
-- European Conference on Computer Vision (ECCV) 2024
-- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024
-- International Conference on Computer Vision (ICCV) 2023
+- Conference: AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
+- Jounral: Scientific Reports
+
 
 ## 💬 Invited Talks
 - *2023.06* &ensp; Subcellular Structure Prediction: Revealing Fluorescent Images with Deep Learning, Topic Talk, held by [TechBeat](https://www.techbeat.net/) \| [[News]](https://mp.weixin.qq.com/s/uxUsJiS1m0VwnEeBb3A6cg) [[Video]](https://www.techbeat.net/talk-info?id=783)
