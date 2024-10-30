@@ -29,6 +29,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 🔥 News
 
+- *2024.10* &ensp; One paper is accepted by WACV 2025! 🎉
 - *2024.07* &ensp; Two papers are accepted by BMVC 2024! 🎉
 - *2024.06* &ensp; One paper is accepted by IEEE TIFS 2024 (a CCF-A journal)! 🎉
 - *2024.05* &ensp; I am selected as an outstanding graduate of Beijing! 👨‍🎓
