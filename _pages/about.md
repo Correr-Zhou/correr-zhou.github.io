@@ -99,7 +99,7 @@ Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 ***British Machine Vision Conference (BMVC) 2024***
 
 [[Paper]](https://arxiv.org/pdf/2308.12017.pdf) [[Code]](https://github.com/Correr-Zhou/DISCO)
-
+[[Poster]](resources/disco_poster.pdf) 
 
 </div>
 </div>
