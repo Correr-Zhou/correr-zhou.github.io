@@ -62,7 +62,7 @@ Xiaowei Hu, Pheng-Ann Heng
 
 ***arXiv Preprint (Under Review)***
 
-[[Page]](https://correr-zhou.github.io/MagicTailor/) [[Paper]](https://arxiv.org/pdf/2410.13370) [[Code]](https://github.com/correr-zhou/MagicTailor)
+[[Page]](https://correr-zhou.github.io/MagicTailor/) [[Paper]](https://arxiv.org/pdf/2410.13370) [[Code]](https://github.com/correr-zhou/MagicTailor) [![Hugging Face](https://img.shields.io/badge/Hugging_Face-%233_Paper_of_the_Day-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/papers?date=2024-10-21)
 </div>
 </div>
 
