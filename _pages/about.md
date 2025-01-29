@@ -29,19 +29,19 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 🔥 News
 
-- *2024.12* &ensp; One paper is accepted by AAAI 2025! 🎉
-- *2024.10* &ensp; One paper is accepted by WACV 2025! 🎉
-- *2024.07* &ensp; Two papers are accepted by BMVC 2024! 🎉
-- *2024.06* &ensp; One paper is accepted by IEEE TIFS 2024 (a CCF-A journal)! 🎉
+- *2024.12* &ensp; [MM-Mixing](https://arxiv.org/pdf/2405.18523) is accepted by AAAI 2025! 🎉
+- *2024.10* &ensp; [Dual-Schedule Inversion](https://arxiv.org/pdf/2412.11152) is accepted by WACV 2025! 🎉
+- *2024.07* &ensp; [DISCO](https://arxiv.org/pdf/2308.12017) and [SignVTCL](https://arxiv.org/pdf/2401.11847) are accepted by BMVC 2024! 🎉
+- *2024.06* &ensp; [IFAST](https://ieeexplore.ieee.org/abstract/document/10685520/) is accepted by IEEE TIFS 2024 (a CCF-A journal)! 🎉
 - *2024.05* &ensp; I am selected as an outstanding graduate of Beijing! 👨‍🎓
 <!-- - *2024.02* &ensp; I am awarded a SIAT President’s Special Scholarship! 🏆 -->
-- *2023.10* &ensp; One paper is accepted by WACV 2024! 🎉
+- *2023.10* &ensp; [DDPMask](https://openaccess.thecvf.com/content/WACV2024/papers/Xu_DPPMask_Masked_Image_Modeling_With_Determinantal_Point_Processes_WACV_2024_paper.pdf) is accepted by WACV 2024! 🎉
 - *2023.10* &ensp; I am awarded a China Postgraduate National Scholarship! 🏆
 - *2023.04* &ensp; I join [Tencent YouTu Lab](https://open.youtu.qq.com/) as a research intern! 🔬
-- *2023.03* &ensp; Our paper is selected as a CVPR Highlight (Top 2.6% of 9155 submissions)! 🎉
-- *2023.02* &ensp; One first-author paper is accepted by CVPR 2023! 🎉
+- *2023.03* &ensp; [RepMode](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_RepMode_Learning_to_Re-Parameterize_Diverse_Experts_for_Subcellular_Structure_Prediction_CVPR_2023_paper.pdf) is selected as a CVPR Highlight (Top 2.6% of 9155 submissions)! 🎉
+- *2023.02* &ensp; [RepMode](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_RepMode_Learning_to_Re-Parameterize_Diverse_Experts_for_Subcellular_Structure_Prediction_CVPR_2023_paper.pdf) is accepted by CVPR 2023! 🎉
 - *2022.07* &ensp; I join [Zhejiang Lab](https://en.zhejianglab.com/) as a research intern! 🔬
-- *2022.07* &ensp; One first-author paper is accepted by ECCV 2022! 🎉
+- *2022.07* &ensp; [EM Loss+APL](https://arxiv.org/pdf/2203.16219) is accepted by ECCV 2022! 🎉
 <!-- - *2021.07* &ensp; I get my bachelor’s degree as an outstanding graduate! 👨‍🎓 -->
 - *2021.03* &ensp; I join [SIAT, CAS](https://english.siat.ac.cn/) as a research assistant! 🔬
 <!-- - *2020.10*: I acquire a qualification of postgraduate recommendation, and decide to pursue my master’s degree in UCAS! 👨‍🎓 -->
