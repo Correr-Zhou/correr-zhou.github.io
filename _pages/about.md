@@ -19,7 +19,7 @@ redirect_from:
 
 I am a first-year Ph.D. student at [Department of Computer Science and Engineering (CSE)](https://www.cse.cuhk.edu.hk/), [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html) <img src='images/logo_CUHK.png' style='width: 1.3em;'>, supervised by [Prof. Pheng-Ann Heng](https://www.cse.cuhk.edu.hk/~pheng/1.html) and [Prof. Chi-Wing Fu, Philip](https://www.cse.cuhk.edu.hk/~cwfu/).
 <!-- Currently, I am a research-oriented M.Sc. student at [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/) <img src='images/logo_UCAS.png' style='width: 1.1em;'>, doing my research at [Shenzhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/) <img src='images/logo_SIAT.webp' style='width: 1.1em;'>, [Chinese Academy of Sciences (CAS)](https://english.cas.cn/). -->
-I have spent wonderful time at [Tencent YouTu Lab](https://open.youtu.qq.com/), [Zhejiang Lab](https://en.zhejianglab.com/), and [SIAT, CAS](https://english.siat.ac.cn/) as a research intern/assistant. Also, it is my great honor to be awarded a China Postgraduate National Scholarship and a China Undergraduate National Scholarship during my academic career.
+I have spent wonderful time at [Tencent YouTu Lab](https://open.youtu.qq.com/), [Zhejiang Lab](https://en.zhejianglab.com/), and [Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences](https://english.siat.ac.cn/) as a research intern/assistant. Also, it is my great honor to be awarded a China Postgraduate National Scholarship and a China Undergraduate National Scholarship during my academic career.
 
 My research interest mainly includes Deep Learning and Computer Vision. Recently, I focus on exploring Generative AI, Multi-Modal Learning, and AI Agents, aiming to promote the efficiency and flexibility of AI models and algorithms in the real world.
 
@@ -236,7 +236,7 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 <div class='exp-box'><div class='exp-box-image'><div><img src='images/logo_SIAT_CAS.png' alt="sym" width="100%"></div></div>
 <div class='exp-box-text' markdown="1">
 
-[**SIAT, CAS**](https://english.siat.ac.cn/), Shenzhen, China
+[**Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences**](https://english.siat.ac.cn/), Shenzhen, China
 
 **Research Assistant** @ CV2R-Lab
 
