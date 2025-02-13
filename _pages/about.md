@@ -30,7 +30,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 # 🔥 News
 
 - *2024.12* &ensp; [MM-Mixing](https://arxiv.org/pdf/2405.18523) is accepted by AAAI 2025! 🎉
-- *2024.10* &ensp; [Dual-Schedule Inversion](https://arxiv.org/pdf/2412.11152) is accepted by WACV 2025! 🎉
+- *2024.10* &ensp; [Dual-Schedule Inversion](https://arxiv.org/pdf/2412.11152) is accepted by WACV 2025 as an oral! 🎉
 - *2024.07* &ensp; [DISCO](https://arxiv.org/pdf/2308.12017) and [SignVTCL](https://arxiv.org/pdf/2401.11847) are accepted by BMVC 2024! 🎉
 - *2024.06* &ensp; [IFAST](https://ieeexplore.ieee.org/abstract/document/10685520/) is accepted by IEEE TIFS 2024 (a CCF-A journal)! 🎉
 - *2024.05* &ensp; I am selected as an outstanding graduate of Beijing! 👨‍🎓
