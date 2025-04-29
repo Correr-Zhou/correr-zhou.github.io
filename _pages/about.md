@@ -40,7 +40,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 <!-- - *2024.02* &ensp; I am awarded a SIAT President’s Special Scholarship! 🏆 -->
 - *2023.10* &ensp; [DDPMask](https://openaccess.thecvf.com/content/WACV2024/papers/Xu_DPPMask_Masked_Image_Modeling_With_Determinantal_Point_Processes_WACV_2024_paper.pdf) is accepted by WACV 2024! 🎉
 - *2023.10* &ensp; I am awarded a China Postgraduate National Scholarship! 🏆
-- *2023.04* &ensp; I join [Tencent YouTu Lab](https://open.youtu.qq.com/) as a research intern! 🔬
+- *2023.04* &ensp; I join [Tencent YouTu Lab](https://open.youtu.qq.com/#/open/aboutus/aboutus) as a research intern! 🔬
 - *2023.03* &ensp; [RepMode](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_RepMode_Learning_to_Re-Parameterize_Diverse_Experts_for_Subcellular_Structure_Prediction_CVPR_2023_paper.pdf) is selected as a CVPR Highlight (Top 2.6% of 9155 submissions)! 🎉
 - *2023.02* &ensp; [RepMode](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_RepMode_Learning_to_Re-Parameterize_Diverse_Experts_for_Subcellular_Structure_Prediction_CVPR_2023_paper.pdf) is accepted by CVPR 2023! 🎉
 - *2022.07* &ensp; I join [Zhejiang Lab](https://en.zhejianglab.com/) as a research intern! 🔬
@@ -209,7 +209,7 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 <div class='exp-box'> <div class='exp-box-image'><div><img src='images/logo_YouTu.png' alt="sym" width="100%"></div></div>
 <div class='exp-box-text' markdown="1">
 
-[**Tencent YouTu Lab**](https://open.youtu.qq.com/), Shenzhen, China
+[**Tencent YouTu Lab**](https://open.youtu.qq.com/#/open/aboutus/aboutus), Shenzhen, China
 
 **Research Intern** @ FuXi Research Center
 
