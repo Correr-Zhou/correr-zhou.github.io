@@ -31,6 +31,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 🔥 News
 
+- *2025.04* &ensp; [MagicTailor](https://correr-zhou.github.io/MagicTailor/) is accepted by IJCAI 2025! 🎉
 - *2024.12* &ensp; [MM-Mixing](https://arxiv.org/pdf/2405.18523) is accepted by AAAI 2025! 🎉
 - *2024.10* &ensp; [Dual-Schedule Inversion](https://arxiv.org/pdf/2412.11152) is accepted by WACV 2025 as an oral! 🎉
 - *2024.07* &ensp; [DISCO](https://arxiv.org/pdf/2308.12017) and [SignVTCL](https://arxiv.org/pdf/2401.11847) are accepted by BMVC 2024! 🎉
@@ -54,16 +55,16 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 # 📝 Selected Publications
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv Preprint</div><img src='images/magictailor.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2025</div><img src='images/magictailor.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-🔥 [**MagicTailor: Component-Controllable Personalization in Text-to-Image Diffusion Models**](https://arxiv.org/abs/2410.13370) 🔥
+[**MagicTailor: Component-Controllable Personalization in Text-to-Image Diffusion Models**](https://arxiv.org/abs/2410.13370)
 
-**Donghao Zhou**, Jiancheng Huang, Jinbin Bai, Jiaze Wang, Hao Chen, Guangyong Chen, 
+**Donghao Zhou\***, Jiancheng Huang\*, Jinbin Bai, Jiaze Wang, Hao Chen, Guangyong Chen, 
 
 Xiaowei Hu, Pheng-Ann Heng
 
-***arXiv Preprint (Under Review)***
+***International Joint Conference on Artificial Intelligence (IJCAI) 2025***
 
 [[Page]](https://correr-zhou.github.io/MagicTailor/) [[Paper]](https://arxiv.org/pdf/2410.13370) [[Code]](https://github.com/correr-zhou/MagicTailor)
 </div>
@@ -77,8 +78,6 @@ Xiaowei Hu, Pheng-Ann Heng
 [**IFAST: Weakly Supervised Interpretable Face Anti-spoofing from Single-shot Binocular NIR Images**](https://ieeexplore.ieee.org/abstract/document/10685520/)
 
 Jiancheng Huang\*, **Donghao Zhou\***, Jianzhuang Liu, Linxiao Shi, Shifeng Chen 
-
-(\* indicates equal contribution)
 
 ***IEEE Transactions on Information Forensics and Security (TIFS) 2024 (<font color=red>CCF-A Journal</font>)***
 
