@@ -31,6 +31,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 🔥 News
 
+- *2025.05* &ensp; [MoIE](https://correr-zhou.github.io) is early accepted by MICCAI 2025! 🎉
 - *2025.04* &ensp; [MagicTailor](https://correr-zhou.github.io/MagicTailor/) is accepted by IJCAI 2025! 🎉
 - *2024.12* &ensp; [MM-Mixing](https://arxiv.org/pdf/2405.18523) is accepted by AAAI 2025! 🎉
 - *2024.10* &ensp; [Dual-Schedule Inversion](https://arxiv.org/pdf/2412.11152) is accepted by WACV 2025 as an oral! 🎉
