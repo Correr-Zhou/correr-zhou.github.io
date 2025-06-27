@@ -268,7 +268,7 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 # 📅 Academic Services
 
 ## 📖 Reviewers/PC Members
-- Conference: ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
+- Conference: ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
 - Journal: Scientific Reports
 
 ## 🗣️ Teaching
