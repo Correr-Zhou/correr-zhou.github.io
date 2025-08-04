@@ -31,7 +31,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 🔥 News
 
-- *2025.06* &ensp; [TRIG](https://correr-zhou.github.io) is accepted by ICCV 2025! 🎉
+- *2025.06* &ensp; [TRIG](https://arxiv.org/pdf/2507.22100) is accepted by ICCV 2025! 🎉
 - *2025.05* &ensp; [MoIE](https://correr-zhou.github.io) is early accepted by MICCAI 2025 (Top 9% papers)! 🎉
 - *2025.04* &ensp; [MagicTailor](https://correr-zhou.github.io/MagicTailor/) is accepted by IJCAI 2025! 🎉
 - *2024.12* &ensp; [MM-Mixing](https://arxiv.org/pdf/2405.18523) is accepted by AAAI 2025! 🎉
@@ -268,7 +268,7 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 # 📅 Academic Services
 
 ## 📖 Reviewers/PC Members
-- Conference: ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
+- Conference: AAAI 2026, BMVC 2025, ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
 - Journal: Scientific Reports
 
 ## 🗣️ Teaching
