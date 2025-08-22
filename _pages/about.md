@@ -31,9 +31,10 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 🔥 News
 
+- *2025.08* &ensp; [OmniMol](https://correr-zhou.github.io) is accepted by Nature Communications! 🎉
 - *2025.06* &ensp; [TRIG](https://arxiv.org/pdf/2507.22100) is accepted by ICCV 2025! 🎉
-- *2025.05* &ensp; [MoIE](https://correr-zhou.github.io) is early accepted by MICCAI 2025 (Top 9% papers)! 🎉
-- *2025.04* &ensp; [MagicTailor](https://correr-zhou.github.io/MagicTailor/) is accepted by IJCAI 2025! 🎉
+- *2025.05* &ensp; [MoIE](https://correr-zhou.github.io) is early accepted by MICCAI 2025 as a spotlight! 🎉
+- *2025.04* &ensp; [MagicTailor](https://correr-zhou.github.io/MagicTailor/) is accepted by IJCAI 2025 as an oral! 🎉
 - *2024.12* &ensp; [MM-Mixing](https://arxiv.org/pdf/2405.18523) is accepted by AAAI 2025! 🎉
 - *2024.10* &ensp; [Dual-Schedule Inversion](https://arxiv.org/pdf/2412.11152) is accepted by WACV 2025 as an oral! 🎉
 - *2024.07* &ensp; [DISCO](https://arxiv.org/pdf/2308.12017) and [SignVTCL](https://arxiv.org/pdf/2401.11847) are accepted by BMVC 2024! 🎉
@@ -57,7 +58,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 # 📝 Selected Publications
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2025</div><img src='images/magictailor.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2025 Oral</div><img src='images/magictailor.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**MagicTailor: Component-Controllable Personalization in Text-to-Image Diffusion Models**](https://arxiv.org/abs/2410.13370)
@@ -66,7 +67,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 Xiaowei Hu, Pheng-Ann Heng
 
-***International Joint Conference on Artificial Intelligence (IJCAI) 2025***
+***International Joint Conference on Artificial Intelligence (IJCAI) 2025 Oral***
 
 [[Page]](https://correr-zhou.github.io/MagicTailor/) [[Paper]](https://arxiv.org/pdf/2410.13370) [[Code]](https://github.com/correr-zhou/MagicTailor)
 </div>
@@ -117,7 +118,7 @@ Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 
 **Donghao Zhou**, Chunbin Gu, Junde Xu, Furui Liu, Qiong Wang, Guangyong Chen, Pheng-Ann Heng
 
-***IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023***
+***IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023 Highlight***
 
 <!-- *We propose a network that dynamically organizes its parameters with task-aware priors to tackle subcellular structure prediction.* -->
 
@@ -250,13 +251,13 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 
 
 # 🏅 Selected Awards
-- *2024.05* &ensp; Outstanding Graduate of Beijing
-- *2024.05* &ensp; Outstanding Graduate of UCAS
+- *2024.05* &ensp; Outstanding Graduate of Beijing & UCAS
+<!-- - *2024.05* &ensp; Outstanding Graduate of UCAS -->
 - *2024.02* &ensp; SIAT President's Special Scholarship
 - *2024.01* &ensp; IAIT Dean's Innovation Award: Outstanding Postgraduate Award
 - *2023.10* &ensp; China Postgraduate National Scholarship (Top 1.7%)
 <!-- - *2021 - 2023* &ensp; UCAS Postgraduate Studentship (Full Tuition Waiver & 8,000 CNY p.a.) -->
-- *2021.06* &ensp; Outstanding Graduate (Top 2.5%)
+<!-- - *2021.06* &ensp; Outstanding Graduate (Top 2.5%) -->
 <!-- - *2021.06* &ensp; Excellent Graduation Thesis & Graduation Thesis Innovation Prize -->
 - *2021.04* &ensp; Top 10 Student Innovation Figure (Bonus: 10,000 CNY)
 - *2020.09* &ensp; China Undergraduate National Scholarship (Top 0.3%)
@@ -268,7 +269,7 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 # 📅 Academic Services
 
 ## 📖 Reviewers/PC Members
-- Conference: AAAI 2026, BMVC 2025, ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
+- Conference: AISTAT 2026, AAAI 2026, BMVC 2025, ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
 - Journal: Scientific Reports
 
 ## 🗣️ Teaching
