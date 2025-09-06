@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first-year Ph.D. student at [Department of Computer Science and Engineering (CSE)](https://www.cse.cuhk.edu.hk/), [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html) <img src='images/logo_CUHK.png' style='width: 1.3em;'>, supervised by [Prof. Pheng-Ann Heng](https://www.cse.cuhk.edu.hk/~pheng/1.html) and [Prof. Chi-Wing Fu, Philip](https://www.cse.cuhk.edu.hk/~cwfu/).
+I am a second-year Ph.D. student at [Department of Computer Science and Engineering (CSE)](https://www.cse.cuhk.edu.hk/), [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html) <img src='images/logo_CUHK.png' style='width: 1.3em;'>, supervised by [Prof. Pheng-Ann Heng](https://www.cse.cuhk.edu.hk/~pheng/1.html) and [Prof. Chi-Wing Fu, Philip](https://www.cse.cuhk.edu.hk/~cwfu/).
 <!-- Currently, I am a research-oriented M.Sc. student at [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/) <img src='images/logo_UCAS.png' style='width: 1.1em;'>, doing my research at [Shenzhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/) <img src='images/logo_SIAT.webp' style='width: 1.1em;'>, [Chinese Academy of Sciences (CAS)](https://english.cas.cn/). -->
 I have spent wonderful time at [Tencent YouTu Lab](https://open.youtu.qq.com/), [Zhejiang Lab](https://en.zhejianglab.com/), and [Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences](https://english.siat.ac.cn/) as a research intern/assistant. Also, it is my great honor to be awarded a China Postgraduate National Scholarship and a China Undergraduate National Scholarship during my academic career.
 
@@ -40,7 +40,9 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 - *2024.07* &ensp; [DISCO](https://arxiv.org/pdf/2308.12017) and [SignVTCL](https://arxiv.org/pdf/2401.11847) are accepted by BMVC 2024! 🎉
 - *2024.06* &ensp; [IFAST](https://ieeexplore.ieee.org/abstract/document/10685520/) is accepted by IEEE TIFS 2024 (a CCF-A journal)! 🎉
 - *2024.05* &ensp; I am selected as an outstanding graduate of Beijing! 👨‍🎓
-<!-- - *2024.02* &ensp; I am awarded a SIAT President’s Special Scholarship! 🏆 -->
+<details>
+<summary>More</summary>
+<p>
 - *2023.10* &ensp; [DDPMask](https://openaccess.thecvf.com/content/WACV2024/papers/Xu_DPPMask_Masked_Image_Modeling_With_Determinantal_Point_Processes_WACV_2024_paper.pdf) is accepted by WACV 2024! 🎉
 - *2023.10* &ensp; I am awarded a China Postgraduate National Scholarship! 🏆
 - *2023.04* &ensp; I join [Tencent YouTu Lab](https://open.youtu.qq.com/#/open/aboutus/aboutus) as a research intern! 🔬
@@ -53,6 +55,8 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 <!-- - *2020.10*: I acquire a qualification of postgraduate recommendation, and decide to pursue my master’s degree in UCAS! 👨‍🎓 -->
 - *2020.09* &ensp; I am awarded a China Undergraduate National Scholarship! 🏆
 <!-- - *2019.05*: We win the second prize of [CN-ROBOCON](https://en.wikipedia.org/wiki/ABU_Robocon) after one-year's preparation. Thanks all my teammates! 🥈 -->
+</p>
+</details>
 
 
 # 📝 Selected Publications
@@ -69,7 +73,7 @@ Xiaowei Hu, Pheng-Ann Heng
 
 ***International Joint Conference on Artificial Intelligence (IJCAI) 2025 Oral***
 
-[[Page]](https://correr-zhou.github.io/MagicTailor/) [[Paper]](https://arxiv.org/pdf/2410.13370) [[Code]](https://github.com/correr-zhou/MagicTailor)
+[[Page]](https://correr-zhou.github.io/MagicTailor/) [[Paper]](https://arxiv.org/pdf/2410.13370) [[Code]](https://github.com/correr-zhou/MagicTailor) [[Poster]](resources/IJCAI25_MagicTailor_poster.pdf)
 </div>
 </div>
 
