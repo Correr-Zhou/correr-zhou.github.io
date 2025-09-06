@@ -40,9 +40,6 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 - *2024.07* &ensp; [DISCO](https://arxiv.org/pdf/2308.12017) and [SignVTCL](https://arxiv.org/pdf/2401.11847) are accepted by BMVC 2024! 🎉
 - *2024.06* &ensp; [IFAST](https://ieeexplore.ieee.org/abstract/document/10685520/) is accepted by IEEE TIFS 2024 (a CCF-A journal)! 🎉
 - *2024.05* &ensp; I am selected as an outstanding graduate of Beijing! 👨‍🎓
-<details>
-<summary>More</summary>
-<p>
 - *2023.10* &ensp; [DDPMask](https://openaccess.thecvf.com/content/WACV2024/papers/Xu_DPPMask_Masked_Image_Modeling_With_Determinantal_Point_Processes_WACV_2024_paper.pdf) is accepted by WACV 2024! 🎉
 - *2023.10* &ensp; I am awarded a China Postgraduate National Scholarship! 🏆
 - *2023.04* &ensp; I join [Tencent YouTu Lab](https://open.youtu.qq.com/#/open/aboutus/aboutus) as a research intern! 🔬
@@ -55,8 +52,6 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 <!-- - *2020.10*: I acquire a qualification of postgraduate recommendation, and decide to pursue my master’s degree in UCAS! 👨‍🎓 -->
 - *2020.09* &ensp; I am awarded a China Undergraduate National Scholarship! 🏆
 <!-- - *2019.05*: We win the second prize of [CN-ROBOCON](https://en.wikipedia.org/wiki/ABU_Robocon) after one-year's preparation. Thanks all my teammates! 🥈 -->
-</p>
-</details>
 
 
 # 📝 Selected Publications
