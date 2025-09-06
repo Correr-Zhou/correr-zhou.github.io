@@ -83,7 +83,7 @@ Jiancheng Huang\*, **Donghao Zhou\***, Jianzhuang Liu, Linxiao Shi, Shifeng Chen
 
 ***IEEE Transactions on Information Forensics and Security (TIFS) 2024 (<font color=red>CCF-A Journal</font>)***
 
-[[Page]](https://ifast-bni.github.io/) [[Paper]](https://ieeexplore.ieee.org/abstract/document/10685520/)
+[[Page]](https://ifast-bni.github.io/) [[Paper]](https://ieeexplore.ieee.org/abstract/document/10685520/) [[Code]](https://github.com/huangjch526/IFAST_official)
 
 
 </div>
