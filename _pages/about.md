@@ -278,6 +278,7 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 
 ## 🗣️ Teaching
 - *2024 - 2025* &ensp; *Spring* &ensp; Introduction to Computing using Python (AIST1110)
+- *2025 - 2026* &ensp; *Fall* &ensp; Computer Principles and Python Programming (CSCI1550)
 
 ## 💬 Invited Talks
 - *2023.06* &ensp; Subcellular Structure Prediction: Revealing Fluorescent Images with Deep Learning, Topic Talk, held by [TechBeat](https://www.techbeat.net/) \| [[News]](https://mp.weixin.qq.com/s/uxUsJiS1m0VwnEeBb3A6cg) [[Video]](https://www.techbeat.net/talk-info?id=783)
