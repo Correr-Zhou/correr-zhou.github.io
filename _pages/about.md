@@ -31,6 +31,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 🔥 News
 
+- *2025.09* &ensp; [SceneDecorator](https://correr-zhou.github.io), [BlindFormer](https://correr-zhou.github.io), and [CellVerse](https://correr-zhou.github.io) are accepted by NeurIPS 2025! 🎉
 - *2025.08* &ensp; [OmniMol](https://correr-zhou.github.io) is accepted by Nature Communications! 🎉
 - *2025.06* &ensp; [TRIG](https://arxiv.org/pdf/2507.22100) is accepted by ICCV 2025! 🎉
 - *2025.05* &ensp; [MoIE](https://correr-zhou.github.io) is early accepted by MICCAI 2025 as a spotlight! 🎉
