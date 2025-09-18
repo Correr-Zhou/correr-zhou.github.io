@@ -31,7 +31,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 🔥 News
 
-- *2025.09* &ensp; [SceneDecorator](https://correr-zhou.github.io), [BlindFormer](https://correr-zhou.github.io), and [CellVerse](https://correr-zhou.github.io) are accepted by NeurIPS 2025! 🎉
+- *2025.09* &ensp; [SceneDecorator](https://correr-zhou.github.io), [BlindFormer](https://correr-zhou.github.io), and [CellVerse](https://cellverse-cuhk.github.io/) are accepted by NeurIPS 2025! 🎉
 - *2025.08* &ensp; [OmniMol](https://correr-zhou.github.io) is accepted by Nature Communications! 🎉
 - *2025.06* &ensp; [TRIG](https://arxiv.org/pdf/2507.22100) is accepted by ICCV 2025! 🎉
 - *2025.05* &ensp; [MoIE](https://correr-zhou.github.io) is early accepted by MICCAI 2025 as a spotlight! 🎉
@@ -269,7 +269,7 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 # 📅 Academic Services
 
 ## 📖 Reviewers/PC Members
-- Conference: AISTAT 2026, AAAI 2026, BMVC 2025, ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
+- Conference: CVPR 2026, AAAI 2026, BMVC 2025, ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
 - Journal: Scientific Reports
 
 ## 🗣️ Teaching
