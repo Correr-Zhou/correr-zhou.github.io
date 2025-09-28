@@ -262,14 +262,14 @@ Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, A
 - *2021.04* &ensp; Top 10 Student Innovation Figure (Bonus: 10,000 CNY)
 - *2020.09* &ensp; China Undergraduate National Scholarship (Top 0.3%)
 - *2018 - 2020* &ensp; First-Class Excellent Student Scholarships (Three Times)
-- *2019.05* &ensp; [Asia-Pacific Robot Contest (ROBOCON)](https://en.wikipedia.org/wiki/ABU_Robocon), China Regional Competition, Second Prize (Leading a team of 30+ undergradutes)
+- *2019.05* &ensp; [Asia-Pacific Robot Contest (ROBOCON)](https://en.wikipedia.org/wiki/ABU_Robocon), China Regional Competition, Second Prize (Leading a team of 30+ members)
 <!-- - *2018.09* &ensp; Guangdong University Electronic Design Competition, Second Prize -->
 
 
 # 📅 Academic Services
 
 ## 📖 Reviewers/PC Members
-- Conference: CVPR 2026, AAAI 2026, BMVC 2025, ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
+- Conference: CVPR 2026, ICLR 2026, AAAI 2026, BMVC 2025, ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
 - Journal: Scientific Reports
 
 ## 🗣️ Teaching
