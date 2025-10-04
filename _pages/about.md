@@ -61,13 +61,12 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Communications</div><img src='images/omnimol.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Unified and Explainable Molecular Representation Learning for Imperfectly Annotated Data from the Hypergraph View
-**](https://www.nature.com/articles/s41467-025-63730-6)
+[**Unified and Explainable Molecular Representation Learning for Imperfectly Annotated Data from the Hypergraph View**](https://www.nature.com/articles/s41467-025-63730-6)
 
 Bowen Wang, Junyou Li, **Donghao Zhou**, Lanqing Li, Jinpeng Li, Ercheng Wang, Jianye Hao, 
 Liang Shi, Chengqiang Lu, Jiezhong Qiu, Tingjun Hou, Dongsheng Cao, Guangyong Chen, Pheng Ann Heng
 
-***Nature Communications***
+***Nat. Commun.***
 
 [[Paper]](https://www.nature.com/articles/s41467-025-63730-6) [[Code]](https://github.com/bowenwang77/OmniMol)
 </div>
