@@ -64,7 +64,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 [**Unified and Explainable Molecular Representation Learning for Imperfectly Annotated Data from the Hypergraph View**](https://www.nature.com/articles/s41467-025-63730-6)
 
 Bowen Wang, Junyou Li, **Donghao Zhou**, Lanqing Li, Jinpeng Li, Ercheng Wang, Jianye Hao, 
-Liang Shi, Chengqiang Lu, Jiezhong Qiu, Tingjun Hou, Dongsheng Cao, Guangyong Chen, Pheng Ann Heng
+Liang Shi, Chengqiang Lu, Jiezhong Qiu, Tingjun Hou, Dongsheng Cao, Guangyong Chen, Pheng-Ann Heng
 
 ***Nature Communications***
 
