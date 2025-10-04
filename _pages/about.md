@@ -32,9 +32,9 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 # 🔥 News
 
 - *2025.09* &ensp; [SceneDecorator](https://correr-zhou.github.io), [BlindFormer](https://correr-zhou.github.io), and [CellVerse](https://cellverse-cuhk.github.io/) are accepted by NeurIPS 2025! 🎉
-- *2025.08* &ensp; [OmniMol](https://correr-zhou.github.io) is accepted by Nature Communications! 🎉
+- *2025.08* &ensp; [OmniMol](https://www.nature.com/articles/s41467-025-63730-6) is accepted by Nature Communications! 🎉
 - *2025.06* &ensp; [TRIG](https://arxiv.org/pdf/2507.22100) is accepted by ICCV 2025! 🎉
-- *2025.05* &ensp; [MoIE](https://correr-zhou.github.io) is early accepted by MICCAI 2025 as a spotlight! 🎉
+- *2025.05* &ensp; [MoIE](https://papers.miccai.org/miccai-2025/paper/0652_paper.pdf) is early accepted by MICCAI 2025 as a spotlight! 🎉
 - *2025.04* &ensp; [MagicTailor](https://correr-zhou.github.io/MagicTailor/) is accepted by IJCAI 2025 as an oral! 🎉
 - *2024.12* &ensp; [MM-Mixing](https://arxiv.org/pdf/2405.18523) is accepted by AAAI 2025! 🎉
 - *2024.10* &ensp; [Dual-Schedule Inversion](https://arxiv.org/pdf/2412.11152) is accepted by WACV 2025 as an oral! 🎉
