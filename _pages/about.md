@@ -57,6 +57,22 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 📝 Selected Publications
 
+*(\* Equal Contribution, † Project Lead)*
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/scenedecorator.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**SceneDecorator: Towards Scene-Oriented Story Generation with Scene Planning and Scene Consistency**](https://arxiv.org/abs/2510.22994)
+
+Quanjian Song\*, **Donghao Zhou\*†**, Jingyu Lin\*†, Fei Shen, Jiaze Wang, Xiaowei Hu, Cunjian Chen, Pheng-Ann Heng
+
+***NeurIPS 2025***
+
+[[Page]](https://lulupig12138.github.io/SceneDecorator) [[Paper]](https://arxiv.org/pdf/2510.22994) [[Code]](https://github.com/lulupig12138/SceneDecorator)
+</div>
+</div>
+
+---
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nat. Commun.</div><img src='images/omnimol.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
