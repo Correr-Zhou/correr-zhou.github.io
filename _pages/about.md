@@ -31,7 +31,8 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 🔥 News
 
-- *2025.09* &ensp; [SceneDecorator](https://correr-zhou.github.io), [BlindFormer](https://correr-zhou.github.io), and [CellVerse](https://cellverse-cuhk.github.io/) are accepted by NeurIPS 2025! 🎉
+- *2025.11* &ensp; [IdentityStory](https://correr-zhou.github.io) is accepted by AAAI 2025! 🎉
+- *2025.09* &ensp; [SceneDecorator](https://lulupig12138.github.io/SceneDecorator/), [BlindFormer](https://openreview.net/pdf?id=bh56ijtRb9), and [CellVerse](https://cellverse-cuhk.github.io/) are accepted by NeurIPS 2025! 🎉
 - *2025.08* &ensp; [OmniMol](https://www.nature.com/articles/s41467-025-63730-6) is accepted by Nature Communications! 🎉
 - *2025.06* &ensp; [TRIG](https://arxiv.org/pdf/2507.22100) is accepted by ICCV 2025! 🎉
 - *2025.05* &ensp; [MoIE](https://papers.miccai.org/miccai-2025/paper/0652_paper.pdf) is early accepted by MICCAI 2025 as a spotlight! 🎉
@@ -50,7 +51,6 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 - *2022.07* &ensp; [EM Loss+APL](https://arxiv.org/pdf/2203.16219) is accepted by ECCV 2022! 🎉
 <!-- - *2021.07* &ensp; I get my bachelor’s degree as an outstanding graduate! 👨‍🎓 -->
 - *2021.03* &ensp; I join [SIAT, CAS](https://english.siat.ac.cn/) as a research assistant! 🔬
-<!-- - *2020.10*: I acquire a qualification of postgraduate recommendation, and decide to pursue my master’s degree in UCAS! 👨‍🎓 -->
 - *2020.09* &ensp; I am awarded a China Undergraduate National Scholarship! 🏆
 <!-- - *2019.05*: We win the second prize of [CN-ROBOCON](https://en.wikipedia.org/wiki/ABU_Robocon) after one-year's preparation. Thanks all my teammates! 🥈 -->
 
