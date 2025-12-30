@@ -31,6 +31,13 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 🔥 News
 
+<div style="max-height: 300px; overflow-y: auto; scrollbar-width: none; -ms-overflow-style: none;" class="news-scroll">
+<style>
+.news-scroll::-webkit-scrollbar {
+    display: none;
+}
+</style>
+
 - *2025.11* &ensp; [IdentityStory](https://correr-zhou.github.io) is accepted by AAAI 2025! 🎉
 - *2025.09* &ensp; [SceneDecorator](https://lulupig12138.github.io/SceneDecorator/), [BlindFormer](https://openreview.net/pdf?id=bh56ijtRb9), and [CellVerse](https://cellverse-cuhk.github.io/) are accepted by NeurIPS 2025! 🎉
 - *2025.08* &ensp; [OmniMol](https://www.nature.com/articles/s41467-025-63730-6) is accepted by Nature Communications! 🎉
@@ -53,6 +60,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 - *2021.03* &ensp; I join [SIAT, CAS](https://english.siat.ac.cn/) as a research assistant! 🔬
 - *2020.09* &ensp; I am awarded a China Undergraduate National Scholarship! 🏆
 <!-- - *2019.05*: We win the second prize of [CN-ROBOCON](https://en.wikipedia.org/wiki/ABU_Robocon) after one-year's preparation. Thanks all my teammates! 🥈 -->
+</div>
 
 
 # 📝 Selected Publications
