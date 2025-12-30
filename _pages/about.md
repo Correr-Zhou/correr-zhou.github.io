@@ -80,7 +80,7 @@ Chi-Wing Fu, Xiaowei Hu, Pheng-Ann Heng
 
 ***Annual AAAI Conference on Artificial Intelligence (AAAI) 2026***
 
-[[Page]](https://correr-zhou.github.io/IdentityStory) [[Paper]](https://arxiv.org/pdf/2512.23519) [[Code]](https://github.com/Correr-Zhou/IdentityStory)
+[[Page]](https://correr-zhou.github.io/IdentityStory) [[Paper]](https://arxiv.org/pdf/2512.23519) [[Code]](https://github.com/Correr-Zhou/IdentityStory) [[Poster]](resources/IdentityStory_poster_AAAI26.pdf)
 </div>
 </div>
 
@@ -151,7 +151,7 @@ Jiancheng Huang\*, **Donghao Zhou\***, Jianzhuang Liu, Linxiao Shi, Shifeng Chen
 </div>
 </div>
 
----
+<!-- ---
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">BMVC 2024</div><img src='images/disco.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -168,7 +168,7 @@ Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 [[Poster]](resources/disco_poster.pdf) 
 
 </div>
-</div>
+</div> -->
 
 ---
 
@@ -208,60 +208,6 @@ Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 
 </div>
 </div>
-
-
-<!-- ---
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BMVC 2024</div><img src='images/signvtcl.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**SignVTCL: Multi-Modal Continuous Sign Language Recognition Enhanced by Visual-Textual Contrastive Learning**](https://arxiv.org/abs/2401.11847)
-
-Hao Chen, Jiaze Wang, Ziyu Guo, Jinpeng Li, **Donghao Zhou**, Bian Wu, Chenyong Guan, Guangyong Chen, Pheng-Ann Heng
-
-***British Machine Vision Conference (BMVC) 2024***
-
-[[Project]](https://socialgoodai.github.io/) [[Paper]](https://arxiv.org/pdf/2401.11847)
-
-
-</div>
-</div>
-
-
----
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2024</div><img src='images/ddpmask.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**DPPMask: Masked Image Modeling with Determinantal Point Processes**](https://arxiv.org/abs/2303.12736)
-
-Junde Xu, Zikai Lin, **Donghao Zhou**, Yaodong Yang, Xiangyun Liao, Bian Wu, Guangyong Chen, Pheng-Ann Heng
-
-***IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2024***
-
-[[Paper]](https://arxiv.org/pdf/2303.12736.pdf)
-
-
-</div>
-</div>
-
-
----
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/mm_mixing.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**MM-Mixing: Multi-Modal Mixing Alignment for 3D Understanding**](https://arxiv.org/abs/2405.18523)
-
-Jiaze Wang, Yi Wang, Ziyu Guo, Renrui Zhang, **Donghao Zhou**, Guangyong Chen, Anfeng Liu, Pheng-Ann Heng
-
-***arXiv Preprint (Under Review)***
-
-[[Project]](https://jiazewang.com/projects/TripletMix) [[Paper]](https://arxiv.org/pdf/2405.18523)
-
-
-</div>
-</div> -->
 
 
 
