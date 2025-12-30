@@ -31,6 +31,8 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 # 🔥 News
 
+*（Scroll to see more）*
+
 <div style="max-height: 300px; overflow-y: auto; scrollbar-width: none; -ms-overflow-style: none;" class="news-scroll" markdown="1">
 <style>
 .news-scroll::-webkit-scrollbar {
