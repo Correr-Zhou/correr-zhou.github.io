@@ -59,6 +59,23 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 *(\* Equal Contribution, <sup>†</sup> Project Lead)*
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/identitystory.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**IdentityStory: Taming Your Identity-Preserving Generator for Human-Centric Story Generation**](https://correr-zhou.github.io/IdentityStory)
+
+**Donghao Zhou\***, Jingyu Lin\*, Guibao Shen, Quande Liu, Jialin Gao, Lihao Liu, Lan Du, Cunjian Chen<sup>†</sup>, 
+
+Chi-Wing Fu, Xiaowei Hu<sup>†</sup>, Pheng-Ann Heng
+
+***Annual AAAI Conference on Artificial Intelligence (AAAI) 2026***
+
+[[Page]](https://correr-zhou.github.io/IdentityStory) [[Paper]](https://arxiv.org/pdf/2512.23519) [[Code]](https://github.com/Correr-Zhou/IdentityStory)
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/scenedecorator.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
