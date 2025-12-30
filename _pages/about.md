@@ -64,9 +64,9 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 [**IdentityStory: Taming Your Identity-Preserving Generator for Human-Centric Story Generation**](https://correr-zhou.github.io/IdentityStory)
 
-**Donghao Zhou\***, Jingyu Lin\*, Guibao Shen, Quande Liu, Jialin Gao, Lihao Liu, Lan Du, Cunjian Chen<sup>†</sup>, 
+**Donghao Zhou\***, Jingyu Lin\*, Guibao Shen, Quande Liu, Jialin Gao, Lihao Liu, Lan Du, Cunjian Chen, 
 
-Chi-Wing Fu, Xiaowei Hu<sup>†</sup>, Pheng-Ann Heng
+Chi-Wing Fu, Xiaowei Hu, Pheng-Ann Heng
 
 ***Annual AAAI Conference on Artificial Intelligence (AAAI) 2026***
 
