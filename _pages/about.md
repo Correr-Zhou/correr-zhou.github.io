@@ -40,7 +40,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 }
 </style>
 
-- *2025.11* &ensp; [IdentityStory](https://correr-zhou.github.io) is accepted by AAAI 2025! 🎉
+- *2025.11* &ensp; [IdentityStory](https://correr-zhou.github.io/IdentityStory) is accepted by AAAI 2025! 🎉
 - *2025.09* &ensp; [SceneDecorator](https://lulupig12138.github.io/SceneDecorator/), [BlindFormer](https://openreview.net/pdf?id=bh56ijtRb9), and [CellVerse](https://cellverse-cuhk.github.io/) are accepted by NeurIPS 2025! 🎉
 - *2025.08* &ensp; [OmniMol](https://www.nature.com/articles/s41467-025-63730-6) is accepted by Nature Communications! 🎉
 - *2025.06* &ensp; [TRIG](https://arxiv.org/pdf/2507.22100) is accepted by ICCV 2025! 🎉
@@ -72,7 +72,7 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/identitystory.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**IdentityStory: Taming Your Identity-Preserving Generator for Human-Centric Story Generation**](https://correr-zhou.github.io/IdentityStory)
+[**IdentityStory: Taming Your Identity-Preserving Generator for Human-Centric Story Generation**](https://arxiv.org/abs/2512.23519)
 
 **Donghao Zhou\***, Jingyu Lin\*, Guibao Shen, Quande Liu, Jialin Gao, Lihao Liu, Lan Du, Cunjian Chen, 
 
@@ -277,7 +277,7 @@ Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 
 ## 📖 Reviewers/PC Members
 - Conference: CVPR 2026, ICLR 2026, AAAI 2026, BMVC 2025, ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
-- Journal: Scientific Reports
+- Journal: Scientific Reports, IEEE TIFS
 
 ## 🗣️ Teaching
 - *2025 - 2026* &ensp; *Fall* &ensp; Computer Principles and Python Programming (CSCI1550)
