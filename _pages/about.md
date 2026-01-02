@@ -280,6 +280,7 @@ Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 - Journal: Scientific Reports, IEEE TIFS
 
 ## 🗣️ Teaching
+- *2025 - 2026* &ensp; *Spring* &ensp; Principles of Computer Graphics (CSCI3260)
 - *2025 - 2026* &ensp; *Fall* &ensp; Computer Principles and Python Programming (CSCI1550)
 - *2024 - 2025* &ensp; *Spring* &ensp; Introduction to Computing using Python (AIST1110)
 
