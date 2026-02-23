@@ -40,7 +40,8 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 }
 </style>
 
-- *2025.11* &ensp; [IdentityStory](https://correr-zhou.github.io/IdentityStory) is accepted by AAAI 2025! 🎉
+- *2025.11* &ensp; [HiFi-Inpaint](https://correr-zhou.github.io/) is accepted by CVPR 2026! 🎉
+- *2025.11* &ensp; [IdentityStory](https://correr-zhou.github.io/IdentityStory) is accepted by AAAI 2026! 🎉
 - *2025.09* &ensp; [SceneDecorator](https://lulupig12138.github.io/SceneDecorator/), [BlindFormer](https://openreview.net/pdf?id=bh56ijtRb9), and [CellVerse](https://cellverse-cuhk.github.io/) are accepted by NeurIPS 2025! 🎉
 - *2025.08* &ensp; [OmniMol](https://www.nature.com/articles/s41467-025-63730-6) is accepted by Nature Communications! 🎉
 - *2025.06* &ensp; [TRIG](https://arxiv.org/pdf/2507.22100) is accepted by ICCV 2025! 🎉
@@ -276,8 +277,8 @@ Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 # 📅 Academic Services
 
 ## 📖 Reviewers/PC Members
-- Conference: CVPR 2026, ICLR 2026, AAAI 2026, BMVC 2025, ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
-- Journal: Scientific Reports, IEEE TIFS
+- Conference: ICML 2026, CVPR 2026, ICLR 2026, AAAI 2026, BMVC 2025, ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
+- Journal: IEEE TIFS, Scientific Reports
 
 ## 🗣️ Teaching
 - *2025 - 2026* &ensp; *Spring* &ensp; Principles of Computer Graphics (CSCI3260)
