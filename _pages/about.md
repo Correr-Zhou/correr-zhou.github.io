@@ -70,6 +70,21 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 *(\* Equal Contribution, <sup>†</sup> Project Lead)*
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/hifi_inpaint.png' alt="hifi-inpaint" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images**](https://arxiv.org/abs/2603.02210)
+
+Yichen Liu\*, **Donghao Zhou\***, Jie Wang, Xin Gao, Guisheng Liu, Jiatong Li, Quanwei Zhang, Qiang Lyu, Lanqing Guo, Shilei Wen, Weiqiang Wang, Pheng-Ann Heng
+
+***IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026***
+
+[[Page]](https://correr-zhou.github.io/HiFi-Inpaint/) [[Paper]](https://arxiv.org/pdf/2603.02210)
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/identitystory.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -212,6 +227,7 @@ Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 
 
 
+{% comment %}
 # 👨‍💻 Experience
 <!-- - *2023.04 - now* &ensp; Research Intern, [Tencent YouTu Lab](https://open.youtu.qq.com/), Shenzhen, China
 - *2022.07 - 2023.01* &ensp; Research Intern, [Zhejiang Lab](https://en.zhejianglab.com/), Hangzhou, China
@@ -258,8 +274,10 @@ Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 </div>
 
 
+{% endcomment %}
 # 🏅 Selected Awards
-- *2024.05* &ensp; Outstanding Graduate of Beijing & UCAS
+- *2024 - 2028* &ensp; CUHK Postgraduate Scholarship
+- *2024.05* &ensp; Outstanding Graduate of Beijing
 <!-- - *2024.05* &ensp; Outstanding Graduate of UCAS -->
 - *2024.02* &ensp; SIAT President's Special Scholarship
 - *2024.01* &ensp; IAIT Dean's Innovation Award: Outstanding Postgraduate Award
@@ -269,7 +287,7 @@ Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 <!-- - *2021.06* &ensp; Excellent Graduation Thesis & Graduation Thesis Innovation Prize -->
 - *2021.04* &ensp; Top 10 Student Innovation Figure (Bonus: 10,000 CNY)
 - *2020.09* &ensp; China Undergraduate National Scholarship (Top 0.3%)
-- *2018 - 2020* &ensp; First-Class Excellent Student Scholarships (Three Times)
+- *2018 - 2020* &ensp; First-Class Excellent Student Scholarship (Three Times)
 - *2019.05* &ensp; [Asia-Pacific Robot Contest (ROBOCON)](https://en.wikipedia.org/wiki/ABU_Robocon), China Regional Competition, Second Prize (Leading a team of 30+ members)
 <!-- - *2018.09* &ensp; Guangdong University Electronic Design Competition, Second Prize -->
 
