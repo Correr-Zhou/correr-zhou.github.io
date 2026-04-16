@@ -70,6 +70,23 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 *(\* Equal Contribution, <sup>†</sup> Project Lead)*
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Report</div><img src='images/omnishow.gif' alt="omnishow" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation**](https://arxiv.org/abs/2604.11804)
+
+**Donghao Zhou\***, Guisheng Liu\*, Hao Yang, Jiatong Li, Jingyu Lin, Xiaohu Huang, Yichen Liu, Xin Gao, Cunjian Chen, Shilei Wen, Chi-Wing Fu, Pheng-Ann Heng
+
+***Technical Report***
+
+[[Page]](https://correr-zhou.github.io/OmniShow/) [[Paper]](https://arxiv.org/pdf/2604.11804) [[Code]](https://github.com/Correr-Zhou/OmniShow)
+
+***<font color=red>The first all-in-one model for Human-Object Interaction Video Generation (HOIVG)</font>***
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/hifi_inpaint.png' alt="hifi-inpaint" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
