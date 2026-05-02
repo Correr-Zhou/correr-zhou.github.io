@@ -40,7 +40,8 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 }
 </style>
 
-- *2025.11* &ensp; [HiFi-Inpaint](https://correr-zhou.github.io/) is accepted by CVPR 2026! 🎉
+- *2026.05* &ensp; [OmniShow](https://correr-zhou.github.io/OmniShow/) is accepted by ICML 2026! 🎉
+- *2026.02* &ensp; [HiFi-Inpaint](https://correr-zhou.github.io/) is accepted by CVPR 2026! 🎉
 - *2025.11* &ensp; [IdentityStory](https://correr-zhou.github.io/IdentityStory) is accepted by AAAI 2026! 🎉
 - *2025.09* &ensp; [SceneDecorator](https://lulupig12138.github.io/SceneDecorator/), [BlindFormer](https://openreview.net/pdf?id=bh56ijtRb9), and [CellVerse](https://cellverse-cuhk.github.io/) are accepted by NeurIPS 2025! 🎉
 - *2025.08* &ensp; [OmniMol](https://www.nature.com/articles/s41467-025-63730-6) is accepted by Nature Communications! 🎉
@@ -70,14 +71,14 @@ My research interest mainly includes Deep Learning and Computer Vision. Recently
 
 *(\* Equal Contribution, <sup>†</sup> Project Lead)*
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Report</div><img src='images/omnishow.gif' alt="omnishow" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/omnishow.gif' alt="omnishow" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation**](https://arxiv.org/abs/2604.11804)
+[**OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation**](https://correr-zhou.github.io/OmniShow/)
 
 **Donghao Zhou\***, Guisheng Liu\*, Hao Yang, Jiatong Li, Jingyu Lin, Xiaohu Huang, Yichen Liu, Xin Gao, Cunjian Chen, Shilei Wen, Chi-Wing Fu, Pheng-Ann Heng
 
-***Technical Report***
+***International Conference on Machine Learning (ICML) 2026***
 
 [[Page]](https://correr-zhou.github.io/OmniShow/) [[Paper]](https://arxiv.org/pdf/2604.11804) [[Code]](https://github.com/Correr-Zhou/OmniShow)
 
