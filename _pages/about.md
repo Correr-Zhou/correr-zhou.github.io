@@ -97,7 +97,7 @@ Yichen Liu\*, **Donghao Zhou\***, Jie Wang, Xin Gao, Guisheng Liu, Jiatong Li, Q
 
 ***IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026***
 
-[[Page]](https://correr-zhou.github.io/HiFi-Inpaint/) [[Paper]](https://arxiv.org/pdf/2603.02210)
+[[Page]](https://correr-zhou.github.io/HiFi-Inpaint/) [[Paper]](https://arxiv.org/pdf/2603.02210) [[Code]](https://github.com/Correr-Zhou/HiFi-Inpaint)
 </div>
 </div>
 
@@ -137,22 +137,6 @@ Pheng-Ann Heng
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nat. Commun.</div><img src='images/omnimol.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**Unified and Explainable Molecular Representation Learning for Imperfectly Annotated Data from the Hypergraph View**](https://www.nature.com/articles/s41467-025-63730-6)
-
-Bowen Wang, Junyou Li, **Donghao Zhou**, Lanqing Li, Jinpeng Li, Ercheng Wang, Jianye Hao, 
-Liang Shi, Chengqiang Lu, Jiezhong Qiu, Tingjun Hou, Dongsheng Cao, Guangyong Chen, Pheng-Ann Heng
-
-***Nature Communications***
-
-[[Paper]](https://www.nature.com/articles/s41467-025-63730-6) [[Code]](https://github.com/bowenwang77/OmniMol)
-</div>
-</div>
-
----
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2025 Oral</div><img src='images/magictailor.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -165,6 +149,22 @@ Xiaowei Hu, Pheng-Ann Heng
 ***International Joint Conference on Artificial Intelligence (IJCAI) 2025 Oral***
 
 [[Page]](https://correr-zhou.github.io/MagicTailor/) [[Paper]](https://arxiv.org/pdf/2410.13370) [[Code]](https://github.com/correr-zhou/MagicTailor) [[Poster]](resources/IJCAI25_MagicTailor_poster.pdf)
+</div>
+</div>
+
+---
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nat. Commun.</div><img src='images/omnimol.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Unified and Explainable Molecular Representation Learning for Imperfectly Annotated Data from the Hypergraph View**](https://www.nature.com/articles/s41467-025-63730-6)
+
+Bowen Wang, Junyou Li, **Donghao Zhou**, Lanqing Li, Jinpeng Li, Ercheng Wang, Jianye Hao, 
+Liang Shi, Chengqiang Lu, Jiezhong Qiu, Tingjun Hou, Dongsheng Cao, Guangyong Chen, Pheng-Ann Heng
+
+***Nature Communications***
+
+[[Paper]](https://www.nature.com/articles/s41467-025-63730-6) [[Code]](https://github.com/bowenwang77/OmniMol)
 </div>
 </div>
 
