@@ -17,9 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a second-year Ph.D. student at [Department of Computer Science and Engineering (CSE)](https://www.cse.cuhk.edu.hk/), [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html) <img src='images/logo_CUHK.png' style='width: 1.3em;'>, supervised by [Prof. Pheng-Ann Heng](https://www.cse.cuhk.edu.hk/~pheng/1.html) and [Prof. Chi-Wing Fu, Philip](https://www.cse.cuhk.edu.hk/~cwfu/).
-<!-- Currently, I am a research-oriented M.Sc. student at [University of Chinese Academy of Sciences (UCAS)](https://english.ucas.ac.cn/) <img src='images/logo_UCAS.png' style='width: 1.1em;'>, doing my research at [Shenzhen Institute of Advanced Technology (SIAT)](https://english.siat.ac.cn/) <img src='images/logo_SIAT.webp' style='width: 1.1em;'>, [Chinese Academy of Sciences (CAS)](https://english.cas.cn/). -->
-I have spent wonderful time at [Tencent YouTu Lab](https://open.youtu.qq.com/), [Zhejiang Lab](https://en.zhejianglab.com/), and [Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences](https://english.siat.ac.cn/) as a research intern/assistant. Also, it is my great honor to be awarded a China Postgraduate National Scholarship and a China Undergraduate National Scholarship during my academic career.
+I am a third-year Ph.D. student at [Department of Computer Science and Engineering (CSE)](https://www.cse.cuhk.edu.hk/), [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/english/index.html) <img src='images/logo_CUHK.png' style='width: 1.3em;'>, supervised by [Prof. Pheng-Ann Heng](https://www.cse.cuhk.edu.hk/~pheng/1.html) and [Prof. Chi-Wing Fu, Philip](https://www.cse.cuhk.edu.hk/~cwfu/).
+<!-- I have spent wonderful time at [Tencent YouTu Lab](https://open.youtu.qq.com/), [Zhejiang Lab](https://en.zhejianglab.com/), and [Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences](https://english.siat.ac.cn/) as a research intern/assistant. Also, it is my great honor to be awarded a China Postgraduate National Scholarship and a China Undergraduate National Scholarship during my academic career. -->
 
 <!-- My research interest mainly includes Deep Learning and Computer Vision. Recently, I focus on exploring Generative AI ([MagicTailor@arXiv](https://arxiv.org/pdf/2410.13370), [Dual-Schedule Inversion@WACV Oral](https://arxiv.org/pdf/2412.11152)), Multi-Modal Learning ([PointACL@arXiv](https://arxiv.org/pdf/2411.14744), [MM-Mixing@AAAI](https://arxiv.org/pdf/2405.18523), [SignVTCL@BMVC](https://arxiv.org/pdf/2401.11847)), and Learning with Challenging Data ([RepMode@CVPR Highlight](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_RepMode_Learning_to_Re-Parameterize_Diverse_Experts_for_Subcellular_Structure_Prediction_CVPR_2023_paper.pdf), [EM Loss+APL@ECCV](https://arxiv.org/pdf/2203.16219), [IFAST@IEEE TIFS](https://ieeexplore.ieee.org/abstract/document/10685520/), [DISCO@BMVC](https://arxiv.org/pdf/2308.12017)), aiming to promote the efficiency and flexibility of AI models and algorithms in the real world. -->
 
@@ -313,7 +312,7 @@ Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 # 📅 Academic Services
 
 ## 📖 Reviewers/PC Members
-- Conference: ICML 2026, CVPR 2026, ICLR 2026, AAAI 2026, BMVC 2025, ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
+- Conference: AAAI 2027, NeurIPS 2026, ICML 2026, CVPR 2026, ICLR 2026, AAAI 2026, BMVC 2025, ICCV 2025, ICML 2025, AISTATS 2025, WACV 2025, AAAI 2025, NeurIPS 2024, BMVC 2024, ACCV 2024, ECCV 2024, CVPR 2024, ICCV 2023
 - Journal: IEEE TIFS, Scientific Reports
 
 ## 🗣️ Teaching
@@ -322,8 +321,7 @@ Qiong Wang, Pheng-Ann Heng, Guangyong Chen
 - *2024 - 2025* &ensp; *Spring* &ensp; Introduction to Computing using Python (AIST1110)
 
 ## 💬 Invited Talks
+- *2026.08* &ensp; OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation, Internal Tech Sharing, held by IEG, Tencent
 - *2023.06* &ensp; Subcellular Structure Prediction: Revealing Fluorescent Images with Deep Learning, Topic Talk, held by [TechBeat](https://www.techbeat.net/) \| [[News]](https://mp.weixin.qq.com/s/uxUsJiS1m0VwnEeBb3A6cg) [[Video]](https://www.techbeat.net/talk-info?id=783)
-<!-- - *2023.03* &ensp; Subcellular Structure Prediction from Multiple Partially Labeled Datasets, Internal Youth Forum, held by [Zhejiang Lab](https://en.zhejianglab.com/) \| [[Poster]](images\talk_zjlab_repmode.png) -->
 - *2022.12* &ensp; Single Positive Multi-Label Learning, Youth Ph.D. Talk, held by [ITIC](https://www.itic-sci.com/) and [AI TIME](http://www.aitime.cn/) \| [[News]](https://mp.weixin.qq.com/s/l0gM0sUOR5H0DSP81_GKCQ)
-<!-- - *2022.12* &ensp; Learning a Multi-Label Classifier from a Single-Label Dataset, Internal Youth Forum, held by [Zhejiang Lab](https://en.zhejianglab.com/) \| [[Poster]](images\talk_zjlab_acktheunknown.png) -->
 <!-- - *2022.08* &ensp; Accepted Paper Sharing, ECCV 2022 China Pre-conference, held by [CSIG](http://en.csig.org.cn/) and [BAAI](https://www.baai.ac.cn/english.html) -->
