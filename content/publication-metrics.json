@@ -1,0 +1,14 @@
+{
+  "scholarUser": "Td_KJgIAAAAJ",
+  "publications": {
+    "zhou2026omnishow": { "githubRepo": "Correr-Zhou/OmniShow" },
+    "liu2026hifiinpaint": { "githubRepo": "Correr-Zhou/HiFi-Inpaint" },
+    "zhou2026identitystory": { "githubRepo": "Correr-Zhou/IdentityStory" },
+    "song2025scenedecorator": { "githubRepo": "lulupig12138/SceneDecorator" },
+    "zhou2025magictailor": { "githubRepo": "correr-zhou/MagicTailor" },
+    "wang2025omnimol": { "githubRepo": "bowenwang77/OmniMol" },
+    "huang2024ifast": { "githubRepo": "huangjch526/IFAST_official" },
+    "zhou2023repmode": { "githubRepo": "Correr-Zhou/RepMode" },
+    "zhou2022acktheunknown": { "githubRepo": "Correr-Zhou/SPML-AckTheUnknown" }
+  }
+}

@@ -1,0 +1,51 @@
+type = "card"
+title = "Academic Services"
+description = "Reviewing, teaching, and invited talks."
+
+[[items]]
+group = "Reviewers / PC Members"
+title = "Conference"
+subtitle = "ICML, NeurIPS, ICLR, CVPR, ICCV, ECCV, AAAI, AISTATS, BMVC, ACCV, WACV"
+
+[[items]]
+group = "Reviewers / PC Members"
+title = "Journal"
+subtitle = "IEEE TIFS, Scientific Reports"
+
+[[items]]
+group = "Invited Talks"
+title = "OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation"
+subtitle = "Tech Sharing, held by [IEG, Tencent](https://www.tencentgames.com/)"
+date = "2026-08"
+
+[[items]]
+group = "Invited Talks"
+title = "Subcellular Structure Prediction: Revealing Fluorescent Images with Deep Learning"
+subtitle = "Topic Talk, held by [TechBeat](https://www.techbeat.net/)"
+date = "2023-06"
+# content = "[[News]](https://mp.weixin.qq.com/s/uxUsJiS1m0VwnEeBb3A6cg) · [[Video]](https://www.techbeat.net/talk-info?id=783)"
+
+[[items]]
+group = "Invited Talks"
+title = "Single Positive Multi-Label Learning"
+subtitle = "Youth Ph.D. Talk, held by [ITIC](https://www.itic-sci.com/) and [AI TIME](http://www.aitime.cn/)"
+date = "2022-12"
+# content = "[[News]](https://mp.weixin.qq.com/s/l0gM0sUOR5H0DSP81_GKCQ)"
+
+[[items]]
+group = "Teaching"
+title = "CSCI3260: Principles of Computer Graphics"
+subtitle = "Teaching Assistant, CUHK"
+date = "2026-Spring"
+
+[[items]]
+group = "Teaching"
+title = "CSCI1550: Computer Principles and Python Programming"
+subtitle = "Teaching Assistant, CUHK"
+date = "2025-Fall"
+
+[[items]]
+group = "Teaching"
+title = "AIST1110: Introduction to Computing using Python"
+subtitle = "Teaching Assistant, CUHK"
+date = "2025-Spring"

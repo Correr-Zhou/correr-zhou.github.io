@@ -1,0 +1,54 @@
+{
+  "publications": {
+    "zhou2026openwam": {
+      "githubRepo": "OpenWAM-Official/OpenWAM",
+      "stars": 1205,
+      "starsUpdatedAt": "2026-11-18T00:00:00+00:00"
+    },
+    "zhou2026omnishow": {
+      "githubRepo": "Correr-Zhou/OmniShow",
+      "stars": 477,
+      "starsUpdatedAt": "2026-11-20T18:45:08+00:00"
+    },
+    "liu2026hifiinpaint": {
+      "githubRepo": "Correr-Zhou/HiFi-Inpaint",
+      "stars": 115,
+      "starsUpdatedAt": "2026-11-20T18:45:08+00:00"
+    },
+    "zhou2026identitystory": {
+      "githubRepo": "Correr-Zhou/IdentityStory",
+      "stars": 13,
+      "starsUpdatedAt": "2026-11-20T18:45:08+00:00"
+    },
+    "song2025scenedecorator": {
+      "githubRepo": "lulupig12138/SceneDecorator",
+      "stars": 10,
+      "starsUpdatedAt": "2026-11-20T18:45:08+00:00"
+    },
+    "zhou2025magictailor": {
+      "githubRepo": "correr-zhou/MagicTailor",
+      "stars": 101,
+      "starsUpdatedAt": "2026-11-20T18:45:08+00:00"
+    },
+    "wang2025omnimol": {
+      "githubRepo": "bowenwang77/OmniMol",
+      "stars": 16,
+      "starsUpdatedAt": "2026-11-20T18:45:08+00:00"
+    },
+    "huang2024ifast": {
+      "githubRepo": "huangjch526/IFAST_official",
+      "stars": 44,
+      "starsUpdatedAt": "2026-11-20T18:45:08+00:00"
+    },
+    "zhou2023repmode": {
+      "githubRepo": "Correr-Zhou/RepMode",
+      "stars": 163,
+      "starsUpdatedAt": "2026-11-20T18:45:08+00:00"
+    },
+    "zhou2022acktheunknown": {
+      "githubRepo": "Correr-Zhou/SPML-AckTheUnknown",
+      "stars": 44,
+      "starsUpdatedAt": "2026-11-20T18:45:08+00:00"
+    }
+  }
+}

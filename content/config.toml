@@ -1,0 +1,97 @@
+[site]
+title = "Donghao Zhou's Homepage"
+description = "Donghao Zhou (周冬豪) is a Ph.D. student at CUHK CSE working toward general and scalable multimodal intelligence, spanning generative foundation models, embodied AI, and agentic systems."
+favicon = "/favicon.svg"
+last_updated = "November 18, 2026"
+
+[author]
+name = "Donghao Zhou"
+title = "Ph.D. Student in Computer Science and Engineering"
+institution = "The Chinese University of Hong Kong (CUHK)"
+avatar = "/profile.jpg"
+
+[social]
+github = "https://github.com/Correr-Zhou"
+# Contact information (leave blank or delete to hide)
+email = "dhzhou@link.cuhk.edu.hk"
+location = "Hong Kong"
+location_url = "https://maps.google.com/?q=The+Chinese+University+of+Hong+Kong"
+location_details = [
+  "The Chinese University of Hong Kong,",
+  "Sha Tin, Hong Kong"
+]
+google_scholar = "https://scholar.google.com/citations?user=Td_KJgIAAAAJ"
+
+[features]
+# Show a like button on the about page
+enable_likes = false
+
+# Display all subpages on a single page
+enable_one_page_mode = true
+
+# Drop the affiliation logo badges (CUHK, Alibaba Qwen, ByteDance, Tencent Youtu)
+# into the avatar frame, where they pile up and can be flicked around with the cursor
+enable_affiliation_badges = true
+affiliation_badges_hide_regions = ["HK"]
+
+# On-device chatbot under the profile links (hides itself on devices that can't run it)
+enable_chatbot = true
+
+[analytics]
+# Nothing here renders anything on the page. Leave a value empty to turn that one off.
+
+# GoatCounter: sign up at goatcounter.com, pick a site code, and put it here --
+# just the code, i.e. the "mysite" in https://mysite.goatcounter.com.
+# No cookies, so no consent banner is needed.
+goatcounter_code = ""
+
+# Google Analytics 4. Dashboard at analytics.google.com. Sets a _ga cookie.
+google_analytics_id = "G-KK5SDTHH09"
+
+# MapMyVisitors (what ClustrMaps became). The `d=` token from its embed snippet.
+# The widget is loaded into a hidden container, so nothing is drawn on the page;
+# the dashboard lives at mapmyvisitors.com. The old ClustrMaps account did NOT
+# carry over, so this is a fresh registration.
+mapmyvisitors_id = "JAiyy3SIEEXGNMaZse8-UzAU4R0tl5U9fGNVrcY3FC4"
+
+[i18n]
+enabled = false
+locales = ["en"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = true
+switcher = false
+
+[i18n.labels]
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "News"
+type = "section"
+target = "news"
+href = "/#news"
+
+[[navigation]]
+title = "Papers"
+type = "section"
+target = "selected-publications"
+href = "/#selected-publications"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"

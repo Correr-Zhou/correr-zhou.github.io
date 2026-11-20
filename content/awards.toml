@@ -1,0 +1,49 @@
+type = "card"
+title = "Selected Awards"
+description = "Selected honors and scholarships I have received."
+
+[[items]]
+title = "Postgraduate Scholarship"
+subtitle = "CUHK"
+date = "2024-2028"
+
+[[items]]
+title = "Outstanding Graduate of Beijing"
+subtitle = "Beijing Municipal"
+date = "2024"
+
+# [[items]]
+# title = "SIAT President's Special Scholarship"
+# subtitle = "Shenzhen Institute of Advanced Technology, CAS"
+# date = "2024"
+
+# [[items]]
+# title = "IAIT Dean's Innovation Award: Outstanding Postgraduate Award"
+# subtitle = "Institute of Advanced Interdisciplinary Technology"
+# date = "2024"
+
+[[items]]
+title = "Postgraduate National Scholarship"
+subtitle = "Ministry of Education"
+date = "2023"
+
+# [[items]]
+# title = "Top 10 Student Innovation Figure"
+# subtitle = "Bonus: 10,000 CNY"
+# date = "2021"
+
+[[items]]
+title = "Undergraduate National Scholarship"
+subtitle = "Ministry of Education"
+date = "2020"
+
+# [[items]]
+# title = "First-Class Excellent Student Scholarship"
+# subtitle = "Awarded three times"
+# date = "2018 - 2020"
+
+# [[items]]
+# title = "Asia-Pacific Robot Contest (ROBOCON), China Regional Competition"
+# subtitle = "Second Prize"
+# date = "2019"
+# content = "Led a team of 30+ members."
